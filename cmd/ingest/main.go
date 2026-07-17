@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"strconv"
 
 	"github.com/qmogh/LittleBlueStates/internal/cms"
 )
@@ -32,5 +33,16 @@ func main() {
 		log.Fatal(jsonErr)
 	}
 
-	fmt.Println(records[5].PrscrbrGeoDesc)
+	sum := 0
+	for _, record := range records {
+		if record.PrscrbrGeoDesc == "Connecticut" {
+			num, err := strconv.Atoi(record.TotClaims)
+			if err != nil {
+				log.Fatal(err)
+			}
+			sum += num
+		}
+	}
+
+	fmt.Println("Total Viagara Claims Connecticut: ", sum)
 }
