@@ -1,0 +1,4 @@
+/little-blue-states
+/cmd/ingest/ingest
+/cmd/server/server
+*.exe
