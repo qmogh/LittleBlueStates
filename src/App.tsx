@@ -3,6 +3,7 @@ import { geoAlbersUsa, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import topology from "us-atlas/states-10m.json";
 import snapshot from "./data/sildenafil-2024.json";
+import providerFootprint from "./data/provider-footprint-2024.json";
 
 type BrandKey = "generic" | "viagra" | "revatio";
 type ViewKey = "genericShare" | "claims" | "costPerClaim" | "seniorShare";
@@ -17,9 +18,24 @@ type State = {
   brands: Record<BrandKey, { claims: number }>;
 };
 type YearData = { year: number; states: State[] };
+type ProviderAggregate = {
+  claims: number;
+  providers: number;
+};
+type ProviderState = {
+  code: string;
+  cities: Array<ProviderAggregate & { city: string }>;
+  specialties: Array<ProviderAggregate & { specialty: string }>;
+};
 
 const yearly = snapshot.yearly as YearData[];
 const years = yearly.map(({ year }) => year);
+const providerStates = new Map(
+  (providerFootprint.states as ProviderState[]).map((state) => [
+    state.code,
+    state,
+  ]),
+);
 const topologyStates = feature(
   topology as never,
   topology.objects.states as never,
@@ -149,6 +165,42 @@ function TrendChart({ stateSeries }: { stateSeries: State[] }) {
         ))}
       </svg>
     </div>
+  );
+}
+
+function ProviderFootprint({ code }: { code: string }) {
+  const footprint = providerStates.get(code);
+  if (!footprint) return null;
+  const cities = footprint.cities.slice(0, 5);
+  const specialties = footprint.specialties.slice(0, 4);
+  const cityMax = cities[0]?.claims ?? 1;
+
+  return (
+    <section className="provider-footprint">
+      <div className="provider-footprint-heading">
+        <span>2024 practice locations</span>
+        <small>Not patient locations</small>
+      </div>
+      <div className="city-list">
+        {cities.map((city) => (
+          <div key={city.city}>
+            <span className="city-dot" />
+            <span className="city-name">{city.city}</span>
+            <i>
+              <b style={{ width: `${(city.claims / cityMax) * 100}%` }} />
+            </i>
+            <strong>{number.format(city.claims)}</strong>
+          </div>
+        ))}
+      </div>
+      <div className="specialty-list">
+        {specialties.map((specialty) => (
+          <span key={specialty.specialty}>
+            {specialty.specialty} <b>{number.format(specialty.claims)}</b>
+          </span>
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -399,6 +451,7 @@ export default function App() {
                   ),
                 )}
               </div>
+              {year === 2024 && <ProviderFootprint code={selected.code} />}
               <p className="rank-note">
                 Ranks #{rank} of {current.states.length} states and territories
                 for {viewLabels[view].toLowerCase()}.

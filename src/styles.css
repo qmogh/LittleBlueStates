@@ -420,6 +420,82 @@ svg {
     monospace;
   text-align: right;
 }
+.provider-footprint {
+  border-top: 1px solid #d9d5cb;
+  margin-top: 21px;
+  padding-top: 15px;
+}
+.provider-footprint-heading {
+  align-items: baseline;
+  color: #6d6c65;
+  display: flex;
+  font:
+    400 9px "DM Mono",
+    monospace;
+  justify-content: space-between;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.provider-footprint-heading small {
+  font: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.city-list {
+  margin-top: 10px;
+}
+.city-list > div {
+  align-items: center;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 8px minmax(0, 1fr) 74px 36px;
+  margin-top: 7px;
+}
+.city-name {
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.city-list i {
+  background: #eadfd4;
+  display: block;
+  height: 4px;
+}
+.city-list i b {
+  background: #b7453b;
+  display: block;
+  height: 4px;
+}
+.city-list strong {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  text-align: right;
+}
+.city-dot {
+  background: #b7453b;
+  border-radius: 50%;
+  display: block;
+  height: 6px;
+  width: 6px;
+}
+.specialty-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 13px;
+}
+.specialty-list span {
+  background: #eeeae1;
+  color: #55554f;
+  font-size: 9px;
+  padding: 4px 5px;
+}
+.specialty-list b {
+  color: #202026;
+  font-weight: 600;
+}
 .rank-note {
   color: #716f69;
   font-size: 10px;

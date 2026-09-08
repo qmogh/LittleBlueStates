@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "npm run data:build && tsc -b && vite build",
     "preview": "vite preview",
-    "data:build": "node scripts/build-data.mjs"
+    "data:build": "node scripts/build-data.mjs",
+    "data:providers": "node scripts/build-provider-footprint.mjs"
   },
   "dependencies": {
+    "csv-parse": "^7.0.2",
     "d3-geo": "^3.1.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
