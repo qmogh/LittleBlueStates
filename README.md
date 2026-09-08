@@ -24,8 +24,7 @@ npm run dev
 ## Roadmap
 
 1. **Map MVP (complete):** normalized 2024 data, selectable state map, metrics, brand filter, and state profile.
-2. **Fair comparisons:** add Census population denominators and an explicit per-capita toggle.
-3. **Time machine:** ingest the 2013–2024 CMS releases, add a year control, trend chart, and state-versus-national comparison.
-4. **Story layer:** call out notable patterns, document methodology/suppression behavior, and add shareable state URLs.
+2. **The blue-to-beige story (complete):** 2013–2024 time machine, generic-share trend, and a deeper state receipt.
+3. **Fair comparisons:** add Census population denominators and an explicit per-capita toggle.
+4. **Provider layer:** research specialty/city-level detail and add it only where the source is performant and defensible.
 5. **Ship:** visual/accessibility QA, deployment, and an automated data-refresh check.
-
