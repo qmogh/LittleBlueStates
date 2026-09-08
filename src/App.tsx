@@ -3,6 +3,7 @@ import { geoAlbersUsa, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import topology from "us-atlas/states-10m.json";
 import snapshot from "./data/sildenafil-2024.json";
+import providerCityCoordinates from "./data/provider-city-coordinates-2024.json";
 import providerFootprint from "./data/provider-footprint-2024.json";
 
 type BrandKey = "generic" | "viagra" | "revatio";
@@ -27,6 +28,12 @@ type ProviderState = {
   cities: Array<ProviderAggregate & { city: string }>;
   specialties: Array<ProviderAggregate & { specialty: string }>;
 };
+type ProviderCityPoint = {
+  state: string;
+  city: string;
+  latitude: number;
+  longitude: number;
+};
 
 const yearly = snapshot.yearly as YearData[];
 const years = yearly.map(({ year }) => year);
@@ -36,11 +43,18 @@ const providerStates = new Map(
     state,
   ]),
 );
+const cityPointByKey = new Map(
+  (providerCityCoordinates.cities as ProviderCityPoint[]).map((city) => [
+    `${city.state}:${city.city}`,
+    city,
+  ]),
+);
 const topologyStates = feature(
   topology as never,
   topology.objects.states as never,
 ) as unknown as GeoJSON.FeatureCollection;
-const path = geoPath(geoAlbersUsa().scale(870).translate([480, 305]));
+const projection = geoAlbersUsa().scale(870).translate([480, 305]);
+const path = geoPath(projection);
 const number = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 const percent = new Intl.NumberFormat("en-US", {
   style: "percent",
@@ -168,7 +182,15 @@ function TrendChart({ stateSeries }: { stateSeries: State[] }) {
   );
 }
 
-function ProviderFootprint({ code }: { code: string }) {
+function ProviderFootprint({
+  code,
+  activeCity,
+  onCitySelect,
+}: {
+  code: string;
+  activeCity: string | null;
+  onCitySelect: (city: string) => void;
+}) {
   const footprint = providerStates.get(code);
   if (!footprint) return null;
   const cities = footprint.cities.slice(0, 5);
@@ -183,16 +205,34 @@ function ProviderFootprint({ code }: { code: string }) {
       </div>
       <div className="city-list">
         {cities.map((city) => (
-          <div key={city.city}>
+          <button
+            key={city.city}
+            className={city.city === activeCity ? "active" : ""}
+            onClick={() => onCitySelect(city.city)}
+            aria-pressed={city.city === activeCity}
+          >
             <span className="city-dot" />
             <span className="city-name">{city.city}</span>
             <i>
               <b style={{ width: `${(city.claims / cityMax) * 100}%` }} />
             </i>
             <strong>{number.format(city.claims)}</strong>
-          </div>
+          </button>
         ))}
       </div>
+      {activeCity && (
+        <p className="city-detail">
+          {activeCity} ·{" "}
+          {number.format(
+            cities.find((city) => city.city === activeCity)?.claims ?? 0,
+          )}{" "}
+          reported claims ·{" "}
+          {number.format(
+            cities.find((city) => city.city === activeCity)?.providers ?? 0,
+          )}{" "}
+          providers
+        </p>
+      )}
       <div className="specialty-list">
         {specialties.map((specialty) => (
           <span key={specialty.specialty}>
@@ -204,10 +244,68 @@ function ProviderFootprint({ code }: { code: string }) {
   );
 }
 
+function ProviderCityDots({
+  code,
+  zoom,
+  activeCity,
+  onCitySelect,
+}: {
+  code: string;
+  zoom: number;
+  activeCity: string | null;
+  onCitySelect: (city: string) => void;
+}) {
+  const cities = providerStates.get(code)?.cities.slice(0, 5) ?? [];
+  const cityMax = cities[0]?.claims ?? 1;
+
+  return (
+    <g
+      className="practice-dots"
+      aria-label="Reported prescriber practice cities"
+    >
+      {cities.map((city) => {
+        const cityPoint = cityPointByKey.get(`${code}:${city.city}`);
+        const point = cityPoint
+          ? projection([cityPoint.longitude, cityPoint.latitude])
+          : null;
+        if (!point) return null;
+        return (
+          <circle
+            key={city.city}
+            cx={point[0]}
+            cy={point[1]}
+            r={(2.5 + 3.5 * Math.sqrt(city.claims / cityMax)) / zoom}
+            className={
+              city.city === activeCity ? "practice-dot active" : "practice-dot"
+            }
+            vectorEffect="non-scaling-stroke"
+            role="button"
+            tabIndex={0}
+            aria-label={`${city.city}: ${number.format(city.claims)} reported claims from ${number.format(city.providers)} providers`}
+            onClick={(event) => {
+              event.stopPropagation();
+              onCitySelect(city.city);
+            }}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                onCitySelect(city.city);
+              }
+            }}
+          >
+            <title>{`${city.city}: ${number.format(city.claims)} reported claims`}</title>
+          </circle>
+        );
+      })}
+    </g>
+  );
+}
+
 export default function App() {
   const [year, setYear] = useState(2024);
   const [view, setView] = useState<ViewKey>("genericShare");
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
+  const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [hoveredFips, setHoveredFips] = useState<string | null>(null);
   const current = yearly.find((item) => item.year === year) ?? yearly.at(-1)!;
   const byFips = new Map(current.states.map((state) => [state.fips, state]));
@@ -253,7 +351,18 @@ export default function App() {
   const [centerX, centerY] = selectedShape
     ? path.centroid(selectedShape)
     : [480, 310];
-  const zoom = 1.65;
+  const [[minX, minY], [maxX, maxY]] = selectedShape
+    ? path.bounds(selectedShape)
+    : [
+        [0, 0],
+        [960, 620],
+      ];
+  const zoom = selectedShape
+    ? Math.min(
+        9,
+        Math.max(1.65, Math.min(650 / (maxX - minX), 470 / (maxY - minY))),
+      )
+    : 1;
   const mapTransform = selectedShape
     ? `translate(480 310) scale(${zoom}) translate(${-centerX} ${-centerY})`
     : "translate(0 0) scale(1)";
@@ -350,7 +459,10 @@ export default function App() {
                 viewBox="0 0 960 620"
                 role="application"
                 aria-label={`United States map showing ${viewLabels[view]} in ${year}`}
-                onClick={() => setSelectedFips(null)}
+                onClick={() => {
+                  setSelectedFips(null);
+                  setSelectedCity(null);
+                }}
               >
                 <g className="map-layer" transform={mapTransform}>
                   {topologyStates.features.map((shape) => {
@@ -369,11 +481,13 @@ export default function App() {
                         onClick={(event) => {
                           event.stopPropagation();
                           setSelectedFips(state.fips);
+                          setSelectedCity(null);
                         }}
                         onKeyDown={(event) => {
                           if (event.key === "Enter" || event.key === " ") {
                             event.preventDefault();
                             setSelectedFips(state.fips);
+                            setSelectedCity(null);
                           }
                         }}
                         onMouseEnter={() => setHoveredFips(state.fips)}
@@ -383,6 +497,14 @@ export default function App() {
                       />
                     );
                   })}
+                  {selected && year === 2024 && (
+                    <ProviderCityDots
+                      code={selected.code}
+                      zoom={zoom}
+                      activeCity={selectedCity}
+                      onCitySelect={setSelectedCity}
+                    />
+                  )}
                 </g>
               </svg>
               {hovered && hovered.fips !== selected?.fips && (
@@ -451,7 +573,13 @@ export default function App() {
                   ),
                 )}
               </div>
-              {year === 2024 && <ProviderFootprint code={selected.code} />}
+              {year === 2024 && (
+                <ProviderFootprint
+                  code={selected.code}
+                  activeCity={selectedCity}
+                  onCitySelect={setSelectedCity}
+                />
+              )}
               <p className="rank-note">
                 Ranks #{rank} of {current.states.length} states and territories
                 for {viewLabels[view].toLowerCase()}.

@@ -18,6 +18,8 @@ The state receipt also includes a 2024 provider-practice footprint: reported sil
 npm run data:providers
 ```
 
+The 2024 state map dots use Census place centroids matched to the top five reported practice cities per state. They are committed at `src/data/provider-city-coordinates-2024.json` and can be refreshed with `npm run data:city-coordinates`.
+
 ## Development
 
 ```sh

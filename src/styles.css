@@ -444,12 +444,23 @@ svg {
 .city-list {
   margin-top: 10px;
 }
-.city-list > div {
+.city-list > button {
   align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
   display: grid;
   gap: 5px;
   grid-template-columns: 8px minmax(0, 1fr) 74px 36px;
   margin-top: 7px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.city-list > button:hover .city-name,
+.city-list > button.active .city-name {
+  color: #9c2c24;
 }
 .city-name {
   font-size: 10px;
@@ -479,6 +490,29 @@ svg {
   display: block;
   height: 6px;
   width: 6px;
+}
+.city-detail {
+  color: #5f5e58;
+  font-size: 10px;
+  line-height: 1.35;
+  margin: 11px 0 0;
+}
+.practice-dot {
+  cursor: pointer;
+  fill: #b7453b;
+  stroke: #fffaf0;
+  stroke-width: 1.2px;
+  transition:
+    r 160ms ease,
+    fill 160ms ease;
+}
+.practice-dot:hover,
+.practice-dot:focus,
+.practice-dot.active {
+  fill: #8d211b;
+  outline: none;
+  stroke: #171922;
+  stroke-width: 1.6px;
 }
 .specialty-list {
   display: flex;
