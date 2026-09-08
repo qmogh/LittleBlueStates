@@ -1,0 +1,1734 @@
+{
+  "metadata": {
+    "title": "Medicare Part D Prescribers — by Geography and Drug",
+    "year": 2024,
+    "unit": "claims (original prescriptions and refills)",
+    "scope": "Medicare Part D claims for records with generic name Sildenafil Citrate",
+    "source": "Centers for Medicare & Medicaid Services",
+    "sourceUrl": "https://data.cms.gov/data-api/v1/dataset/9b4c142c-69cc-4a96-a09a-7cf2ba7f5816/data?filter%5BGnrc_Name%5D=Sildenafil%20Citrate&filter%5BPrscrbr_Geo_Lvl%5D=State&size=500",
+    "datasetId": "9b4c142c-69cc-4a96-a09a-7cf2ba7f5816",
+    "notes": [
+      "Sildenafil Citrate includes brand and generic records; it is not synonymous with Viagra.",
+      "The source is Medicare Part D, not all prescriptions in the United States.",
+      "Blank source values are treated as unavailable and excluded from totals for that field."
+    ]
+  },
+  "states": [
+    {
+      "fips": "01",
+      "code": "AL",
+      "name": "Alabama",
+      "claims": 12181,
+      "prescribers": 1891,
+      "beneficiaries": 3586,
+      "fills30Day": 17367.6,
+      "drugCost": 901218.64,
+      "brands": {
+        "generic": {
+          "claims": 12154,
+          "prescribers": 1888,
+          "beneficiaries": 3586,
+          "fills30Day": 17332.6,
+          "drugCost": 712489.18
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 27,
+          "prescribers": 3,
+          "beneficiaries": 0,
+          "fills30Day": 35,
+          "drugCost": 188729.46
+        }
+      }
+    },
+    {
+      "fips": "02",
+      "code": "AK",
+      "name": "Alaska",
+      "claims": 306,
+      "prescribers": 94,
+      "beneficiaries": 105,
+      "fills30Day": 545.8,
+      "drugCost": 47875.12,
+      "brands": {
+        "generic": {
+          "claims": 306,
+          "prescribers": 94,
+          "beneficiaries": 105,
+          "fills30Day": 545.8,
+          "drugCost": 47875.12
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "04",
+      "code": "AZ",
+      "name": "Arizona",
+      "claims": 16976,
+      "prescribers": 2856,
+      "beneficiaries": 5774,
+      "fills30Day": 27452,
+      "drugCost": 783395.6100000001,
+      "brands": {
+        "generic": {
+          "claims": 16962,
+          "prescribers": 2855,
+          "beneficiaries": 5774,
+          "fills30Day": 27438,
+          "drugCost": 705723.54
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 14,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 14,
+          "drugCost": 77672.07
+        }
+      }
+    },
+    {
+      "fips": "05",
+      "code": "AR",
+      "name": "Arkansas",
+      "claims": 4335,
+      "prescribers": 915,
+      "beneficiaries": 1334,
+      "fills30Day": 6260,
+      "drugCost": 312274.37,
+      "brands": {
+        "generic": {
+          "claims": 4335,
+          "prescribers": 915,
+          "beneficiaries": 1334,
+          "fills30Day": 6260,
+          "drugCost": 312274.37
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "06",
+      "code": "CA",
+      "name": "California",
+      "claims": 104677,
+      "prescribers": 11892,
+      "beneficiaries": 28863,
+      "fills30Day": 138339.3,
+      "drugCost": 5466747.04,
+      "brands": {
+        "generic": {
+          "claims": 104553,
+          "prescribers": 11872,
+          "beneficiaries": 28846,
+          "fills30Day": 138183.3,
+          "drugCost": 4092742.57
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 124,
+          "prescribers": 20,
+          "beneficiaries": 17,
+          "fills30Day": 156,
+          "drugCost": 1374004.47
+        }
+      }
+    },
+    {
+      "fips": "08",
+      "code": "CO",
+      "name": "Colorado",
+      "claims": 9582,
+      "prescribers": 1929,
+      "beneficiaries": 3267,
+      "fills30Day": 18036.1,
+      "drugCost": 601114.87,
+      "brands": {
+        "generic": {
+          "claims": 9582,
+          "prescribers": 1929,
+          "beneficiaries": 3267,
+          "fills30Day": 18036.1,
+          "drugCost": 601114.87
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "09",
+      "code": "CT",
+      "name": "Connecticut",
+      "claims": 8186,
+      "prescribers": 1345,
+      "beneficiaries": 2550,
+      "fills30Day": 12820.1,
+      "drugCost": 767632.55,
+      "brands": {
+        "generic": {
+          "claims": 8161,
+          "prescribers": 1341,
+          "beneficiaries": 2550,
+          "fills30Day": 12791.1,
+          "drugCost": 443764.55
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 25,
+          "prescribers": 4,
+          "beneficiaries": 0,
+          "fills30Day": 29,
+          "drugCost": 323868
+        }
+      }
+    },
+    {
+      "fips": "10",
+      "code": "DE",
+      "name": "Delaware",
+      "claims": 1603,
+      "prescribers": 368,
+      "beneficiaries": 569,
+      "fills30Day": 2736.4,
+      "drugCost": 154513.25,
+      "brands": {
+        "generic": {
+          "claims": 1603,
+          "prescribers": 368,
+          "beneficiaries": 569,
+          "fills30Day": 2736.4,
+          "drugCost": 154513.25
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "11",
+      "code": "DC",
+      "name": "District of Columbia",
+      "claims": 1085,
+      "prescribers": 215,
+      "beneficiaries": 331,
+      "fills30Day": 1532.9,
+      "drugCost": 117522.6,
+      "brands": {
+        "generic": {
+          "claims": 1085,
+          "prescribers": 215,
+          "beneficiaries": 331,
+          "fills30Day": 1532.9,
+          "drugCost": 117522.6
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "12",
+      "code": "FL",
+      "name": "Florida",
+      "claims": 217595,
+      "prescribers": 13714,
+      "beneficiaries": 55480,
+      "fills30Day": 280460.3,
+      "drugCost": 3653661.14,
+      "brands": {
+        "generic": {
+          "claims": 217394,
+          "prescribers": 13657,
+          "beneficiaries": 55437,
+          "fills30Day": 280222.8,
+          "drugCost": 3307628.62
+        },
+        "viagra": {
+          "claims": 166,
+          "prescribers": 50,
+          "beneficiaries": 43,
+          "fills30Day": 190.5,
+          "drugCost": 59476.87
+        },
+        "revatio": {
+          "claims": 35,
+          "prescribers": 7,
+          "beneficiaries": 0,
+          "fills30Day": 47,
+          "drugCost": 286555.65
+        }
+      }
+    },
+    {
+      "fips": "13",
+      "code": "GA",
+      "name": "Georgia",
+      "claims": 22750,
+      "prescribers": 3828,
+      "beneficiaries": 7280,
+      "fills30Day": 33040,
+      "drugCost": 847815.82,
+      "brands": {
+        "generic": {
+          "claims": 22727,
+          "prescribers": 3826,
+          "beneficiaries": 7280,
+          "fills30Day": 33017,
+          "drugCost": 725295.47
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 23,
+          "prescribers": 2,
+          "beneficiaries": 0,
+          "fills30Day": 23,
+          "drugCost": 122520.35
+        }
+      }
+    },
+    {
+      "fips": "15",
+      "code": "HI",
+      "name": "Hawaii",
+      "claims": 1445,
+      "prescribers": 308,
+      "beneficiaries": 446,
+      "fills30Day": 2281.1,
+      "drugCost": 99367.5,
+      "brands": {
+        "generic": {
+          "claims": 1445,
+          "prescribers": 308,
+          "beneficiaries": 446,
+          "fills30Day": 2281.1,
+          "drugCost": 99367.5
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "16",
+      "code": "ID",
+      "name": "Idaho",
+      "claims": 1376,
+      "prescribers": 398,
+      "beneficiaries": 525,
+      "fills30Day": 2671.6,
+      "drugCost": 175667.06,
+      "brands": {
+        "generic": {
+          "claims": 1376,
+          "prescribers": 398,
+          "beneficiaries": 525,
+          "fills30Day": 2671.6,
+          "drugCost": 175667.06
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "17",
+      "code": "IL",
+      "name": "Illinois",
+      "claims": 32716,
+      "prescribers": 4610,
+      "beneficiaries": 9513,
+      "fills30Day": 47037,
+      "drugCost": 1310266.38,
+      "brands": {
+        "generic": {
+          "claims": 32700,
+          "prescribers": 4608,
+          "beneficiaries": 9513,
+          "fills30Day": 47015,
+          "drugCost": 1229996.2
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 16,
+          "prescribers": 2,
+          "beneficiaries": 0,
+          "fills30Day": 22,
+          "drugCost": 80270.18
+        }
+      }
+    },
+    {
+      "fips": "18",
+      "code": "IN",
+      "name": "Indiana",
+      "claims": 8842,
+      "prescribers": 1902,
+      "beneficiaries": 2841,
+      "fills30Day": 15075.3,
+      "drugCost": 588463.76,
+      "brands": {
+        "generic": {
+          "claims": 8842,
+          "prescribers": 1902,
+          "beneficiaries": 2841,
+          "fills30Day": 15075.3,
+          "drugCost": 588463.76
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "19",
+      "code": "IA",
+      "name": "Iowa",
+      "claims": 5654,
+      "prescribers": 1049,
+      "beneficiaries": 1701,
+      "fills30Day": 8679.7,
+      "drugCost": 423808.86,
+      "brands": {
+        "generic": {
+          "claims": 5641,
+          "prescribers": 1048,
+          "beneficiaries": 1701,
+          "fills30Day": 8666.7,
+          "drugCost": 285193.39
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 13,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 13,
+          "drugCost": 138615.47
+        }
+      }
+    },
+    {
+      "fips": "20",
+      "code": "KS",
+      "name": "Kansas",
+      "claims": 3820,
+      "prescribers": 754,
+      "beneficiaries": 1155,
+      "fills30Day": 6109.3,
+      "drugCost": 363212.46,
+      "brands": {
+        "generic": {
+          "claims": 3820,
+          "prescribers": 754,
+          "beneficiaries": 1155,
+          "fills30Day": 6109.3,
+          "drugCost": 363212.46
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "21",
+      "code": "KY",
+      "name": "Kentucky",
+      "claims": 6340,
+      "prescribers": 1279,
+      "beneficiaries": 1787,
+      "fills30Day": 9239.1,
+      "drugCost": 795748.53,
+      "brands": {
+        "generic": {
+          "claims": 6311,
+          "prescribers": 1276,
+          "beneficiaries": 1787,
+          "fills30Day": 9204.1,
+          "drugCost": 631467.53
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 29,
+          "prescribers": 3,
+          "beneficiaries": 0,
+          "fills30Day": 35,
+          "drugCost": 164281
+        }
+      }
+    },
+    {
+      "fips": "22",
+      "code": "LA",
+      "name": "Louisiana",
+      "claims": 5304,
+      "prescribers": 1020,
+      "beneficiaries": 1548,
+      "fills30Day": 7699.6,
+      "drugCost": 582900.27,
+      "brands": {
+        "generic": {
+          "claims": 5288,
+          "prescribers": 1018,
+          "beneficiaries": 1548,
+          "fills30Day": 7675.6,
+          "drugCost": 386161.68
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 16,
+          "prescribers": 2,
+          "beneficiaries": 0,
+          "fills30Day": 24,
+          "drugCost": 196738.59
+        }
+      }
+    },
+    {
+      "fips": "23",
+      "code": "ME",
+      "name": "Maine",
+      "claims": 3197,
+      "prescribers": 673,
+      "beneficiaries": 1026,
+      "fills30Day": 4771.3,
+      "drugCost": 543689.97,
+      "brands": {
+        "generic": {
+          "claims": 3177,
+          "prescribers": 672,
+          "beneficiaries": 1026,
+          "fills30Day": 4751.3,
+          "drugCost": 207711.04
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 20,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 20,
+          "drugCost": 335978.93
+        }
+      }
+    },
+    {
+      "fips": "24",
+      "code": "MD",
+      "name": "Maryland",
+      "claims": 6883,
+      "prescribers": 1429,
+      "beneficiaries": 2264,
+      "fills30Day": 10722.9,
+      "drugCost": 639402.6,
+      "brands": {
+        "generic": {
+          "claims": 6883,
+          "prescribers": 1429,
+          "beneficiaries": 2264,
+          "fills30Day": 10722.9,
+          "drugCost": 639402.6
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "25",
+      "code": "MA",
+      "name": "Massachusetts",
+      "claims": 17845,
+      "prescribers": 3006,
+      "beneficiaries": 4925,
+      "fills30Day": 24204.9,
+      "drugCost": 1360666.33,
+      "brands": {
+        "generic": {
+          "claims": 17833,
+          "prescribers": 3003,
+          "beneficiaries": 4925,
+          "fills30Day": 24184.9,
+          "drugCost": 1159734.53
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 12,
+          "prescribers": 3,
+          "beneficiaries": 0,
+          "fills30Day": 20,
+          "drugCost": 200931.8
+        }
+      }
+    },
+    {
+      "fips": "26",
+      "code": "MI",
+      "name": "Michigan",
+      "claims": 16474,
+      "prescribers": 3482,
+      "beneficiaries": 6305,
+      "fills30Day": 22202.6,
+      "drugCost": 1675802.9200000002,
+      "brands": {
+        "generic": {
+          "claims": 16413,
+          "prescribers": 3476,
+          "beneficiaries": 6305,
+          "fills30Day": 22141.6,
+          "drugCost": 1339149.59
+        },
+        "viagra": {
+          "claims": 37,
+          "prescribers": 5,
+          "beneficiaries": 0,
+          "fills30Day": 37,
+          "drugCost": 3514.52
+        },
+        "revatio": {
+          "claims": 24,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 24,
+          "drugCost": 333138.81
+        }
+      }
+    },
+    {
+      "fips": "27",
+      "code": "MN",
+      "name": "Minnesota",
+      "claims": 7314,
+      "prescribers": 1489,
+      "beneficiaries": 2257,
+      "fills30Day": 12987.8,
+      "drugCost": 1009567.78,
+      "brands": {
+        "generic": {
+          "claims": 7277,
+          "prescribers": 1485,
+          "beneficiaries": 2257,
+          "fills30Day": 12942.8,
+          "drugCost": 576733.47
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 37,
+          "prescribers": 4,
+          "beneficiaries": 0,
+          "fills30Day": 45,
+          "drugCost": 432834.31
+        }
+      }
+    },
+    {
+      "fips": "28",
+      "code": "MS",
+      "name": "Mississippi",
+      "claims": 4305,
+      "prescribers": 865,
+      "beneficiaries": 1327,
+      "fills30Day": 6193.1,
+      "drugCost": 227678.32,
+      "brands": {
+        "generic": {
+          "claims": 4305,
+          "prescribers": 865,
+          "beneficiaries": 1327,
+          "fills30Day": 6193.1,
+          "drugCost": 227678.32
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "29",
+      "code": "MO",
+      "name": "Missouri",
+      "claims": 15064,
+      "prescribers": 2175,
+      "beneficiaries": 4376,
+      "fills30Day": 22897.6,
+      "drugCost": 566835.37,
+      "brands": {
+        "generic": {
+          "claims": 15064,
+          "prescribers": 2175,
+          "beneficiaries": 4376,
+          "fills30Day": 22897.6,
+          "drugCost": 566835.37
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "30",
+      "code": "MT",
+      "name": "Montana",
+      "claims": 623,
+      "prescribers": 165,
+      "beneficiaries": 195,
+      "fills30Day": 1071.6,
+      "drugCost": 72087.48,
+      "brands": {
+        "generic": {
+          "claims": 623,
+          "prescribers": 165,
+          "beneficiaries": 195,
+          "fills30Day": 1071.6,
+          "drugCost": 72087.48
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "31",
+      "code": "NE",
+      "name": "Nebraska",
+      "claims": 3061,
+      "prescribers": 615,
+      "beneficiaries": 905,
+      "fills30Day": 4843.9,
+      "drugCost": 273769.79,
+      "brands": {
+        "generic": {
+          "claims": 3061,
+          "prescribers": 615,
+          "beneficiaries": 905,
+          "fills30Day": 4843.9,
+          "drugCost": 273769.79
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "32",
+      "code": "NV",
+      "name": "Nevada",
+      "claims": 11858,
+      "prescribers": 1211,
+      "beneficiaries": 3572,
+      "fills30Day": 17614.5,
+      "drugCost": 234974.16,
+      "brands": {
+        "generic": {
+          "claims": 11858,
+          "prescribers": 1211,
+          "beneficiaries": 3572,
+          "fills30Day": 17614.5,
+          "drugCost": 234974.16
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "33",
+      "code": "NH",
+      "name": "New Hampshire",
+      "claims": 4312,
+      "prescribers": 682,
+      "beneficiaries": 1263,
+      "fills30Day": 6477.2,
+      "drugCost": 159636.89,
+      "brands": {
+        "generic": {
+          "claims": 4312,
+          "prescribers": 682,
+          "beneficiaries": 1263,
+          "fills30Day": 6477.2,
+          "drugCost": 159636.89
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "34",
+      "code": "NJ",
+      "name": "New Jersey",
+      "claims": 19784,
+      "prescribers": 3331,
+      "beneficiaries": 6157,
+      "fills30Day": 29785.6,
+      "drugCost": 1894753.2,
+      "brands": {
+        "generic": {
+          "claims": 19757,
+          "prescribers": 3326,
+          "beneficiaries": 6157,
+          "fills30Day": 29730.6,
+          "drugCost": 1396767.92
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 27,
+          "prescribers": 5,
+          "beneficiaries": 0,
+          "fills30Day": 55,
+          "drugCost": 497985.28
+        }
+      }
+    },
+    {
+      "fips": "35",
+      "code": "NM",
+      "name": "New Mexico",
+      "claims": 3184,
+      "prescribers": 662,
+      "beneficiaries": 1038,
+      "fills30Day": 5360.9,
+      "drugCost": 196914.44,
+      "brands": {
+        "generic": {
+          "claims": 3184,
+          "prescribers": 662,
+          "beneficiaries": 1038,
+          "fills30Day": 5360.9,
+          "drugCost": 196914.44
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "36",
+      "code": "NY",
+      "name": "New York",
+      "claims": 41283,
+      "prescribers": 7089,
+      "beneficiaries": 12311,
+      "fills30Day": 57443.4,
+      "drugCost": 2869022.3200000003,
+      "brands": {
+        "generic": {
+          "claims": 41269,
+          "prescribers": 7085,
+          "beneficiaries": 12311,
+          "fills30Day": 57421.4,
+          "drugCost": 2768088.89
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 14,
+          "prescribers": 4,
+          "beneficiaries": 0,
+          "fills30Day": 22,
+          "drugCost": 100933.43
+        }
+      }
+    },
+    {
+      "fips": "37",
+      "code": "NC",
+      "name": "North Carolina",
+      "claims": 16815,
+      "prescribers": 3318,
+      "beneficiaries": 5112,
+      "fills30Day": 24947.5,
+      "drugCost": 806328.74,
+      "brands": {
+        "generic": {
+          "claims": 16815,
+          "prescribers": 3318,
+          "beneficiaries": 5112,
+          "fills30Day": 24947.5,
+          "drugCost": 806328.74
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "38",
+      "code": "ND",
+      "name": "North Dakota",
+      "claims": 923,
+      "prescribers": 181,
+      "beneficiaries": 238,
+      "fills30Day": 1460.3,
+      "drugCost": 106738.45,
+      "brands": {
+        "generic": {
+          "claims": 923,
+          "prescribers": 181,
+          "beneficiaries": 238,
+          "fills30Day": 1460.3,
+          "drugCost": 106738.45
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "39",
+      "code": "OH",
+      "name": "Ohio",
+      "claims": 18220,
+      "prescribers": 3544,
+      "beneficiaries": 5478,
+      "fills30Day": 27713.9,
+      "drugCost": 1803338.53,
+      "brands": {
+        "generic": {
+          "claims": 18220,
+          "prescribers": 3544,
+          "beneficiaries": 5478,
+          "fills30Day": 27713.9,
+          "drugCost": 1803338.53
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "40",
+      "code": "OK",
+      "name": "Oklahoma",
+      "claims": 3980,
+      "prescribers": 903,
+      "beneficiaries": 1354,
+      "fills30Day": 6620.5,
+      "drugCost": 373108.59,
+      "brands": {
+        "generic": {
+          "claims": 3956,
+          "prescribers": 901,
+          "beneficiaries": 1354,
+          "fills30Day": 6596.5,
+          "drugCost": 249403.32
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 24,
+          "prescribers": 2,
+          "beneficiaries": 0,
+          "fills30Day": 24,
+          "drugCost": 123705.27
+        }
+      }
+    },
+    {
+      "fips": "41",
+      "code": "OR",
+      "name": "Oregon",
+      "claims": 5392,
+      "prescribers": 1247,
+      "beneficiaries": 1962,
+      "fills30Day": 8866.8,
+      "drugCost": 264105.1,
+      "brands": {
+        "generic": {
+          "claims": 5392,
+          "prescribers": 1247,
+          "beneficiaries": 1962,
+          "fills30Day": 8866.8,
+          "drugCost": 264105.1
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "42",
+      "code": "PA",
+      "name": "Pennsylvania",
+      "claims": 21908,
+      "prescribers": 4057,
+      "beneficiaries": 6151,
+      "fills30Day": 32438.5,
+      "drugCost": 3019086.63,
+      "brands": {
+        "generic": {
+          "claims": 21882,
+          "prescribers": 4051,
+          "beneficiaries": 6151,
+          "fills30Day": 32403.5,
+          "drugCost": 2605846.08
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 26,
+          "prescribers": 6,
+          "beneficiaries": 0,
+          "fills30Day": 35,
+          "drugCost": 413240.55
+        }
+      }
+    },
+    {
+      "fips": "72",
+      "code": "PR",
+      "name": "Puerto Rico",
+      "claims": 29262,
+      "prescribers": 2135,
+      "beneficiaries": 7948,
+      "fills30Day": 29986.7,
+      "drugCost": 762359.25,
+      "brands": {
+        "generic": {
+          "claims": 29063,
+          "prescribers": 2086,
+          "beneficiaries": 7906,
+          "fills30Day": 29785.7,
+          "drugCost": 599382.22
+        },
+        "viagra": {
+          "claims": 187,
+          "prescribers": 48,
+          "beneficiaries": 42,
+          "fills30Day": 189,
+          "drugCost": 97106.03
+        },
+        "revatio": {
+          "claims": 12,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 12,
+          "drugCost": 65871
+        }
+      }
+    },
+    {
+      "fips": "44",
+      "code": "RI",
+      "name": "Rhode Island",
+      "claims": 1605,
+      "prescribers": 308,
+      "beneficiaries": 466,
+      "fills30Day": 2331.2,
+      "drugCost": 178042.01,
+      "brands": {
+        "generic": {
+          "claims": 1605,
+          "prescribers": 308,
+          "beneficiaries": 466,
+          "fills30Day": 2331.2,
+          "drugCost": 178042.01
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "45",
+      "code": "SC",
+      "name": "South Carolina",
+      "claims": 17380,
+      "prescribers": 2491,
+      "beneficiaries": 5283,
+      "fills30Day": 25281,
+      "drugCost": 699191.4900000001,
+      "brands": {
+        "generic": {
+          "claims": 17368,
+          "prescribers": 2490,
+          "beneficiaries": 5283,
+          "fills30Day": 25269,
+          "drugCost": 634656.81
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 12,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 12,
+          "drugCost": 64534.68
+        }
+      }
+    },
+    {
+      "fips": "46",
+      "code": "SD",
+      "name": "South Dakota",
+      "claims": 913,
+      "prescribers": 222,
+      "beneficiaries": 285,
+      "fills30Day": 1500.1,
+      "drugCost": 101637.07,
+      "brands": {
+        "generic": {
+          "claims": 913,
+          "prescribers": 222,
+          "beneficiaries": 285,
+          "fills30Day": 1500.1,
+          "drugCost": 101637.07
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "47",
+      "code": "TN",
+      "name": "Tennessee",
+      "claims": 16504,
+      "prescribers": 3075,
+      "beneficiaries": 6002,
+      "fills30Day": 24503.3,
+      "drugCost": 1255222.1,
+      "brands": {
+        "generic": {
+          "claims": 16504,
+          "prescribers": 3075,
+          "beneficiaries": 6002,
+          "fills30Day": 24503.3,
+          "drugCost": 1255222.1
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "48",
+      "code": "TX",
+      "name": "Texas",
+      "claims": 48820,
+      "prescribers": 7908,
+      "beneficiaries": 14649,
+      "fills30Day": 68602.8,
+      "drugCost": 2891157.97,
+      "brands": {
+        "generic": {
+          "claims": 48787,
+          "prescribers": 7901,
+          "beneficiaries": 14649,
+          "fills30Day": 68560.3,
+          "drugCost": 2694637.25
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 33,
+          "prescribers": 7,
+          "beneficiaries": 0,
+          "fills30Day": 42.5,
+          "drugCost": 196520.72
+        }
+      }
+    },
+    {
+      "fips": "49",
+      "code": "UT",
+      "name": "Utah",
+      "claims": 2915,
+      "prescribers": 585,
+      "beneficiaries": 948,
+      "fills30Day": 5384.4,
+      "drugCost": 472636.01999999996,
+      "brands": {
+        "generic": {
+          "claims": 2892,
+          "prescribers": 584,
+          "beneficiaries": 948,
+          "fills30Day": 5361.4,
+          "drugCost": 346043.54
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 23,
+          "prescribers": 1,
+          "beneficiaries": 0,
+          "fills30Day": 23,
+          "drugCost": 126592.48
+        }
+      }
+    },
+    {
+      "fips": "50",
+      "code": "VT",
+      "name": "Vermont",
+      "claims": 1053,
+      "prescribers": 241,
+      "beneficiaries": 353,
+      "fills30Day": 1697.4,
+      "drugCost": 34894.87,
+      "brands": {
+        "generic": {
+          "claims": 1053,
+          "prescribers": 241,
+          "beneficiaries": 353,
+          "fills30Day": 1697.4,
+          "drugCost": 34894.87
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "51",
+      "code": "VA",
+      "name": "Virginia",
+      "claims": 12630,
+      "prescribers": 2487,
+      "beneficiaries": 3922,
+      "fills30Day": 19556.7,
+      "drugCost": 1445830.12,
+      "brands": {
+        "generic": {
+          "claims": 12610,
+          "prescribers": 2483,
+          "beneficiaries": 3922,
+          "fills30Day": 19524.7,
+          "drugCost": 1001248.87
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 20,
+          "prescribers": 4,
+          "beneficiaries": 0,
+          "fills30Day": 32,
+          "drugCost": 444581.25
+        }
+      }
+    },
+    {
+      "fips": "53",
+      "code": "WA",
+      "name": "Washington",
+      "claims": 7500,
+      "prescribers": 1831,
+      "beneficiaries": 2682,
+      "fills30Day": 14337.7,
+      "drugCost": 628659.62,
+      "brands": {
+        "generic": {
+          "claims": 7483,
+          "prescribers": 1829,
+          "beneficiaries": 2682,
+          "fills30Day": 14315.7,
+          "drugCost": 491239.34
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 17,
+          "prescribers": 2,
+          "beneficiaries": 0,
+          "fills30Day": 22,
+          "drugCost": 137420.28
+        }
+      }
+    },
+    {
+      "fips": "54",
+      "code": "WV",
+      "name": "West Virginia",
+      "claims": 1846,
+      "prescribers": 471,
+      "beneficiaries": 603,
+      "fills30Day": 2953.8,
+      "drugCost": 202618.08,
+      "brands": {
+        "generic": {
+          "claims": 1846,
+          "prescribers": 471,
+          "beneficiaries": 603,
+          "fills30Day": 2953.8,
+          "drugCost": 202618.08
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "55",
+      "code": "WI",
+      "name": "Wisconsin",
+      "claims": 10254,
+      "prescribers": 1895,
+      "beneficiaries": 3408,
+      "fills30Day": 18634.9,
+      "drugCost": 638349,
+      "brands": {
+        "generic": {
+          "claims": 10254,
+          "prescribers": 1895,
+          "beneficiaries": 3408,
+          "fills30Day": 18634.9,
+          "drugCost": 638349
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    },
+    {
+      "fips": "56",
+      "code": "WY",
+      "name": "Wyoming",
+      "claims": 670,
+      "prescribers": 156,
+      "beneficiaries": 238,
+      "fills30Day": 1190.2,
+      "drugCost": 57510.59,
+      "brands": {
+        "generic": {
+          "claims": 670,
+          "prescribers": 156,
+          "beneficiaries": 238,
+          "fills30Day": 1190.2,
+          "drugCost": 57510.59
+        },
+        "viagra": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        },
+        "revatio": {
+          "claims": 0,
+          "prescribers": 0,
+          "beneficiaries": 0,
+          "fills30Day": 0,
+          "drugCost": 0
+        }
+      }
+    }
+  ]
+}

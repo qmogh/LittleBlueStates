@@ -2,3 +2,6 @@
 /cmd/ingest/ingest
 /cmd/server/server
 *.exe
+node_modules/
+dist/
+*.tsbuildinfo
