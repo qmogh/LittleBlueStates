@@ -1,0 +1,3774 @@
+{
+  "query": "sql/03-patent-cliff.sql",
+  "outputs": {
+    "national_by_year": [
+      {
+        "year": 2013,
+        "claims": 417802,
+        "cost": 135904564,
+        "cost_per_claim": 325.28,
+        "viagra_claims": 327372,
+        "generic_claims": 76514,
+        "revatio_claims": 13916,
+        "benes_summed_across_labels": 106615,
+        "claims_index_2017": 114.9,
+        "cost_per_claim_index_2017": 106.6
+      },
+      {
+        "year": 2014,
+        "claims": 270863,
+        "cost": 87298618,
+        "cost_per_claim": 322.3,
+        "viagra_claims": 160199,
+        "generic_claims": 103698,
+        "revatio_claims": 6966,
+        "benes_summed_across_labels": 54380,
+        "claims_index_2017": 74.5,
+        "cost_per_claim_index_2017": 105.6
+      },
+      {
+        "year": 2015,
+        "claims": 288095,
+        "cost": 83583755,
+        "cost_per_claim": 290.13,
+        "viagra_claims": 161640,
+        "generic_claims": 121433,
+        "revatio_claims": 5022,
+        "benes_summed_across_labels": 54701,
+        "claims_index_2017": 79.2,
+        "cost_per_claim_index_2017": 95.1
+      },
+      {
+        "year": 2016,
+        "claims": 326832,
+        "cost": 93604969,
+        "cost_per_claim": 286.4,
+        "viagra_claims": 185081,
+        "generic_claims": 138049,
+        "revatio_claims": 3702,
+        "benes_summed_across_labels": 65575,
+        "claims_index_2017": 89.8,
+        "cost_per_claim_index_2017": 93.9
+      },
+      {
+        "year": 2017,
+        "claims": 363780,
+        "cost": 110994511,
+        "cost_per_claim": 305.11,
+        "viagra_claims": 209107,
+        "generic_claims": 152091,
+        "revatio_claims": 2582,
+        "benes_summed_across_labels": 76002,
+        "claims_index_2017": 100,
+        "cost_per_claim_index_2017": 100
+      },
+      {
+        "year": 2018,
+        "claims": 364980,
+        "cost": 94365324,
+        "cost_per_claim": 258.55,
+        "viagra_claims": 72153,
+        "generic_claims": 290843,
+        "revatio_claims": 1984,
+        "benes_summed_across_labels": 79722,
+        "claims_index_2017": 100.3,
+        "cost_per_claim_index_2017": 84.7
+      },
+      {
+        "year": 2019,
+        "claims": 448908,
+        "cost": 65091145,
+        "cost_per_claim": 145,
+        "viagra_claims": 39523,
+        "generic_claims": 407953,
+        "revatio_claims": 1432,
+        "benes_summed_across_labels": 98324,
+        "claims_index_2017": 123.4,
+        "cost_per_claim_index_2017": 47.5
+      },
+      {
+        "year": 2020,
+        "claims": 536630,
+        "cost": 50255629,
+        "cost_per_claim": 93.65,
+        "viagra_claims": 6335,
+        "generic_claims": 529111,
+        "revatio_claims": 1184,
+        "benes_summed_across_labels": 124108,
+        "claims_index_2017": 147.5,
+        "cost_per_claim_index_2017": 30.7
+      },
+      {
+        "year": 2021,
+        "claims": 703532,
+        "cost": 44632188,
+        "cost_per_claim": 63.44,
+        "viagra_claims": 1922,
+        "generic_claims": 700565,
+        "revatio_claims": 1045,
+        "benes_summed_across_labels": 192213,
+        "claims_index_2017": 193.4,
+        "cost_per_claim_index_2017": 20.8
+      },
+      {
+        "year": 2022,
+        "claims": 819504,
+        "cost": 55932193,
+        "cost_per_claim": 68.25,
+        "viagra_claims": 1412,
+        "generic_claims": 817178,
+        "revatio_claims": 914,
+        "benes_summed_across_labels": 228605,
+        "claims_index_2017": 225.3,
+        "cost_per_claim_index_2017": 22.4
+      },
+      {
+        "year": 2023,
+        "claims": 886716,
+        "cost": 52753134,
+        "cost_per_claim": 59.49,
+        "viagra_claims": 952,
+        "generic_claims": 884992,
+        "revatio_claims": 772,
+        "benes_summed_across_labels": 253524,
+        "claims_index_2017": 243.8,
+        "cost_per_claim_index_2017": 19.5
+      },
+      {
+        "year": 2024,
+        "claims": 838770,
+        "cost": 46197913,
+        "cost_per_claim": 55.08,
+        "viagra_claims": 397,
+        "generic_claims": 837693,
+        "revatio_claims": 680,
+        "benes_summed_across_labels": 240449,
+        "claims_index_2017": 230.6,
+        "cost_per_claim_index_2017": 18.1
+      }
+    ],
+    "nadac_monthly": [
+      {
+        "month": "2013-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6592,
+        "ndcs": 12
+      },
+      {
+        "month": "2013-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 20.9789,
+        "ndcs": 1
+      },
+      {
+        "month": "2013-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 26.1897,
+        "ndcs": 2
+      },
+      {
+        "month": "2013-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.671,
+        "ndcs": 12
+      },
+      {
+        "month": "2013-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 20.9789,
+        "ndcs": 1
+      },
+      {
+        "month": "2013-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 26.1897,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6827,
+        "ndcs": 12
+      },
+      {
+        "month": "2014-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 22.867,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 27.8763,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7606,
+        "ndcs": 12
+      },
+      {
+        "month": "2014-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 22.867,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 27.8763,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7498,
+        "ndcs": 12
+      },
+      {
+        "month": "2014-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 22.867,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 27.8763,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7227,
+        "ndcs": 13
+      },
+      {
+        "month": "2014-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 22.867,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 27.8763,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6429,
+        "ndcs": 13
+      },
+      {
+        "month": "2014-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 22.867,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 27.8763,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7305,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7305,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.7016,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-08-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6833,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-09-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6774,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-10-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.618,
+        "ndcs": 14
+      },
+      {
+        "month": "2014-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2014-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5993,
+        "ndcs": 15
+      },
+      {
+        "month": "2014-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 24.925,
+        "ndcs": 1
+      },
+      {
+        "month": "2014-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 30.4205,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6142,
+        "ndcs": 15
+      },
+      {
+        "month": "2015-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 27.1683,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 33.2922,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6358,
+        "ndcs": 15
+      },
+      {
+        "month": "2015-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 27.1683,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 33.2922,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6518,
+        "ndcs": 15
+      },
+      {
+        "month": "2015-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 27.1683,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 33.2922,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6611,
+        "ndcs": 16
+      },
+      {
+        "month": "2015-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 27.1683,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 33.2922,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6567,
+        "ndcs": 17
+      },
+      {
+        "month": "2015-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 27.1683,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 33.2922,
+        "ndcs": 2
+      },
+      {
+        "month": "2015-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6506,
+        "ndcs": 17
+      },
+      {
+        "month": "2015-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.435,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6362,
+        "ndcs": 17
+      },
+      {
+        "month": "2015-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.435,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.6046,
+        "ndcs": 17
+      },
+      {
+        "month": "2015-08-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.435,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5642,
+        "ndcs": 17
+      },
+      {
+        "month": "2015-09-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.435,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5571,
+        "ndcs": 18
+      },
+      {
+        "month": "2015-10-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.435,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5345,
+        "ndcs": 18
+      },
+      {
+        "month": "2015-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.5613,
+        "ndcs": 4
+      },
+      {
+        "month": "2015-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.512,
+        "ndcs": 18
+      },
+      {
+        "month": "2015-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 29.733,
+        "ndcs": 1
+      },
+      {
+        "month": "2015-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 36.6877,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.541,
+        "ndcs": 18
+      },
+      {
+        "month": "2016-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 32.5398,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 41.4203,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5187,
+        "ndcs": 18
+      },
+      {
+        "month": "2016-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 32.5398,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 41.4203,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5438,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 32.5398,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 41.4203,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.53,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 32.5398,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 41.4203,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5153,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 32.5398,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 41.4203,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.5214,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4812,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4983,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-08-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4659,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-09-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4439,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-10-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4543,
+        "ndcs": 19
+      },
+      {
+        "month": "2016-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2016-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4448,
+        "ndcs": 17
+      },
+      {
+        "month": "2016-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 35.6115,
+        "ndcs": 1
+      },
+      {
+        "month": "2016-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 46.7635,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4688,
+        "ndcs": 17
+      },
+      {
+        "month": "2017-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 38.9733,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 52.796,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4421,
+        "ndcs": 17
+      },
+      {
+        "month": "2017-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 38.9733,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 52.796,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.4248,
+        "ndcs": 16
+      },
+      {
+        "month": "2017-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 38.9733,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 52.3457,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3957,
+        "ndcs": 16
+      },
+      {
+        "month": "2017-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 38.9733,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 52.3457,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3325,
+        "ndcs": 16
+      },
+      {
+        "month": "2017-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 38.9733,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 52.3457,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3332,
+        "ndcs": 16
+      },
+      {
+        "month": "2017-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0983,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3279,
+        "ndcs": 16
+      },
+      {
+        "month": "2017-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0963,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3218,
+        "ndcs": 17
+      },
+      {
+        "month": "2017-08-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0943,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3117,
+        "ndcs": 17
+      },
+      {
+        "month": "2017-09-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0943,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2991,
+        "ndcs": 17
+      },
+      {
+        "month": "2017-10-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0943,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.3018,
+        "ndcs": 19
+      },
+      {
+        "month": "2017-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0943,
+        "ndcs": 4
+      },
+      {
+        "month": "2017-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.263,
+        "ndcs": 19
+      },
+      {
+        "month": "2017-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 42.6523,
+        "ndcs": 1
+      },
+      {
+        "month": "2017-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 59.0943,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2332,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2356,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2651,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2451,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2251,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.201,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 26.218,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6787,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4073,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2218,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 26.018,
+        "ndcs": 8
+      },
+      {
+        "month": "2018-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 48.8819,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.4472,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.236,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "month": "2018-08-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2052,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 4.3815,
+        "ndcs": 10
+      },
+      {
+        "month": "2018-09-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2084,
+        "ndcs": 19
+      },
+      {
+        "month": "2018-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "month": "2018-10-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1526,
+        "ndcs": 20
+      },
+      {
+        "month": "2018-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.7739,
+        "ndcs": 10
+      },
+      {
+        "month": "2018-11-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2018-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.182,
+        "ndcs": 20
+      },
+      {
+        "month": "2018-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.8939,
+        "ndcs": 10
+      },
+      {
+        "month": "2018-12-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2018-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.2114,
+        "ndcs": 20
+      },
+      {
+        "month": "2019-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.8907,
+        "ndcs": 10
+      },
+      {
+        "month": "2019-01-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 64.4071,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1632,
+        "ndcs": 21
+      },
+      {
+        "month": "2019-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.7015,
+        "ndcs": 13
+      },
+      {
+        "month": "2019-02-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1919,
+        "ndcs": 21
+      },
+      {
+        "month": "2019-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.6297,
+        "ndcs": 13
+      },
+      {
+        "month": "2019-03-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1502,
+        "ndcs": 24
+      },
+      {
+        "month": "2019-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.5151,
+        "ndcs": 14
+      },
+      {
+        "month": "2019-04-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1502,
+        "ndcs": 24
+      },
+      {
+        "month": "2019-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4722,
+        "ndcs": 14
+      },
+      {
+        "month": "2019-05-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1707,
+        "ndcs": 24
+      },
+      {
+        "month": "2019-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4712,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-06-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1808,
+        "ndcs": 24
+      },
+      {
+        "month": "2019-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4325,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-07-01",
+        "brand": "Revatio",
+        "mg": 20,
+        "per_tablet": 46.6786,
+        "ndcs": 1
+      },
+      {
+        "month": "2019-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1581,
+        "ndcs": 25
+      },
+      {
+        "month": "2019-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4185,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1541,
+        "ndcs": 26
+      },
+      {
+        "month": "2019-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4154,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1541,
+        "ndcs": 26
+      },
+      {
+        "month": "2019-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4262,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.6274,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1581,
+        "ndcs": 26
+      },
+      {
+        "month": "2019-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4248,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 67.7236,
+        "ndcs": 4
+      },
+      {
+        "month": "2019-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1574,
+        "ndcs": 26
+      },
+      {
+        "month": "2019-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4074,
+        "ndcs": 15
+      },
+      {
+        "month": "2019-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 68.0914,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.156,
+        "ndcs": 26
+      },
+      {
+        "month": "2020-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3686,
+        "ndcs": 17
+      },
+      {
+        "month": "2020-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.4279,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1576,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.4021,
+        "ndcs": 17
+      },
+      {
+        "month": "2020-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.4279,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1558,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3988,
+        "ndcs": 17
+      },
+      {
+        "month": "2020-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.4279,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1497,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3892,
+        "ndcs": 17
+      },
+      {
+        "month": "2020-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.4279,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1537,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3806,
+        "ndcs": 16
+      },
+      {
+        "month": "2020-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1521,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3991,
+        "ndcs": 16
+      },
+      {
+        "month": "2020-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1561,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.406,
+        "ndcs": 16
+      },
+      {
+        "month": "2020-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1418,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3885,
+        "ndcs": 16
+      },
+      {
+        "month": "2020-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1449,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3956,
+        "ndcs": 16
+      },
+      {
+        "month": "2020-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1255,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3655,
+        "ndcs": 18
+      },
+      {
+        "month": "2020-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 70.9718,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1179,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3807,
+        "ndcs": 18
+      },
+      {
+        "month": "2020-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.4547,
+        "ndcs": 4
+      },
+      {
+        "month": "2020-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1272,
+        "ndcs": 23
+      },
+      {
+        "month": "2020-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3869,
+        "ndcs": 20
+      },
+      {
+        "month": "2020-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 71.9376,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1262,
+        "ndcs": 23
+      },
+      {
+        "month": "2021-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3579,
+        "ndcs": 20
+      },
+      {
+        "month": "2021-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1227,
+        "ndcs": 23
+      },
+      {
+        "month": "2021-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3561,
+        "ndcs": 20
+      },
+      {
+        "month": "2021-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1406,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.333,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1224,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3303,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1099,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3196,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1158,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.3116,
+        "ndcs": 19
+      },
+      {
+        "month": "2021-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0986,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2774,
+        "ndcs": 19
+      },
+      {
+        "month": "2021-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0996,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2648,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1023,
+        "ndcs": 24
+      },
+      {
+        "month": "2021-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2648,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.1013,
+        "ndcs": 25
+      },
+      {
+        "month": "2021-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2507,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.4625,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0998,
+        "ndcs": 25
+      },
+      {
+        "month": "2021-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2382,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 75.0169,
+        "ndcs": 4
+      },
+      {
+        "month": "2021-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0983,
+        "ndcs": 25
+      },
+      {
+        "month": "2021-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2226,
+        "ndcs": 21
+      },
+      {
+        "month": "2021-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0964,
+        "ndcs": 25
+      },
+      {
+        "month": "2022-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2424,
+        "ndcs": 21
+      },
+      {
+        "month": "2022-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0933,
+        "ndcs": 25
+      },
+      {
+        "month": "2022-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2565,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0911,
+        "ndcs": 26
+      },
+      {
+        "month": "2022-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2915,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0915,
+        "ndcs": 26
+      },
+      {
+        "month": "2022-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2475,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0913,
+        "ndcs": 26
+      },
+      {
+        "month": "2022-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2645,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0921,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2802,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0889,
+        "ndcs": 26
+      },
+      {
+        "month": "2022-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2565,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0888,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2415,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0878,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2537,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.5712,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0813,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2768,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.6116,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0757,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2877,
+        "ndcs": 22
+      },
+      {
+        "month": "2022-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.6521,
+        "ndcs": 4
+      },
+      {
+        "month": "2022-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0709,
+        "ndcs": 27
+      },
+      {
+        "month": "2022-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2546,
+        "ndcs": 24
+      },
+      {
+        "month": "2022-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 74.6521,
+        "ndcs": 4
+      },
+      {
+        "month": "2023-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0674,
+        "ndcs": 27
+      },
+      {
+        "month": "2023-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2542,
+        "ndcs": 23
+      },
+      {
+        "month": "2023-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 4
+      },
+      {
+        "month": "2023-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0685,
+        "ndcs": 27
+      },
+      {
+        "month": "2023-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2537,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 4
+      },
+      {
+        "month": "2023-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.068,
+        "ndcs": 27
+      },
+      {
+        "month": "2023-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2545,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0687,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2552,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0699,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2398,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0701,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2377,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0726,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2281,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0748,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2208,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0766,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2274,
+        "ndcs": 24
+      },
+      {
+        "month": "2023-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0691,
+        "ndcs": 26
+      },
+      {
+        "month": "2023-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2046,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0691,
+        "ndcs": 27
+      },
+      {
+        "month": "2023-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2046,
+        "ndcs": 25
+      },
+      {
+        "month": "2023-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2023-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0836,
+        "ndcs": 29
+      },
+      {
+        "month": "2023-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2253,
+        "ndcs": 23
+      },
+      {
+        "month": "2023-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0967,
+        "ndcs": 29
+      },
+      {
+        "month": "2024-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2041,
+        "ndcs": 23
+      },
+      {
+        "month": "2024-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 79.8777,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0869,
+        "ndcs": 29
+      },
+      {
+        "month": "2024-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.2022,
+        "ndcs": 23
+      },
+      {
+        "month": "2024-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8716,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0791,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1956,
+        "ndcs": 23
+      },
+      {
+        "month": "2024-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8716,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0698,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1623,
+        "ndcs": 23
+      },
+      {
+        "month": "2024-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8716,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0583,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1338,
+        "ndcs": 23
+      },
+      {
+        "month": "2024-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8716,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0736,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1575,
+        "ndcs": 21
+      },
+      {
+        "month": "2024-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.0747,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.055,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1364,
+        "ndcs": 24
+      },
+      {
+        "month": "2024-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.2524,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0619,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1401,
+        "ndcs": 24
+      },
+      {
+        "month": "2024-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.2424,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0874,
+        "ndcs": 29
+      },
+      {
+        "month": "2024-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.155,
+        "ndcs": 24
+      },
+      {
+        "month": "2024-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.1684,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0874,
+        "ndcs": 29
+      },
+      {
+        "month": "2024-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1662,
+        "ndcs": 25
+      },
+      {
+        "month": "2024-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.1044,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0637,
+        "ndcs": 28
+      },
+      {
+        "month": "2024-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1259,
+        "ndcs": 25
+      },
+      {
+        "month": "2024-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 84.0834,
+        "ndcs": 2
+      },
+      {
+        "month": "2024-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0518,
+        "ndcs": 27
+      },
+      {
+        "month": "2024-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1164,
+        "ndcs": 25
+      },
+      {
+        "month": "2024-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.9997,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0595,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1298,
+        "ndcs": 25
+      },
+      {
+        "month": "2025-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.9391,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0625,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.153,
+        "ndcs": 26
+      },
+      {
+        "month": "2025-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8854,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0713,
+        "ndcs": 29
+      },
+      {
+        "month": "2025-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.153,
+        "ndcs": 26
+      },
+      {
+        "month": "2025-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.8236,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0753,
+        "ndcs": 29
+      },
+      {
+        "month": "2025-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1608,
+        "ndcs": 25
+      },
+      {
+        "month": "2025-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.7699,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0728,
+        "ndcs": 29
+      },
+      {
+        "month": "2025-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1592,
+        "ndcs": 26
+      },
+      {
+        "month": "2025-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.7364,
+        "ndcs": 2
+      },
+      {
+        "month": "2025-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0732,
+        "ndcs": 29
+      },
+      {
+        "month": "2025-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1602,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6752,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0746,
+        "ndcs": 30
+      },
+      {
+        "month": "2025-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1612,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6752,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0768,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1601,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.5951,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0757,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1479,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.4896,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.073,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1479,
+        "ndcs": 28
+      },
+      {
+        "month": "2025-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.4641,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-11-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0634,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-11-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1383,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-11-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.5102,
+        "ndcs": 3
+      },
+      {
+        "month": "2025-12-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0546,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-12-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1362,
+        "ndcs": 27
+      },
+      {
+        "month": "2025-12-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.5681,
+        "ndcs": 3
+      },
+      {
+        "month": "2026-01-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0551,
+        "ndcs": 26
+      },
+      {
+        "month": "2026-01-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.136,
+        "ndcs": 27
+      },
+      {
+        "month": "2026-01-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6084,
+        "ndcs": 3
+      },
+      {
+        "month": "2026-02-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0539,
+        "ndcs": 26
+      },
+      {
+        "month": "2026-02-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1349,
+        "ndcs": 27
+      },
+      {
+        "month": "2026-02-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6487,
+        "ndcs": 3
+      },
+      {
+        "month": "2026-03-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0526,
+        "ndcs": 26
+      },
+      {
+        "month": "2026-03-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1334,
+        "ndcs": 28
+      },
+      {
+        "month": "2026-03-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6403,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-04-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.053,
+        "ndcs": 26
+      },
+      {
+        "month": "2026-04-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1334,
+        "ndcs": 28
+      },
+      {
+        "month": "2026-04-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6319,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-05-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0524,
+        "ndcs": 25
+      },
+      {
+        "month": "2026-05-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1325,
+        "ndcs": 28
+      },
+      {
+        "month": "2026-05-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6522,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-06-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0534,
+        "ndcs": 25
+      },
+      {
+        "month": "2026-06-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1307,
+        "ndcs": 28
+      },
+      {
+        "month": "2026-06-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6608,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-07-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0533,
+        "ndcs": 25
+      },
+      {
+        "month": "2026-07-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1298,
+        "ndcs": 29
+      },
+      {
+        "month": "2026-07-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6491,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-08-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0514,
+        "ndcs": 24
+      },
+      {
+        "month": "2026-08-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1268,
+        "ndcs": 31
+      },
+      {
+        "month": "2026-08-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6697,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-09-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.051,
+        "ndcs": 24
+      },
+      {
+        "month": "2026-09-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1276,
+        "ndcs": 33
+      },
+      {
+        "month": "2026-09-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.6329,
+        "ndcs": 4
+      },
+      {
+        "month": "2026-10-01",
+        "brand": "Generic",
+        "mg": 20,
+        "per_tablet": 0.0511,
+        "ndcs": 24
+      },
+      {
+        "month": "2026-10-01",
+        "brand": "Generic",
+        "mg": 100,
+        "per_tablet": 0.1319,
+        "ndcs": 33
+      },
+      {
+        "month": "2026-10-01",
+        "brand": "Viagra",
+        "mg": 100,
+        "per_tablet": 83.7165,
+        "ndcs": 4
+      }
+    ],
+    "inflections": [
+      {
+        "brand": "Generic",
+        "mg": 20,
+        "event_date": "2012-11-06",
+        "event": "Generic Revatio approved",
+        "steepest_drop_month": "2024-11-01",
+        "steepest_drop": -0.2715,
+        "mean_6mo_before": null,
+        "mean_6mo_after": null,
+        "months_after_event": 144,
+        "lands_on_event": null
+      },
+      {
+        "brand": "Generic",
+        "mg": 100,
+        "event_date": "2017-12-11",
+        "event": "Generic Viagra launches",
+        "steepest_drop_month": "2018-10-01",
+        "steepest_drop": -0.8515,
+        "mean_6mo_before": null,
+        "mean_6mo_after": 26.3762,
+        "months_after_event": 10,
+        "lands_on_event": null
+      },
+      {
+        "brand": "Generic",
+        "mg": 100,
+        "event_date": "2018-06-11",
+        "event": "Teva exclusivity ends; more generics approved",
+        "steepest_drop_month": "2018-10-01",
+        "steepest_drop": -0.8515,
+        "mean_6mo_before": 26.3762,
+        "mean_6mo_after": 9.7893,
+        "months_after_event": 4,
+        "lands_on_event": false
+      }
+    ],
+    "volume_inflection": [
+      {
+        "steepest_viagra_drop_year": 2020,
+        "steepest_viagra_drop": -0.8397,
+        "generic_viagra_label_first_year": 2017,
+        "first_year_claims_per_bene": 1
+      }
+    ],
+    "cliff_weeks": [
+      {
+        "as_of_date": "2018-04-18",
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-04-25",
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-05-02",
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-05-09",
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-05-16",
+        "per_tablet": 26.4554,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-05-23",
+        "per_tablet": 25.758,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-05-30",
+        "per_tablet": 25.758,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-06-06",
+        "per_tablet": 25.758,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-06-13",
+        "per_tablet": 25.758,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-06-20",
+        "per_tablet": 26.678,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-06-27",
+        "per_tablet": 26.678,
+        "ndcs": 4
+      },
+      {
+        "as_of_date": "2018-07-04",
+        "per_tablet": 26.678,
+        "ndcs": 6
+      },
+      {
+        "as_of_date": "2018-07-11",
+        "per_tablet": 26.678,
+        "ndcs": 8
+      },
+      {
+        "as_of_date": "2018-07-18",
+        "per_tablet": 26.018,
+        "ndcs": 8
+      },
+      {
+        "as_of_date": "2018-07-25",
+        "per_tablet": 26.018,
+        "ndcs": 8
+      },
+      {
+        "as_of_date": "2018-08-01",
+        "per_tablet": 26.018,
+        "ndcs": 8
+      },
+      {
+        "as_of_date": "2018-08-08",
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "as_of_date": "2018-08-15",
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "as_of_date": "2018-08-22",
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "as_of_date": "2018-08-29",
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "as_of_date": "2018-09-05",
+        "per_tablet": 26.018,
+        "ndcs": 9
+      },
+      {
+        "as_of_date": "2018-09-12",
+        "per_tablet": 26.018,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-09-19",
+        "per_tablet": 4.3815,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-09-26",
+        "per_tablet": 4.3815,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-10-03",
+        "per_tablet": 4.3815,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-10-10",
+        "per_tablet": 4.3815,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-10-17",
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-10-24",
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-10-31",
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-11-07",
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-11-14",
+        "per_tablet": 0.6506,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-11-21",
+        "per_tablet": 0.8971,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-11-28",
+        "per_tablet": 0.8971,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-12-05",
+        "per_tablet": 0.8971,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-12-12",
+        "per_tablet": 0.8971,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-12-19",
+        "per_tablet": 0.8907,
+        "ndcs": 10
+      },
+      {
+        "as_of_date": "2018-12-26",
+        "per_tablet": 0.8907,
+        "ndcs": 10
+      }
+    ]
+  }
+}

@@ -6,9 +6,16 @@ import snapshot from "./data/sildenafil-2024.json";
 import providerCityCoordinates from "./data/provider-city-coordinates-2024.json";
 import providerFootprint from "./data/provider-footprint-2024.json";
 import providerFootprintHistory from "./data/provider-footprint-history.json";
+import miamiStory from "./data/story/02-miami.json";
+import { Chapters, Checks, StoryHero } from "./Story";
 
 type BrandKey = "generic" | "viagra" | "revatio";
-type ViewKey = "genericShare" | "claims" | "costPerClaim" | "seniorShare";
+type ViewKey =
+  | "genericShare"
+  | "claims"
+  | "per1000"
+  | "costPerClaim"
+  | "seniorShare";
 type State = {
   fips: string;
   code: string;
@@ -79,10 +86,21 @@ const dollars = new Intl.NumberFormat("en-US", {
   maximumFractionDigits: 0,
 });
 const defaultMapView: MapView = { scale: 1, x: 0, y: 0 };
+// Claims per 1,000 Part D enrollees (sql/02-miami.sql → state_rates).
+const per1000ByYear = new Map<number, Map<string, number>>();
+for (const row of miamiStory.outputs.state_rates as Array<{
+  year: number;
+  state: string;
+  claims_per_1000: number;
+}>) {
+  if (!per1000ByYear.has(row.year)) per1000ByYear.set(row.year, new Map());
+  per1000ByYear.get(row.year)!.set(row.state, row.claims_per_1000);
+}
 
 const viewLabels: Record<ViewKey, string> = {
   genericShare: "Generic takeover",
   claims: "All sildenafil claims",
+  per1000: "Claims per 1,000 enrollees",
   costPerClaim: "Cost per claim",
   seniorShare: "65+ claim share",
 };
@@ -101,16 +119,20 @@ function formatValue(value: number, view: ViewKey) {
     ? percent.format(value)
     : view === "costPerClaim"
       ? dollars.format(value)
-      : number.format(value);
+      : view === "per1000"
+        ? value.toFixed(1)
+        : number.format(value);
 }
-function valueFor(state: State, view: ViewKey) {
+function valueFor(state: State, view: ViewKey, year: number) {
   return view === "genericShare"
     ? share(state, "generic")
     : view === "seniorShare"
       ? seniorShare(state)
       : view === "costPerClaim"
         ? costPerClaim(state)
-        : state.claims;
+        : view === "per1000"
+          ? (per1000ByYear.get(year)?.get(state.code) ?? 0)
+          : state.claims;
 }
 function fillFor(value: number, max: number, view: ViewKey) {
   if (view === "genericShare")
@@ -344,7 +366,7 @@ export default function App() {
         )
         .filter(Boolean)
     : [];
-  const max = Math.max(...current.states.map((state) => valueFor(state, view)));
+  const max = Math.max(...current.states.map((state) => valueFor(state, view, year)));
   const nationalGeneric = nationalShare(current.states, "generic");
   const nationalViagra = nationalShare(current.states, "viagra");
   const hovered = hoveredFips ? byFips.get(hoveredFips) : undefined;
@@ -354,7 +376,7 @@ export default function App() {
   const rank = selected
     ? 1 +
       current.states.filter(
-        (state) => valueFor(state, view) > valueFor(selected, view),
+        (state) => valueFor(state, view, year) > valueFor(selected, view, year),
       ).length
     : 0;
   const claimIntensity = selected?.claims
@@ -444,12 +466,6 @@ export default function App() {
   };
   const resetMapView = () => updateMapView(defaultMapView);
   const twoTouchPoints = () => [...touchPoints.current.values()].slice(0, 2);
-  const heroCopy =
-    year === 2013
-      ? "In 2013, the map was very, very blue."
-      : year === 2024
-        ? "In 2024, nearly every blue pill in this dataset had gone generic."
-        : `By ${year}, the color change was underway.`;
 
   return (
     <main>
@@ -459,34 +475,16 @@ export default function App() {
         </a>
         <span>PUBLIC DATA, PRIVATE JOKES</span>
       </header>
-      <section id="top" className="hero">
-        <h1>
-          The little blue pill
-          <br />
-          <em>went beige.</em>
-        </h1>
-        <p className="dek">
-          For a decade, brand-name Viagra drained out of Medicare Part D data,
-          state by state. What replaced it tells a bigger story about a
-          blockbuster drug becoming a commodity.
-        </p>
-        <div className="before-after">
-          <div>
-            <span>2013</span>
-            <strong>78.4%</strong>
-            <p>of sildenafil claims were Viagra</p>
-          </div>
-          <div className="arrow">→</div>
-          <div>
-            <span>2024</span>
-            <strong>0.05%</strong>
-            <p>of sildenafil claims were Viagra</p>
-          </div>
-        </div>
-      </section>
+      <StoryHero />
+      <Chapters />
       <section className="switchboard" aria-label="State map explorer">
         <div className="switch-header">
-          <h2>{heroCopy}</h2>
+          <p className="kicker">07 · Your state</p>
+          <h2>Explore the map.</h2>
+          <p>
+            Pick a year and a view. Claims are counted where the prescriber
+            practices, not where the patient lives.
+          </p>
         </div>
         <div className="year-control">
           <button
@@ -644,7 +642,7 @@ export default function App() {
                         String(shape.id).padStart(2, "0"),
                       );
                       if (!state) return null;
-                      const value = valueFor(state, view);
+                      const value = valueFor(state, view, year);
                       return (
                         <path
                           key={state.fips}
@@ -690,7 +688,7 @@ export default function App() {
               {hovered && hovered.fips !== selected?.fips && (
                 <div className="tooltip">
                   <strong>{hovered.name}</strong>
-                  {formatValue(valueFor(hovered, view), view)}
+                  {formatValue(valueFor(hovered, view, year), view)}
                 </div>
               )}
             </div>
@@ -848,6 +846,7 @@ export default function App() {
           </p>
         </div>
       </section>
+      <Checks />
       <footer>
         <p>
           Source: Centers for Medicare &amp; Medicaid Services,{" "}
@@ -862,8 +861,11 @@ export default function App() {
           reported, non-suppressed values.
         </p>
         <p>
-          Sildenafil is not synonymous with Viagra and has uses beyond erectile
-          dysfunction. Supposedly.
+          Every query behind this page is in <code>sql/</code>; rebuild with{" "}
+          <code>npm run data:raw &amp;&amp; npm run data:story</code>. Sildenafil
+          is not synonymous with Viagra and is also prescribed for pulmonary
+          hypertension; the data cannot tell us why any one person received
+          it.
         </p>
       </footer>
     </main>

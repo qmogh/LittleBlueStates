@@ -6,3 +6,4 @@ node_modules/
 dist/
 *.tsbuildinfo
 /docs/editorial-direction.md
+/data/raw/

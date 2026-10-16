@@ -2,9 +2,9 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { Readable } from "node:stream";
 import { parse } from "csv-parse";
+import { PARTD_PROVIDER_CSV_URLS } from "./lib/sources.mjs";
 
-const SOURCE_URL =
-  "https://data.cms.gov/sites/default/files/2026-05/0ae165f4-eb44-495d-8cac-67f4571b6b83/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv";
+const SOURCE_URL = PARTD_PROVIDER_CSV_URLS[2024];
 const OUTPUT_PATH = resolve("src/data/provider-footprint-2024.json");
 const stateCodes = new Set([
   "AL",

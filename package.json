@@ -10,7 +10,15 @@
     "data:build": "node scripts/build-data.mjs",
     "data:providers": "node scripts/build-provider-footprint.mjs",
     "data:city-coordinates": "node scripts/build-provider-city-coordinates.mjs",
-    "data:providers:history": "node scripts/build-provider-footprint-history.mjs"
+    "data:providers:history": "node scripts/build-provider-footprint-history.mjs",
+    "data:raw": "npm run data:raw:partd && npm run data:raw:prices && npm run data:raw:medicaid && npm run data:raw:enrollment && npm run data:raw:formulary && npm run data:raw:providers",
+    "data:raw:partd": "node scripts/raw-partd-geo.mjs && node scripts/raw-partd-spending.mjs",
+    "data:raw:providers": "node scripts/raw-partd-providers.mjs",
+    "data:raw:prices": "node scripts/raw-nadac.mjs && node scripts/raw-ndc.mjs",
+    "data:raw:medicaid": "node scripts/raw-sdud.mjs",
+    "data:raw:enrollment": "node scripts/raw-enrollment.mjs",
+    "data:raw:formulary": "node scripts/raw-formulary.mjs",
+    "data:story": "node scripts/build-story.mjs"
   },
   "dependencies": {
     "csv-parse": "^7.0.2",
@@ -21,6 +29,7 @@
     "us-atlas": "^3.0.1"
   },
   "devDependencies": {
+    "@duckdb/node-api": "^1.5.6-r.1",
     "@types/d3-geo": "^3.1.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",

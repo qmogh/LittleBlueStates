@@ -1,20 +1,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { PARTD_GEO_DATASET_IDS } from "./lib/sources.mjs";
 
-const DATASET_IDS = {
-  2013: "9aec2a70-4ef2-438a-bc35-1747fe2492c9",
-  2014: "63099eb4-6c9e-4fec-8c9e-b6b132f1b7f4",
-  2015: "73748d0b-2acb-420a-ac66-27d8e238fdc8",
-  2016: "c5b3c840-5eb2-4e4c-ac35-c30995dcb051",
-  2017: "7863e41c-3f6f-4889-93a8-be65e9f3d073",
-  2018: "b083c9b6-b841-4676-8d0a-fb03ee1431a1",
-  2019: "73a6335e-f16f-4c81-a84b-6b5a986e2bf8",
-  2020: "83891e77-99cf-4865-b60a-97703b916e09",
-  2021: "7dda2a9d-034a-446a-b4b3-e1254e0127b2",
-  2022: "1fc57194-a51d-4864-aee6-de0889488151",
-  2023: "3463648b-1971-478d-84ca-80cadc758153",
-  2024: "9b4c142c-69cc-4a96-a09a-7cf2ba7f5816",
-};
+const DATASET_IDS = PARTD_GEO_DATASET_IDS;
 const OUTPUT_PATH = resolve("src/data/sildenafil-2024.json");
 
 function sourceUrl(datasetId) {

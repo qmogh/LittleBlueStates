@@ -115,10 +115,9 @@ main {
   padding: 28px 0 0;
 }
 .switch-header {
-  align-items: end;
-  display: flex;
-  justify-content: space-between;
+  border-top: 1px solid #cfcabf;
   margin-bottom: 30px;
+  padding-top: 64px;
 }
 .switch-header h2 {
   font:
@@ -665,4 +664,289 @@ footer a {
   .year-control {
     gap: 7px;
   }
+}
+
+/* Story chapters */
+.hero .kicker {
+  margin-bottom: 22px;
+}
+.chapter {
+  border-top: 1px solid #cfcabf;
+  display: grid;
+  gap: 56px;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  padding: 64px 0;
+}
+.chapter h2,
+.checks h2,
+.switch-header h2 {
+  font:
+    700 clamp(32px, 4vw, 48px) / 1 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.045em;
+  margin: 0 0 26px;
+}
+.chapter-text p:not(.kicker) {
+  color: #2e302f;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 18px;
+  max-width: 560px;
+}
+.chapter-text .estimate {
+  background: #e8f0c4;
+  border-left: 3px solid #5e8a1f;
+  font-size: 16px;
+  padding: 12px 16px;
+}
+.cite {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  margin-left: 1px;
+}
+.cite a {
+  color: #4e5e4e;
+  text-decoration: none;
+}
+.cite a:hover,
+.cite a:focus-visible {
+  text-decoration: underline;
+}
+.figure-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.chart {
+  margin: 0 0 22px;
+}
+.chart-frame {
+  position: relative;
+}
+.chart svg {
+  display: block;
+  overflow: visible;
+  width: 100%;
+}
+.chart .grid line,
+.chart .stem {
+  stroke: #ddd8cc;
+  stroke-width: 1;
+}
+.chart text {
+  fill: #6b6d68;
+  font:
+    400 11px "DM Mono",
+    monospace;
+}
+.chart .row-label {
+  fill: #2e302f;
+  font: 500 13px "DM Sans", sans-serif;
+}
+.chart .dot-label,
+.chart .bar-label {
+  fill: #1c1d24;
+  font-weight: 500;
+}
+.chart .line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+.chart circle {
+  stroke: #f6f2e8;
+  stroke-width: 2;
+}
+.chart .marker line {
+  stroke: #1c1d24;
+  stroke-width: 1;
+}
+.chart .marker text {
+  fill: #1c1d24;
+}
+.chart .hover line {
+  stroke: #9a968b;
+  stroke-width: 1;
+}
+.chart .hit {
+  fill: transparent;
+}
+.chart-tip {
+  background: #fffdf8;
+  border: 1px solid #cfcabf;
+  box-shadow: 0 4px 14px rgb(28 29 36 / 10%);
+  display: grid;
+  font-size: 12px;
+  gap: 3px;
+  padding: 7px 9px;
+  pointer-events: none;
+  position: absolute;
+  top: 6px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.chart-tip i,
+.legend i {
+  border-radius: 2px;
+  display: inline-block;
+  height: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+  width: 14px;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+.bars {
+  display: grid;
+  gap: 8px;
+  margin: 4px 0 22px;
+}
+.bars div {
+  align-items: center;
+  display: grid;
+  font-size: 13px;
+  gap: 10px;
+  grid-template-columns: 120px 1fr 44px;
+}
+.bars i {
+  background: #e7e2d6;
+  border-radius: 4px;
+  display: block;
+  height: 10px;
+}
+.bars b {
+  border-radius: 4px;
+  display: block;
+  height: 10px;
+}
+.bars strong {
+  text-align: right;
+}
+.data-table {
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+.data-table summary {
+  color: #4e5e4e;
+  cursor: pointer;
+  font:
+    500 11px "DM Mono",
+    monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.data-table table {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  margin-top: 10px;
+  width: 100%;
+}
+.data-table th,
+.data-table td {
+  border-bottom: 1px solid #e2ddd1;
+  padding: 5px 8px 5px 0;
+  text-align: left;
+}
+.sources {
+  border-top: 1px solid #e2ddd1;
+  color: #595b57;
+  font-size: 12px;
+  line-height: 1.45;
+  margin: 8px 0 0;
+  padding: 12px 0 0 18px;
+}
+.sources li {
+  margin-bottom: 5px;
+}
+.sources li:target {
+  background: #e8f0c4;
+}
+.sources a {
+  color: inherit;
+}
+.sources code,
+.check-list code,
+footer code {
+  color: #6b6d68;
+  display: block;
+  font:
+    400 11px "DM Mono",
+    monospace;
+}
+footer code {
+  display: inline;
+}
+.switch-header p:not(.kicker) {
+  color: #474948;
+  font-size: 17px;
+  margin: 0 0 18px;
+  max-width: 640px;
+}
+.checks {
+  border-top: 1px solid #cfcabf;
+  padding: 64px 0 32px;
+}
+.checks h3 {
+  font-size: 18px;
+  margin: 36px 0 12px;
+}
+.check-list,
+.unverified {
+  display: grid;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  max-width: 860px;
+  padding: 0;
+}
+.check-list li {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 52px 1fr;
+}
+.check-list p {
+  color: #474948;
+  margin: 3px 0;
+}
+.check-flag {
+  border-radius: 3px;
+  font:
+    600 10px "DM Mono",
+    monospace;
+  height: fit-content;
+  letter-spacing: 0.08em;
+  padding: 4px 0;
+  text-align: center;
+}
+.pass .check-flag {
+  background: #dfe9c4;
+  color: #2f4a0e;
+}
+.fail .check-flag {
+  background: #f3d9cf;
+  color: #7a2a10;
+}
+.unverified li {
+  border-left: 2px solid #cfcabf;
+  color: #474948;
+  padding-left: 12px;
+}
+@media (max-width: 900px) {
+  .chapter {
+    gap: 28px;
+    grid-template-columns: 1fr;
+  }
+}
+.figure-note {
+  color: #6b6d68;
+  font-size: 12px;
+  margin: -2px 0 6px;
 }
