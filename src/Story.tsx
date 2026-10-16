@@ -90,6 +90,12 @@ function Scrolly({ steps, graphic }: { steps: Step[]; graphic: (active: number) 
   );
 }
 
+// Phones get bigger labels and taller charts. Read once; a rotate doesn't need a re-layout.
+function useNarrow() {
+  const [narrow] = useState(() => window.matchMedia("(max-width: 820px)").matches);
+  return narrow;
+}
+
 // ---------------------------------------------------------------------------------------------
 // The story map: one sequential hue per act, optional zoom to Florida and a Miami marker.
 
@@ -121,6 +127,7 @@ type MapState = {
 };
 
 function StoryMap({ state }: { state: MapState }) {
+  const narrow = useNarrow();
   const values = new Map(
     stateRates.filter((r) => r.year === state.year).map((r) => [r.state as string, n(r[state.metric])]),
   );
@@ -150,8 +157,13 @@ function StoryMap({ state }: { state: MapState }) {
           })}
           {state.miami && (
             <g className="miami">
-              <circle cx={MIAMI[0]} cy={MIAMI[1]} r={9 / k} />
-              <text x={MIAMI[0] - 14 / k} y={MIAMI[1] + 4 / k} style={{ fontSize: 13 / k }} textAnchor="end">
+              <circle cx={MIAMI[0]} cy={MIAMI[1]} r={(narrow ? 22 : 9) / k} />
+              <text
+                x={MIAMI[0] - (narrow ? 30 : 14) / k}
+                y={MIAMI[1] + (narrow ? 10 : 4) / k}
+                style={{ fontSize: (narrow ? 34 : 13) / k }}
+                textAnchor="end"
+              >
                 Miami &amp; Hialeah
               </text>
             </g>
@@ -360,12 +372,14 @@ function ActOne() {
 // ---------------------------------------------------------------------------------------------
 // Act 2: the reader draws the brand price after the generic arrives, then sees what happened.
 
-const GW = 720;
-const GH = 380;
 const GP = { top: 24, right: 24, bottom: 32, left: 52 };
 const CUTOFF = "2017-12-01";
 
 function PriceGuess() {
+  // Phones get a near-square frame so there's room to draw.
+  const narrow = useNarrow();
+  const GW = narrow ? 420 : 720;
+  const GH = narrow ? 400 : 380;
   const monthly = rows(cliff, "nadac_monthly");
   const series = (b: string) =>
     new Map(monthly.filter((r) => r.brand === b && n(r.mg) === 100).map((r) => [String(r.month), n(r.per_tablet)]));
@@ -449,7 +463,7 @@ function PriceGuess() {
             </g>
           ))}
           {months.map((m, i) =>
-            m.endsWith("-01-01") && n(yearOf(m)) % 2 === 0 ? (
+            m.endsWith("-01-01") && n(yearOf(m)) % (narrow ? 4 : 2) === 2 % (narrow ? 4 : 2) ? (
               <text key={m} className="tick" x={x(i)} y={GH - 8} textAnchor="middle">{yearOf(m)}</text>
             ) : null,
           )}
@@ -460,7 +474,7 @@ function PriceGuess() {
             </g>
           )}
           <line className="cutoff" x1={x(cut)} x2={x(cut)} y1={GP.top} y2={GH - GP.bottom} />
-          <text className="label cutoff-label" x={x(cut) - 6} y={GP.top + 12} textAnchor="end">Generic launches, Dec 2017</text>
+          <text className="label cutoff-label" x={x(cut) + 6} y={GP.top + 12}>Generic launches, Dec 2017</text>
           <polyline className="known" style={{ stroke: BLUE }} points={line(months.map((m, i) => (i <= cut ? brandPrice.get(m) : null)))} />
           <polyline className="your-guess" points={line(guess.map((v, i) => (i >= cut ? v : null)))} />
           {revealed && (

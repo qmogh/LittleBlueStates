@@ -131,8 +131,10 @@ function fillFor(value: number, max: number, view: ViewKey) {
     return `hsl(${221 - value * 182} 52% ${42 + value * 38}%)`;
   if (view === "seniorShare")
     return `hsl(${183 - value * 55} 42% ${88 - value * 36}%)`;
+  // Same paper-to-ochre ramp as the story's generic-era map.
   const t = Math.sqrt(value / max);
-  return `hsl(248 ${30 + t * 47}% ${95 - t * 53}%)`;
+  const [from, to] = [[239, 233, 220], [127, 86, 15]];
+  return `rgb(${from.map((c, i) => Math.round(c + (to[i] - c) * t)).join(",")})`;
 }
 function nationalShare(states: State[], brand: BrandKey) {
   const claims = states.reduce((sum, state) => sum + state.claims, 0);
@@ -705,7 +707,7 @@ export default function App() {
               <TrendChart stateSeries={selectedSeries} />
               <div className="stat-grid">
                 <div>
-                  <span>Claims</span>
+                  <span>Prescriptions</span>
                   <strong>{number.format(selected.claims)}</strong>
                 </div>
                 <div>
@@ -761,7 +763,7 @@ export default function App() {
               </div>
               <div className="stat-grid">
                 <div>
-                  <span>Claims</span>
+                  <span>Prescriptions</span>
                   <strong>{number.format(nationalClaims)}</strong>
                 </div>
                 <div>
