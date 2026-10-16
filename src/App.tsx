@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { geoAlbersUsa, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import topology from "us-atlas/states-10m.json";
 import snapshot from "./data/sildenafil-2024.json";
 import providerCityCoordinates from "./data/provider-city-coordinates-2024.json";
 import providerFootprint from "./data/provider-footprint-2024.json";
+import providerFootprintHistory from "./data/provider-footprint-history.json";
 
 type BrandKey = "generic" | "viagra" | "revatio";
 type ViewKey = "genericShare" | "claims" | "costPerClaim" | "seniorShare";
@@ -29,11 +30,14 @@ type ProviderState = {
   specialties: Array<ProviderAggregate & { specialty: string }>;
 };
 type ProviderCityPoint = {
+  year: number;
   state: string;
   city: string;
   latitude: number;
   longitude: number;
 };
+type ProviderYear = { year: number; states: ProviderState[] };
+type MapView = { scale: number; x: number; y: number };
 
 const yearly = snapshot.yearly as YearData[];
 const years = yearly.map(({ year }) => year);
@@ -43,9 +47,18 @@ const providerStates = new Map(
     state,
   ]),
 );
+const providerStatesByYear = new Map<number, Map<string, ProviderState>>([
+  [2024, providerStates],
+  ...(providerFootprintHistory.yearly as ProviderYear[]).map(
+    (entry): [number, Map<string, ProviderState>] => [
+      entry.year,
+      new Map(entry.states.map((state) => [state.code, state])),
+    ],
+  ),
+]);
 const cityPointByKey = new Map(
   (providerCityCoordinates.cities as ProviderCityPoint[]).map((city) => [
-    `${city.state}:${city.city}`,
+    `${city.year}:${city.state}:${city.city}`,
     city,
   ]),
 );
@@ -65,6 +78,7 @@ const dollars = new Intl.NumberFormat("en-US", {
   currency: "USD",
   maximumFractionDigits: 0,
 });
+const defaultMapView: MapView = { scale: 1, x: 0, y: 0 };
 
 const viewLabels: Record<ViewKey, string> = {
   genericShare: "Generic takeover",
@@ -184,14 +198,16 @@ function TrendChart({ stateSeries }: { stateSeries: State[] }) {
 
 function ProviderFootprint({
   code,
+  year,
   activeCity,
   onCitySelect,
 }: {
   code: string;
+  year: number;
   activeCity: string | null;
   onCitySelect: (city: string) => void;
 }) {
-  const footprint = providerStates.get(code);
+  const footprint = providerStatesByYear.get(year)?.get(code);
   if (!footprint) return null;
   const cities = footprint.cities.slice(0, 5);
   const specialties = footprint.specialties.slice(0, 4);
@@ -200,7 +216,7 @@ function ProviderFootprint({
   return (
     <section className="provider-footprint">
       <div className="provider-footprint-heading">
-        <span>2024 practice locations</span>
+        <span>{year} practice locations</span>
         <small>Not patient locations</small>
       </div>
       <div className="city-list">
@@ -246,16 +262,19 @@ function ProviderFootprint({
 
 function ProviderCityDots({
   code,
+  year,
   zoom,
   activeCity,
   onCitySelect,
 }: {
   code: string;
+  year: number;
   zoom: number;
   activeCity: string | null;
   onCitySelect: (city: string) => void;
 }) {
-  const cities = providerStates.get(code)?.cities.slice(0, 5) ?? [];
+  const cities =
+    providerStatesByYear.get(year)?.get(code)?.cities.slice(0, 5) ?? [];
   const cityMax = cities[0]?.claims ?? 1;
 
   return (
@@ -264,7 +283,7 @@ function ProviderCityDots({
       aria-label="Reported prescriber practice cities"
     >
       {cities.map((city) => {
-        const cityPoint = cityPointByKey.get(`${code}:${city.city}`);
+        const cityPoint = cityPointByKey.get(`${year}:${code}:${city.city}`);
         const point = cityPoint
           ? projection([cityPoint.longitude, cityPoint.latitude])
           : null;
@@ -306,6 +325,14 @@ export default function App() {
   const [view, setView] = useState<ViewKey>("genericShare");
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
+  const [manualMapView, setManualMapView] = useState<MapView>(defaultMapView);
+  const manualMapViewRef = useRef(manualMapView);
+  const touchPoints = useRef(new Map<number, { x: number; y: number }>());
+  const touchGesture = useRef<{
+    center: { x: number; y: number };
+    distance: number;
+    view: MapView;
+  } | null>(null);
   const [hoveredFips, setHoveredFips] = useState<string | null>(null);
   const current = yearly.find((item) => item.year === year) ?? yearly.at(-1)!;
   const byFips = new Map(current.states.map((state) => [state.fips, state]));
@@ -366,6 +393,57 @@ export default function App() {
   const mapTransform = selectedShape
     ? `translate(480 310) scale(${zoom}) translate(${-centerX} ${-centerY})`
     : "translate(0 0) scale(1)";
+  const minManualMapScale = selectedShape ? 1 / zoom : 1;
+  const zoomProgress = selectedShape
+    ? (manualMapView.scale - minManualMapScale) / (1 - minManualMapScale)
+    : 1;
+  const autoMapOffset = selectedShape
+    ? { x: 480 - zoom * centerX, y: 310 - zoom * centerY }
+    : { x: 0, y: 0 };
+  const manualMapOffset = {
+    x:
+      manualMapView.x -
+      (1 - zoomProgress) * manualMapView.scale * autoMapOffset.x,
+    y:
+      manualMapView.y -
+      (1 - zoomProgress) * manualMapView.scale * autoMapOffset.y,
+  };
+  const updateMapView = (next: MapView) => {
+    manualMapViewRef.current = next;
+    setManualMapView(next);
+  };
+  const mapPoint = (event: {
+    clientX: number;
+    clientY: number;
+    currentTarget: SVGSVGElement;
+  }) => {
+    const bounds = event.currentTarget.getBoundingClientRect();
+    return {
+      x: ((event.clientX - bounds.left) / bounds.width) * 960,
+      y: ((event.clientY - bounds.top) / bounds.height) * 620,
+    };
+  };
+  const zoomMapAt = (point: { x: number; y: number }, factor: number) => {
+    const currentView = manualMapViewRef.current;
+    const scale = Math.min(
+      5,
+      Math.max(minManualMapScale, currentView.scale * factor),
+    );
+    if (selectedShape && factor < 1 && scale <= minManualMapScale + 0.001) {
+      setSelectedFips(null);
+      setSelectedCity(null);
+      resetMapView();
+      return;
+    }
+    const ratio = scale / currentView.scale;
+    updateMapView({
+      scale,
+      x: point.x - ratio * (point.x - currentView.x),
+      y: point.y - ratio * (point.y - currentView.y),
+    });
+  };
+  const resetMapView = () => updateMapView(defaultMapView);
+  const twoTouchPoints = () => [...touchPoints.current.values()].slice(0, 2);
   const heroCopy =
     year === 2013
       ? "In 2013, the map was very, very blue."
@@ -455,56 +533,158 @@ export default function App() {
               <small>Darker = more</small>
             </div>
             <div className="map-frame">
+              <div className="map-controls" aria-label="Map controls">
+                <button
+                  onClick={() => zoomMapAt({ x: 480, y: 310 }, 1.25)}
+                  aria-label="Zoom in"
+                >
+                  +
+                </button>
+                <button
+                  onClick={() => zoomMapAt({ x: 480, y: 310 }, 0.8)}
+                  aria-label="Zoom out"
+                >
+                  −
+                </button>
+                <button onClick={resetMapView} aria-label="Reset map view">
+                  ↺
+                </button>
+              </div>
               <svg
                 viewBox="0 0 960 620"
                 role="application"
                 aria-label={`United States map showing ${viewLabels[view]} in ${year}`}
+                onWheel={(event) => {
+                  event.preventDefault();
+                  const point = mapPoint(event);
+                  if (event.ctrlKey) {
+                    zoomMapAt(point, Math.exp(-event.deltaY * 0.01));
+                    return;
+                  }
+                  const currentView = manualMapViewRef.current;
+                  updateMapView({
+                    ...currentView,
+                    x: currentView.x - event.deltaX,
+                    y: currentView.y - event.deltaY,
+                  });
+                }}
+                onPointerDown={(event) => {
+                  if (event.pointerType !== "touch") return;
+                  event.currentTarget.setPointerCapture(event.pointerId);
+                  touchPoints.current.set(event.pointerId, mapPoint(event));
+                  if (touchPoints.current.size === 2) {
+                    const [first, second] = twoTouchPoints();
+                    touchGesture.current = {
+                      center: {
+                        x: (first.x + second.x) / 2,
+                        y: (first.y + second.y) / 2,
+                      },
+                      distance: Math.hypot(
+                        first.x - second.x,
+                        first.y - second.y,
+                      ),
+                      view: manualMapViewRef.current,
+                    };
+                  }
+                }}
+                onPointerMove={(event) => {
+                  if (!touchPoints.current.has(event.pointerId)) return;
+                  touchPoints.current.set(event.pointerId, mapPoint(event));
+                  const gesture = touchGesture.current;
+                  if (!gesture || touchPoints.current.size !== 2) return;
+                  event.preventDefault();
+                  const [first, second] = twoTouchPoints();
+                  const center = {
+                    x: (first.x + second.x) / 2,
+                    y: (first.y + second.y) / 2,
+                  };
+                  const scale = Math.min(
+                    5,
+                    Math.max(
+                      minManualMapScale,
+                      gesture.view.scale *
+                        (Math.hypot(first.x - second.x, first.y - second.y) /
+                          gesture.distance),
+                    ),
+                  );
+                  if (scale <= minManualMapScale + 0.001) {
+                    setSelectedFips(null);
+                    setSelectedCity(null);
+                    resetMapView();
+                    return;
+                  }
+                  const ratio = scale / gesture.view.scale;
+                  updateMapView({
+                    scale,
+                    x: center.x - ratio * (gesture.center.x - gesture.view.x),
+                    y: center.y - ratio * (gesture.center.y - gesture.view.y),
+                  });
+                }}
+                onPointerUp={(event) => {
+                  touchPoints.current.delete(event.pointerId);
+                  touchGesture.current = null;
+                }}
+                onPointerCancel={(event) => {
+                  touchPoints.current.delete(event.pointerId);
+                  touchGesture.current = null;
+                }}
                 onClick={() => {
                   setSelectedFips(null);
                   setSelectedCity(null);
+                  resetMapView();
                 }}
               >
-                <g className="map-layer" transform={mapTransform}>
-                  {topologyStates.features.map((shape) => {
-                    const state = byFips.get(String(shape.id).padStart(2, "0"));
-                    if (!state) return null;
-                    const value = valueFor(state, view);
-                    return (
-                      <path
-                        key={state.fips}
-                        d={path(shape) ?? undefined}
-                        className={`state ${state.fips === selected?.fips ? "selected" : ""}`}
-                        style={{ fill: fillFor(value, max, view) }}
-                        tabIndex={0}
-                        role="button"
-                        aria-label={`${state.name}: ${formatValue(value, view)}`}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          setSelectedFips(state.fips);
-                          setSelectedCity(null);
-                        }}
-                        onKeyDown={(event) => {
-                          if (event.key === "Enter" || event.key === " ") {
-                            event.preventDefault();
+                <g
+                  className="manual-map-layer"
+                  transform={`translate(${manualMapOffset.x} ${manualMapOffset.y}) scale(${manualMapView.scale})`}
+                >
+                  <g className="map-layer" transform={mapTransform}>
+                    {topologyStates.features.map((shape) => {
+                      const state = byFips.get(
+                        String(shape.id).padStart(2, "0"),
+                      );
+                      if (!state) return null;
+                      const value = valueFor(state, view);
+                      return (
+                        <path
+                          key={state.fips}
+                          d={path(shape) ?? undefined}
+                          className={`state ${state.fips === selected?.fips ? "selected" : ""}`}
+                          style={{ fill: fillFor(value, max, view) }}
+                          tabIndex={0}
+                          role="button"
+                          aria-label={`${state.name}: ${formatValue(value, view)}`}
+                          onClick={(event) => {
+                            event.stopPropagation();
                             setSelectedFips(state.fips);
                             setSelectedCity(null);
-                          }
-                        }}
-                        onMouseEnter={() => setHoveredFips(state.fips)}
-                        onMouseLeave={() => setHoveredFips(null)}
-                        onFocus={() => setHoveredFips(state.fips)}
-                        onBlur={() => setHoveredFips(null)}
+                            resetMapView();
+                          }}
+                          onKeyDown={(event) => {
+                            if (event.key === "Enter" || event.key === " ") {
+                              event.preventDefault();
+                              setSelectedFips(state.fips);
+                              setSelectedCity(null);
+                              resetMapView();
+                            }
+                          }}
+                          onMouseEnter={() => setHoveredFips(state.fips)}
+                          onMouseLeave={() => setHoveredFips(null)}
+                          onFocus={() => setHoveredFips(state.fips)}
+                          onBlur={() => setHoveredFips(null)}
+                        />
+                      );
+                    })}
+                    {selected && (
+                      <ProviderCityDots
+                        code={selected.code}
+                        year={year}
+                        zoom={zoom * manualMapView.scale}
+                        activeCity={selectedCity}
+                        onCitySelect={setSelectedCity}
                       />
-                    );
-                  })}
-                  {selected && year === 2024 && (
-                    <ProviderCityDots
-                      code={selected.code}
-                      zoom={zoom}
-                      activeCity={selectedCity}
-                      onCitySelect={setSelectedCity}
-                    />
-                  )}
+                    )}
+                  </g>
                 </g>
               </svg>
               {hovered && hovered.fips !== selected?.fips && (
@@ -573,13 +753,12 @@ export default function App() {
                   ),
                 )}
               </div>
-              {year === 2024 && (
-                <ProviderFootprint
-                  code={selected.code}
-                  activeCity={selectedCity}
-                  onCitySelect={setSelectedCity}
-                />
-              )}
+              <ProviderFootprint
+                code={selected.code}
+                year={year}
+                activeCity={selectedCity}
+                onCitySelect={setSelectedCity}
+              />
               <p className="rank-note">
                 Ranks #{rank} of {current.states.length} states and territories
                 for {viewLabels[view].toLowerCase()}.

@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "data:build": "node scripts/build-data.mjs",
     "data:providers": "node scripts/build-provider-footprint.mjs",
-    "data:city-coordinates": "node scripts/build-provider-city-coordinates.mjs"
+    "data:city-coordinates": "node scripts/build-provider-city-coordinates.mjs",
+    "data:providers:history": "node scripts/build-provider-footprint-history.mjs"
   },
   "dependencies": {
     "csv-parse": "^7.0.2",

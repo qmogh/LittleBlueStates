@@ -214,8 +214,40 @@ main {
     monospace;
 }
 .map-frame {
+  touch-action: none;
   overflow: hidden;
   position: relative;
+}
+.map-controls {
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+.map-controls button {
+  background: #fdfcf7;
+  border: 1px solid #aaa69e;
+  color: #1c1d24;
+  cursor: pointer;
+  font:
+    500 15px/1 "DM Mono",
+    monospace;
+  height: 27px;
+  padding: 0;
+  width: 27px;
+}
+.map-controls button:hover,
+.map-controls button:focus-visible {
+  background: #1f2f97;
+  border-color: #1f2f97;
+  color: #fff;
+  outline: none;
+}
+.manual-map-layer {
+  transform-box: view-box;
+  transform-origin: 0 0;
 }
 .map-layer {
   transform-box: view-box;
@@ -238,12 +270,17 @@ svg {
     stroke-width 0.14s;
 }
 .state:hover,
-.state:focus,
-.state.selected {
+.state:focus {
   filter: brightness(0.77);
   outline: none;
-  stroke: #171922;
-  stroke-width: 2.2px;
+  stroke: #5e5d56;
+  stroke-width: 1.5px;
+}
+.state.selected {
+  filter: brightness(0.84);
+  outline: none;
+  stroke: #fdfcf7;
+  stroke-width: 1.5px;
 }
 .tooltip {
   background: #171922;
