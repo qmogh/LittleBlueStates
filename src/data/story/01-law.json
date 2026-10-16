@@ -1,0 +1,447 @@
+{
+  "query": "sql/01-law.sql",
+  "outputs": {
+    "viagra_by_year": [
+      {
+        "year": 2013,
+        "claims": 327372,
+        "benes": 88681,
+        "prescribers": 43255,
+        "cost": 54776205,
+        "cost_per_claim": 167.32
+      },
+      {
+        "year": 2014,
+        "claims": 160199,
+        "benes": 32624,
+        "prescribers": 8187,
+        "cost": 22678233,
+        "cost_per_claim": 141.56
+      },
+      {
+        "year": 2015,
+        "claims": 161640,
+        "benes": 30511,
+        "prescribers": 5931,
+        "cost": 25584087,
+        "cost_per_claim": 158.28
+      },
+      {
+        "year": 2016,
+        "claims": 185081,
+        "benes": 36240,
+        "prescribers": 7068,
+        "cost": 36850638,
+        "cost_per_claim": 199.11
+      },
+      {
+        "year": 2017,
+        "claims": 209107,
+        "benes": 39256,
+        "prescribers": 6954,
+        "cost": 53280239,
+        "cost_per_claim": 254.8
+      },
+      {
+        "year": 2018,
+        "claims": 72153,
+        "benes": 15760,
+        "prescribers": 4222,
+        "cost": 21213237,
+        "cost_per_claim": 294
+      },
+      {
+        "year": 2019,
+        "claims": 39523,
+        "benes": 6840,
+        "prescribers": 1356,
+        "cost": 11754323,
+        "cost_per_claim": 297.4
+      },
+      {
+        "year": 2020,
+        "claims": 6335,
+        "benes": 1102,
+        "prescribers": 681,
+        "cost": 2054229,
+        "cost_per_claim": 324.27
+      },
+      {
+        "year": 2021,
+        "claims": 1922,
+        "benes": 429,
+        "prescribers": 380,
+        "cost": 729142,
+        "cost_per_claim": 379.37
+      },
+      {
+        "year": 2022,
+        "claims": 1412,
+        "benes": 322,
+        "prescribers": 296,
+        "cost": 531483,
+        "cost_per_claim": 376.4
+      },
+      {
+        "year": 2023,
+        "claims": 952,
+        "benes": 202,
+        "prescribers": 206,
+        "cost": 333640,
+        "cost_per_claim": 350.46
+      },
+      {
+        "year": 2024,
+        "claims": 397,
+        "benes": 91,
+        "prescribers": 105,
+        "cost": 163917,
+        "cost_per_claim": 412.89
+      }
+    ],
+    "label_fingerprint": [
+      {
+        "year": 2013,
+        "label": "Generic (Revatio label)",
+        "claims": 76514,
+        "benes": 14885,
+        "cost_per_claim": 612.01,
+        "claims_per_bene": 5.14,
+        "share_65_plus": 0.673
+      },
+      {
+        "year": 2013,
+        "label": "Revatio",
+        "claims": 13916,
+        "benes": 3049,
+        "cost_per_claim": 2464.88,
+        "claims_per_bene": 4.56,
+        "share_65_plus": 0.5959
+      },
+      {
+        "year": 2013,
+        "label": "Viagra",
+        "claims": 327372,
+        "benes": 88681,
+        "cost_per_claim": 167.32,
+        "claims_per_bene": 3.69,
+        "share_65_plus": 0.9031
+      },
+      {
+        "year": 2014,
+        "label": "Generic (Revatio label)",
+        "claims": 103698,
+        "benes": 20495,
+        "cost_per_claim": 401.53,
+        "claims_per_bene": 5.06,
+        "share_65_plus": 0.6893
+      },
+      {
+        "year": 2014,
+        "label": "Revatio",
+        "claims": 6966,
+        "benes": 1261,
+        "cost_per_claim": 3299.23,
+        "claims_per_bene": 5.52,
+        "share_65_plus": 0.569
+      },
+      {
+        "year": 2014,
+        "label": "Viagra",
+        "claims": 160199,
+        "benes": 32624,
+        "cost_per_claim": 141.56,
+        "claims_per_bene": 4.91,
+        "share_65_plus": 0.8686
+      },
+      {
+        "year": 2015,
+        "label": "Generic (Revatio label)",
+        "claims": 121433,
+        "benes": 23368,
+        "cost_per_claim": 310.28,
+        "claims_per_bene": 5.2,
+        "share_65_plus": 0.6961
+      },
+      {
+        "year": 2015,
+        "label": "Revatio",
+        "claims": 5022,
+        "benes": 822,
+        "cost_per_claim": 4046.39,
+        "claims_per_bene": 6.11,
+        "share_65_plus": 0.5647
+      },
+      {
+        "year": 2015,
+        "label": "Viagra",
+        "claims": 161640,
+        "benes": 30511,
+        "cost_per_claim": 158.28,
+        "claims_per_bene": 5.3,
+        "share_65_plus": 0.8703
+      },
+      {
+        "year": 2016,
+        "label": "Generic (Revatio label)",
+        "claims": 138049,
+        "benes": 28754,
+        "cost_per_claim": 278.81,
+        "claims_per_bene": 4.8,
+        "share_65_plus": 0.7065
+      },
+      {
+        "year": 2016,
+        "label": "Revatio",
+        "claims": 3702,
+        "benes": 581,
+        "cost_per_claim": 4933.95,
+        "claims_per_bene": 6.37,
+        "share_65_plus": 0.5616
+      },
+      {
+        "year": 2016,
+        "label": "Viagra",
+        "claims": 185081,
+        "benes": 36240,
+        "cost_per_claim": 199.11,
+        "claims_per_bene": 5.11,
+        "share_65_plus": 0.8728
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Revatio label)",
+        "claims": 148447,
+        "benes": 32700,
+        "cost_per_claim": 273.85,
+        "claims_per_bene": 4.54,
+        "share_65_plus": 0.7223
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Viagra label)",
+        "claims": 3644,
+        "benes": 3634,
+        "cost_per_claim": 173.07,
+        "claims_per_bene": 1,
+        "share_65_plus": 0.868
+      },
+      {
+        "year": 2017,
+        "label": "Revatio",
+        "claims": 2582,
+        "benes": 412,
+        "cost_per_claim": 6363.85,
+        "claims_per_bene": 6.27,
+        "share_65_plus": 0.5178
+      },
+      {
+        "year": 2017,
+        "label": "Viagra",
+        "claims": 209107,
+        "benes": 39256,
+        "cost_per_claim": 254.8,
+        "claims_per_bene": 5.33,
+        "share_65_plus": 0.8787
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Revatio label)",
+        "claims": 148373,
+        "benes": 31430,
+        "cost_per_claim": 289.49,
+        "claims_per_bene": 4.72,
+        "share_65_plus": 0.726
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Viagra label)",
+        "claims": 142470,
+        "benes": 32217,
+        "cost_per_claim": 111.96,
+        "claims_per_bene": 4.42,
+        "share_65_plus": 0.8776
+      },
+      {
+        "year": 2018,
+        "label": "Revatio",
+        "claims": 1984,
+        "benes": 315,
+        "cost_per_claim": 7182.23,
+        "claims_per_bene": 6.3,
+        "share_65_plus": 0.5328
+      },
+      {
+        "year": 2018,
+        "label": "Viagra",
+        "claims": 72153,
+        "benes": 15760,
+        "cost_per_claim": 294,
+        "claims_per_bene": 4.58,
+        "share_65_plus": 0.8892
+      },
+      {
+        "year": 2019,
+        "label": "Generic (merged label)",
+        "claims": 407953,
+        "benes": 91240,
+        "cost_per_claim": 104.79,
+        "claims_per_bene": 4.47,
+        "share_65_plus": 0.8146
+      },
+      {
+        "year": 2019,
+        "label": "Revatio",
+        "claims": 1432,
+        "benes": 244,
+        "cost_per_claim": 7393.32,
+        "claims_per_bene": 5.87,
+        "share_65_plus": 0.5726
+      },
+      {
+        "year": 2019,
+        "label": "Viagra",
+        "claims": 39523,
+        "benes": 6840,
+        "cost_per_claim": 297.4,
+        "claims_per_bene": 5.78,
+        "share_65_plus": 0.9239
+      },
+      {
+        "year": 2020,
+        "label": "Generic (merged label)",
+        "claims": 529111,
+        "benes": 122828,
+        "cost_per_claim": 73.28,
+        "claims_per_bene": 4.31,
+        "share_65_plus": 0.8283
+      },
+      {
+        "year": 2020,
+        "label": "Revatio",
+        "claims": 1184,
+        "benes": 178,
+        "cost_per_claim": 7961.4,
+        "claims_per_bene": 6.65,
+        "share_65_plus": 0.5904
+      },
+      {
+        "year": 2020,
+        "label": "Viagra",
+        "claims": 6335,
+        "benes": 1102,
+        "cost_per_claim": 324.27,
+        "claims_per_bene": 5.75,
+        "share_65_plus": 0.9234
+      },
+      {
+        "year": 2021,
+        "label": "Generic (merged label)",
+        "claims": 700565,
+        "benes": 191632,
+        "cost_per_claim": 50.32,
+        "claims_per_bene": 3.66,
+        "share_65_plus": 0.8387
+      },
+      {
+        "year": 2021,
+        "label": "Revatio",
+        "claims": 1045,
+        "benes": 152,
+        "cost_per_claim": 8276.36,
+        "claims_per_bene": 6.88,
+        "share_65_plus": 0.6105
+      },
+      {
+        "year": 2021,
+        "label": "Viagra",
+        "claims": 1922,
+        "benes": 429,
+        "cost_per_claim": 379.37,
+        "claims_per_bene": 4.48,
+        "share_65_plus": 0.8892
+      },
+      {
+        "year": 2022,
+        "label": "Generic (merged label)",
+        "claims": 817178,
+        "benes": 228154,
+        "cost_per_claim": 57.83,
+        "claims_per_bene": 3.58,
+        "share_65_plus": 0.8473
+      },
+      {
+        "year": 2022,
+        "label": "Revatio",
+        "claims": 914,
+        "benes": 129,
+        "cost_per_claim": 8909.02,
+        "claims_per_bene": 7.09,
+        "share_65_plus": 0.6269
+      },
+      {
+        "year": 2022,
+        "label": "Viagra",
+        "claims": 1412,
+        "benes": 322,
+        "cost_per_claim": 376.4,
+        "claims_per_bene": 4.39,
+        "share_65_plus": 0.8895
+      },
+      {
+        "year": 2023,
+        "label": "Generic (merged label)",
+        "claims": 884992,
+        "benes": 253209,
+        "cost_per_claim": 50.53,
+        "claims_per_bene": 3.5,
+        "share_65_plus": 0.8642
+      },
+      {
+        "year": 2023,
+        "label": "Revatio",
+        "claims": 772,
+        "benes": 113,
+        "cost_per_claim": 9978.57,
+        "claims_per_bene": 6.83,
+        "share_65_plus": 0.6671
+      },
+      {
+        "year": 2023,
+        "label": "Viagra",
+        "claims": 952,
+        "benes": 202,
+        "cost_per_claim": 350.46,
+        "claims_per_bene": 4.71,
+        "share_65_plus": 0.8561
+      },
+      {
+        "year": 2024,
+        "label": "Generic (merged label)",
+        "claims": 837693,
+        "benes": 240259,
+        "cost_per_claim": 46.41,
+        "claims_per_bene": 3.49,
+        "share_65_plus": 0.8756
+      },
+      {
+        "year": 2024,
+        "label": "Revatio",
+        "claims": 680,
+        "benes": 99,
+        "cost_per_claim": 10525.36,
+        "claims_per_bene": 6.87,
+        "share_65_plus": 0.6456
+      },
+      {
+        "year": 2024,
+        "label": "Viagra",
+        "claims": 397,
+        "benes": 91,
+        "cost_per_claim": 412.89,
+        "claims_per_bene": 4.36,
+        "share_65_plus": 0.8489
+      }
+    ]
+  }
+}

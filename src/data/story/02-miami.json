@@ -1,0 +1,6952 @@
+{
+  "query": "sql/02-miami.sql",
+  "outputs": {
+    "florida_share": [
+      {
+        "year": 2013,
+        "fl_viagra_claims": 156049,
+        "us_viagra_claims": 327361,
+        "fl_share_of_viagra": 0.4767,
+        "fl_share_of_all_sildenafil": 0.3886,
+        "fl_share_of_partd_enrollees": 0.0737,
+        "claims_outside_fl": 255411,
+        "claims_in_fl": 162359
+      },
+      {
+        "year": 2014,
+        "fl_viagra_claims": 121865,
+        "us_viagra_claims": 160128,
+        "fl_share_of_viagra": 0.761,
+        "fl_share_of_all_sildenafil": 0.4799,
+        "fl_share_of_partd_enrollees": 0.0742,
+        "claims_outside_fl": 140808,
+        "claims_in_fl": 129948
+      },
+      {
+        "year": 2015,
+        "fl_viagra_claims": 150572,
+        "us_viagra_claims": 161577,
+        "fl_share_of_viagra": 0.9319,
+        "fl_share_of_all_sildenafil": 0.5555,
+        "fl_share_of_partd_enrollees": 0.075,
+        "claims_outside_fl": 128021,
+        "claims_in_fl": 159965
+      },
+      {
+        "year": 2016,
+        "fl_viagra_claims": 171447,
+        "us_viagra_claims": 185038,
+        "fl_share_of_viagra": 0.9266,
+        "fl_share_of_all_sildenafil": 0.5562,
+        "fl_share_of_partd_enrollees": 0.0754,
+        "claims_outside_fl": 144994,
+        "claims_in_fl": 181747
+      },
+      {
+        "year": 2017,
+        "fl_viagra_claims": 189206,
+        "us_viagra_claims": 209048,
+        "fl_share_of_viagra": 0.9051,
+        "fl_share_of_all_sildenafil": 0.5585,
+        "fl_share_of_partd_enrollees": 0.0757,
+        "claims_outside_fl": 160558,
+        "claims_in_fl": 203090
+      },
+      {
+        "year": 2018,
+        "fl_viagra_claims": 58274,
+        "us_viagra_claims": 72091,
+        "fl_share_of_viagra": 0.8083,
+        "fl_share_of_all_sildenafil": 0.547,
+        "fl_share_of_partd_enrollees": 0.0758,
+        "claims_outside_fl": 165254,
+        "claims_in_fl": 199536
+      },
+      {
+        "year": 2019,
+        "fl_viagra_claims": 32416,
+        "us_viagra_claims": 39494,
+        "fl_share_of_viagra": 0.8208,
+        "fl_share_of_all_sildenafil": 0.5175,
+        "fl_share_of_partd_enrollees": 0.0764,
+        "claims_outside_fl": 216555,
+        "claims_in_fl": 232254
+      },
+      {
+        "year": 2020,
+        "fl_viagra_claims": 453,
+        "us_viagra_claims": 6307,
+        "fl_share_of_viagra": 0.0718,
+        "fl_share_of_all_sildenafil": 0.4583,
+        "fl_share_of_partd_enrollees": 0.0769,
+        "claims_outside_fl": 290650,
+        "claims_in_fl": 245880
+      },
+      {
+        "year": 2021,
+        "fl_viagra_claims": 248,
+        "us_viagra_claims": 1897,
+        "fl_share_of_viagra": 0.1307,
+        "fl_share_of_all_sildenafil": 0.3831,
+        "fl_share_of_partd_enrollees": 0.0775,
+        "claims_outside_fl": 433941,
+        "claims_in_fl": 269433
+      },
+      {
+        "year": 2022,
+        "fl_viagra_claims": 234,
+        "us_viagra_claims": 1401,
+        "fl_share_of_viagra": 0.167,
+        "fl_share_of_all_sildenafil": 0.3311,
+        "fl_share_of_partd_enrollees": 0.0777,
+        "claims_outside_fl": 548081,
+        "claims_in_fl": 271268
+      },
+      {
+        "year": 2023,
+        "fl_viagra_claims": 220,
+        "us_viagra_claims": 935,
+        "fl_share_of_viagra": 0.2353,
+        "fl_share_of_all_sildenafil": 0.2898,
+        "fl_share_of_partd_enrollees": 0.0776,
+        "claims_outside_fl": 629640,
+        "claims_in_fl": 256915
+      },
+      {
+        "year": 2024,
+        "fl_viagra_claims": 166,
+        "us_viagra_claims": 390,
+        "fl_share_of_viagra": 0.4256,
+        "fl_share_of_all_sildenafil": 0.2595,
+        "fl_share_of_partd_enrollees": 0.0774,
+        "claims_outside_fl": 621006,
+        "claims_in_fl": 217595
+      }
+    ],
+    "state_rates": [
+      {
+        "year": 2013,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 233,
+        "viagra_claims": 83,
+        "partd_enrollees": 30486,
+        "claims_per_1000": 7.64,
+        "viagra_per_1000": 2.72
+      },
+      {
+        "year": 2013,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 3107,
+        "viagra_claims": 879,
+        "partd_enrollees": 637247,
+        "claims_per_1000": 4.88,
+        "viagra_per_1000": 1.38
+      },
+      {
+        "year": 2013,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 1064,
+        "viagra_claims": 504,
+        "partd_enrollees": 376185,
+        "claims_per_1000": 2.83,
+        "viagra_per_1000": 1.34
+      },
+      {
+        "year": 2013,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 4970,
+        "viagra_claims": 3241,
+        "partd_enrollees": 707683,
+        "claims_per_1000": 7.02,
+        "viagra_per_1000": 4.58
+      },
+      {
+        "year": 2013,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 37939,
+        "viagra_claims": 27865,
+        "partd_enrollees": 3933310,
+        "claims_per_1000": 9.65,
+        "viagra_per_1000": 7.08
+      },
+      {
+        "year": 2013,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 2095,
+        "viagra_claims": 737,
+        "partd_enrollees": 453365,
+        "claims_per_1000": 4.62,
+        "viagra_per_1000": 1.63
+      },
+      {
+        "year": 2013,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1847,
+        "viagra_claims": 1035,
+        "partd_enrollees": 416404,
+        "claims_per_1000": 4.44,
+        "viagra_per_1000": 2.49
+      },
+      {
+        "year": 2013,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 516,
+        "viagra_claims": 191,
+        "partd_enrollees": 45597,
+        "claims_per_1000": 11.32,
+        "viagra_per_1000": 4.19
+      },
+      {
+        "year": 2013,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 2242,
+        "viagra_claims": 2006,
+        "partd_enrollees": 115727,
+        "claims_per_1000": 19.37,
+        "viagra_per_1000": 17.33
+      },
+      {
+        "year": 2013,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 162359,
+        "viagra_claims": 156049,
+        "partd_enrollees": 2629600,
+        "claims_per_1000": 61.74,
+        "viagra_per_1000": 59.34
+      },
+      {
+        "year": 2013,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 8838,
+        "viagra_claims": 6693,
+        "partd_enrollees": 956868,
+        "claims_per_1000": 9.24,
+        "viagra_per_1000": 6.99
+      },
+      {
+        "year": 2013,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 344,
+        "viagra_claims": 133,
+        "partd_enrollees": 158874,
+        "claims_per_1000": 2.17,
+        "viagra_per_1000": 0.84
+      },
+      {
+        "year": 2013,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 3059,
+        "viagra_claims": 2226,
+        "partd_enrollees": 402043,
+        "claims_per_1000": 7.61,
+        "viagra_per_1000": 5.54
+      },
+      {
+        "year": 2013,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 484,
+        "viagra_claims": 242,
+        "partd_enrollees": 165125,
+        "claims_per_1000": 2.93,
+        "viagra_per_1000": 1.47
+      },
+      {
+        "year": 2013,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 6679,
+        "viagra_claims": 3867,
+        "partd_enrollees": 1235064,
+        "claims_per_1000": 5.41,
+        "viagra_per_1000": 3.13
+      },
+      {
+        "year": 2013,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 3463,
+        "viagra_claims": 1307,
+        "partd_enrollees": 762995,
+        "claims_per_1000": 4.54,
+        "viagra_per_1000": 1.71
+      },
+      {
+        "year": 2013,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 900,
+        "viagra_claims": 257,
+        "partd_enrollees": 314300,
+        "claims_per_1000": 2.86,
+        "viagra_per_1000": 0.82
+      },
+      {
+        "year": 2013,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2415,
+        "viagra_claims": 618,
+        "partd_enrollees": 587894,
+        "claims_per_1000": 4.11,
+        "viagra_per_1000": 1.05
+      },
+      {
+        "year": 2013,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 9962,
+        "viagra_claims": 7800,
+        "partd_enrollees": 525135,
+        "claims_per_1000": 18.97,
+        "viagra_per_1000": 14.85
+      },
+      {
+        "year": 2013,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 6576,
+        "viagra_claims": 4654,
+        "partd_enrollees": 739921,
+        "claims_per_1000": 8.89,
+        "viagra_per_1000": 6.29
+      },
+      {
+        "year": 2013,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 5155,
+        "viagra_claims": 3395,
+        "partd_enrollees": 446558,
+        "claims_per_1000": 11.54,
+        "viagra_per_1000": 7.6
+      },
+      {
+        "year": 2013,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 1056,
+        "viagra_claims": 757,
+        "partd_enrollees": 198926,
+        "claims_per_1000": 5.31,
+        "viagra_per_1000": 3.81
+      },
+      {
+        "year": 2013,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 10494,
+        "viagra_claims": 6834,
+        "partd_enrollees": 1321972,
+        "claims_per_1000": 7.94,
+        "viagra_per_1000": 5.17
+      },
+      {
+        "year": 2013,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 4081,
+        "viagra_claims": 2390,
+        "partd_enrollees": 626212,
+        "claims_per_1000": 6.52,
+        "viagra_per_1000": 3.82
+      },
+      {
+        "year": 2013,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 3259,
+        "viagra_claims": 1457,
+        "partd_enrollees": 757920,
+        "claims_per_1000": 4.3,
+        "viagra_per_1000": 1.92
+      },
+      {
+        "year": 2013,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1148,
+        "viagra_claims": 259,
+        "partd_enrollees": 368940,
+        "claims_per_1000": 3.11,
+        "viagra_per_1000": 0.7
+      },
+      {
+        "year": 2013,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 320,
+        "viagra_claims": 123,
+        "partd_enrollees": 114257,
+        "claims_per_1000": 2.8,
+        "viagra_per_1000": 1.08
+      },
+      {
+        "year": 2013,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 4796,
+        "viagra_claims": 2418,
+        "partd_enrollees": 1169065,
+        "claims_per_1000": 4.1,
+        "viagra_per_1000": 2.07
+      },
+      {
+        "year": 2013,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 210,
+        "viagra_claims": 73,
+        "partd_enrollees": 79252,
+        "claims_per_1000": 2.65,
+        "viagra_per_1000": 0.92
+      },
+      {
+        "year": 2013,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 480,
+        "viagra_claims": 103,
+        "partd_enrollees": 201248,
+        "claims_per_1000": 2.39,
+        "viagra_per_1000": 0.51
+      },
+      {
+        "year": 2013,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 877,
+        "viagra_claims": 650,
+        "partd_enrollees": 136010,
+        "claims_per_1000": 6.45,
+        "viagra_per_1000": 4.78
+      },
+      {
+        "year": 2013,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 19333,
+        "viagra_claims": 16412,
+        "partd_enrollees": 982422,
+        "claims_per_1000": 19.68,
+        "viagra_per_1000": 16.71
+      },
+      {
+        "year": 2013,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 1798,
+        "viagra_claims": 1319,
+        "partd_enrollees": 231318,
+        "claims_per_1000": 7.77,
+        "viagra_per_1000": 5.7
+      },
+      {
+        "year": 2013,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 1258,
+        "viagra_claims": 866,
+        "partd_enrollees": 260525,
+        "claims_per_1000": 4.83,
+        "viagra_per_1000": 3.32
+      },
+      {
+        "year": 2013,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 40787,
+        "viagra_claims": 34876,
+        "partd_enrollees": 2345627,
+        "claims_per_1000": 17.39,
+        "viagra_per_1000": 14.87
+      },
+      {
+        "year": 2013,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 9264,
+        "viagra_claims": 4798,
+        "partd_enrollees": 1528464,
+        "claims_per_1000": 6.06,
+        "viagra_per_1000": 3.14
+      },
+      {
+        "year": 2013,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 1369,
+        "viagra_claims": 712,
+        "partd_enrollees": 416874,
+        "claims_per_1000": 3.28,
+        "viagra_per_1000": 1.71
+      },
+      {
+        "year": 2013,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1181,
+        "viagra_claims": 434,
+        "partd_enrollees": 484218,
+        "claims_per_1000": 2.44,
+        "viagra_per_1000": 0.9
+      },
+      {
+        "year": 2013,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 11731,
+        "viagra_claims": 6510,
+        "partd_enrollees": 1756142,
+        "claims_per_1000": 6.68,
+        "viagra_per_1000": 3.71
+      },
+      {
+        "year": 2013,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 4728,
+        "viagra_claims": 3605,
+        "partd_enrollees": 543458,
+        "claims_per_1000": 8.7,
+        "viagra_per_1000": 6.63
+      },
+      {
+        "year": 2013,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 559,
+        "viagra_claims": 167,
+        "partd_enrollees": 141959,
+        "claims_per_1000": 3.94,
+        "viagra_per_1000": 1.18
+      },
+      {
+        "year": 2013,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2953,
+        "viagra_claims": 1798,
+        "partd_enrollees": 527717,
+        "claims_per_1000": 5.6,
+        "viagra_per_1000": 3.41
+      },
+      {
+        "year": 2013,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 286,
+        "viagra_claims": 83,
+        "partd_enrollees": 97457,
+        "claims_per_1000": 2.93,
+        "viagra_per_1000": 0.85
+      },
+      {
+        "year": 2013,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 2945,
+        "viagra_claims": 1249,
+        "partd_enrollees": 826911,
+        "claims_per_1000": 3.56,
+        "viagra_per_1000": 1.51
+      },
+      {
+        "year": 2013,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 14830,
+        "viagra_claims": 9287,
+        "partd_enrollees": 2243401,
+        "claims_per_1000": 6.61,
+        "viagra_per_1000": 4.14
+      },
+      {
+        "year": 2013,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 930,
+        "viagra_claims": 267,
+        "partd_enrollees": 199250,
+        "claims_per_1000": 4.67,
+        "viagra_per_1000": 1.34
+      },
+      {
+        "year": 2013,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 4627,
+        "viagra_claims": 2623,
+        "partd_enrollees": 744617,
+        "claims_per_1000": 6.21,
+        "viagra_per_1000": 3.52
+      },
+      {
+        "year": 2013,
+        "state": "VI",
+        "state_name": "Virgin Islands",
+        "claims": 16,
+        "viagra_claims": 16,
+        "partd_enrollees": 7008,
+        "claims_per_1000": 2.28,
+        "viagra_per_1000": 2.28
+      },
+      {
+        "year": 2013,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 414,
+        "viagra_claims": 331,
+        "partd_enrollees": 77287,
+        "claims_per_1000": 5.36,
+        "viagra_per_1000": 4.28
+      },
+      {
+        "year": 2013,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 3306,
+        "viagra_claims": 1487,
+        "partd_enrollees": 661626,
+        "claims_per_1000": 5,
+        "viagra_per_1000": 2.25
+      },
+      {
+        "year": 2013,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 2983,
+        "viagra_claims": 840,
+        "partd_enrollees": 655048,
+        "claims_per_1000": 4.55,
+        "viagra_per_1000": 1.28
+      },
+      {
+        "year": 2013,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 1351,
+        "viagra_claims": 775,
+        "partd_enrollees": 270048,
+        "claims_per_1000": 5,
+        "viagra_per_1000": 2.87
+      },
+      {
+        "year": 2013,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 153,
+        "viagra_claims": 60,
+        "partd_enrollees": 51517,
+        "claims_per_1000": 2.97,
+        "viagra_per_1000": 1.16
+      },
+      {
+        "year": 2014,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 140,
+        "viagra_claims": null,
+        "partd_enrollees": 32026,
+        "claims_per_1000": 4.37,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 2622,
+        "viagra_claims": 19,
+        "partd_enrollees": 660444,
+        "claims_per_1000": 3.97,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2014,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 962,
+        "viagra_claims": 14,
+        "partd_enrollees": 390655,
+        "claims_per_1000": 2.46,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2014,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 2050,
+        "viagra_claims": 33,
+        "partd_enrollees": 761357,
+        "claims_per_1000": 2.69,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2014,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 37822,
+        "viagra_claims": 25804,
+        "partd_enrollees": 4133532,
+        "claims_per_1000": 9.15,
+        "viagra_per_1000": 6.24
+      },
+      {
+        "year": 2014,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 2055,
+        "viagra_claims": null,
+        "partd_enrollees": 518389,
+        "claims_per_1000": 3.96,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1005,
+        "viagra_claims": null,
+        "partd_enrollees": 434029,
+        "claims_per_1000": 2.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 420,
+        "viagra_claims": null,
+        "partd_enrollees": 48020,
+        "claims_per_1000": 8.75,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 295,
+        "viagra_claims": null,
+        "partd_enrollees": 122618,
+        "claims_per_1000": 2.41,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 129948,
+        "viagra_claims": 121865,
+        "partd_enrollees": 2800507,
+        "claims_per_1000": 46.4,
+        "viagra_per_1000": 43.52
+      },
+      {
+        "year": 2014,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 2753,
+        "viagra_claims": 38,
+        "partd_enrollees": 1019278,
+        "claims_per_1000": 2.7,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2014,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 197,
+        "viagra_claims": null,
+        "partd_enrollees": 165371,
+        "claims_per_1000": 1.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 918,
+        "viagra_claims": 31,
+        "partd_enrollees": 415845,
+        "claims_per_1000": 2.21,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2014,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 322,
+        "viagra_claims": 23,
+        "partd_enrollees": 175398,
+        "claims_per_1000": 1.84,
+        "viagra_per_1000": 0.13
+      },
+      {
+        "year": 2014,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 4717,
+        "viagra_claims": 1079,
+        "partd_enrollees": 1369745,
+        "claims_per_1000": 3.44,
+        "viagra_per_1000": 0.79
+      },
+      {
+        "year": 2014,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2246,
+        "viagra_claims": null,
+        "partd_enrollees": 797169,
+        "claims_per_1000": 2.82,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 678,
+        "viagra_claims": null,
+        "partd_enrollees": 327188,
+        "claims_per_1000": 2.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2336,
+        "viagra_claims": 36,
+        "partd_enrollees": 611984,
+        "claims_per_1000": 3.82,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2014,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2613,
+        "viagra_claims": 11,
+        "partd_enrollees": 548953,
+        "claims_per_1000": 4.76,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2014,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 2785,
+        "viagra_claims": 235,
+        "partd_enrollees": 780492,
+        "claims_per_1000": 3.57,
+        "viagra_per_1000": 0.3
+      },
+      {
+        "year": 2014,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2374,
+        "viagra_claims": null,
+        "partd_enrollees": 506062,
+        "claims_per_1000": 4.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 324,
+        "viagra_claims": null,
+        "partd_enrollees": 207405,
+        "claims_per_1000": 1.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 5535,
+        "viagra_claims": 623,
+        "partd_enrollees": 1394470,
+        "claims_per_1000": 3.97,
+        "viagra_per_1000": 0.45
+      },
+      {
+        "year": 2014,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 2003,
+        "viagra_claims": 27,
+        "partd_enrollees": 656373,
+        "claims_per_1000": 3.05,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2014,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 2297,
+        "viagra_claims": 32,
+        "partd_enrollees": 799876,
+        "claims_per_1000": 2.87,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2014,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 993,
+        "viagra_claims": null,
+        "partd_enrollees": 380306,
+        "claims_per_1000": 2.61,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 337,
+        "viagra_claims": null,
+        "partd_enrollees": 120258,
+        "claims_per_1000": 2.8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 3126,
+        "viagra_claims": 138,
+        "partd_enrollees": 1230758,
+        "claims_per_1000": 2.54,
+        "viagra_per_1000": 0.11
+      },
+      {
+        "year": 2014,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 183,
+        "viagra_claims": null,
+        "partd_enrollees": 80891,
+        "claims_per_1000": 2.26,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 459,
+        "viagra_claims": null,
+        "partd_enrollees": 210250,
+        "claims_per_1000": 2.18,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 283,
+        "viagra_claims": null,
+        "partd_enrollees": 147069,
+        "claims_per_1000": 1.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 3709,
+        "viagra_claims": 400,
+        "partd_enrollees": 1020694,
+        "claims_per_1000": 3.63,
+        "viagra_per_1000": 0.39
+      },
+      {
+        "year": 2014,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 647,
+        "viagra_claims": null,
+        "partd_enrollees": 244303,
+        "claims_per_1000": 2.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 495,
+        "viagra_claims": 40,
+        "partd_enrollees": 279889,
+        "claims_per_1000": 1.77,
+        "viagra_per_1000": 0.14
+      },
+      {
+        "year": 2014,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 11239,
+        "viagra_claims": 4488,
+        "partd_enrollees": 2459143,
+        "claims_per_1000": 4.57,
+        "viagra_per_1000": 1.83
+      },
+      {
+        "year": 2014,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 4934,
+        "viagra_claims": 30,
+        "partd_enrollees": 1584604,
+        "claims_per_1000": 3.11,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2014,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 843,
+        "viagra_claims": 23,
+        "partd_enrollees": 430879,
+        "claims_per_1000": 1.96,
+        "viagra_per_1000": 0.05
+      },
+      {
+        "year": 2014,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 973,
+        "viagra_claims": null,
+        "partd_enrollees": 514796,
+        "claims_per_1000": 1.89,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 5872,
+        "viagra_claims": 117,
+        "partd_enrollees": 1821608,
+        "claims_per_1000": 3.22,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2014,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 6046,
+        "viagra_claims": 4618,
+        "partd_enrollees": 562539,
+        "claims_per_1000": 10.75,
+        "viagra_per_1000": 8.21
+      },
+      {
+        "year": 2014,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 373,
+        "viagra_claims": null,
+        "partd_enrollees": 146834,
+        "claims_per_1000": 2.54,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 1800,
+        "viagra_claims": 74,
+        "partd_enrollees": 628826,
+        "claims_per_1000": 2.86,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2014,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 251,
+        "viagra_claims": null,
+        "partd_enrollees": 101592,
+        "claims_per_1000": 2.47,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 2177,
+        "viagra_claims": 55,
+        "partd_enrollees": 866744,
+        "claims_per_1000": 2.51,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2014,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 7083,
+        "viagra_claims": 165,
+        "partd_enrollees": 2363900,
+        "claims_per_1000": 3,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2014,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 703,
+        "viagra_claims": null,
+        "partd_enrollees": 212021,
+        "claims_per_1000": 3.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 2647,
+        "viagra_claims": 48,
+        "partd_enrollees": 793610,
+        "claims_per_1000": 3.34,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2014,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 156,
+        "viagra_claims": null,
+        "partd_enrollees": 86323,
+        "claims_per_1000": 1.81,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 2642,
+        "viagra_claims": 62,
+        "partd_enrollees": 703289,
+        "claims_per_1000": 3.76,
+        "viagra_per_1000": 0.09
+      },
+      {
+        "year": 2014,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 2661,
+        "viagra_claims": null,
+        "partd_enrollees": 693840,
+        "claims_per_1000": 3.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 581,
+        "viagra_claims": null,
+        "partd_enrollees": 279724,
+        "claims_per_1000": 2.08,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2014,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 126,
+        "viagra_claims": null,
+        "partd_enrollees": 55619,
+        "claims_per_1000": 2.27,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 67,
+        "viagra_claims": null,
+        "partd_enrollees": 33354,
+        "claims_per_1000": 2.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 3219,
+        "viagra_claims": 220,
+        "partd_enrollees": 685452,
+        "claims_per_1000": 4.7,
+        "viagra_per_1000": 0.32
+      },
+      {
+        "year": 2015,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 1356,
+        "viagra_claims": null,
+        "partd_enrollees": 405775,
+        "claims_per_1000": 3.34,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 2377,
+        "viagra_claims": 78,
+        "partd_enrollees": 810047,
+        "claims_per_1000": 2.93,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2015,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 13769,
+        "viagra_claims": 162,
+        "partd_enrollees": 4324304,
+        "claims_per_1000": 3.18,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2015,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 2374,
+        "viagra_claims": 287,
+        "partd_enrollees": 553304,
+        "claims_per_1000": 4.29,
+        "viagra_per_1000": 0.52
+      },
+      {
+        "year": 2015,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1096,
+        "viagra_claims": null,
+        "partd_enrollees": 469850,
+        "claims_per_1000": 2.33,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 439,
+        "viagra_claims": null,
+        "partd_enrollees": 50129,
+        "claims_per_1000": 8.76,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 237,
+        "viagra_claims": null,
+        "partd_enrollees": 129456,
+        "claims_per_1000": 1.83,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 159965,
+        "viagra_claims": 150572,
+        "partd_enrollees": 2961341,
+        "claims_per_1000": 54.02,
+        "viagra_per_1000": 50.85
+      },
+      {
+        "year": 2015,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 3352,
+        "viagra_claims": 13,
+        "partd_enrollees": 1078986,
+        "claims_per_1000": 3.11,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2015,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 218,
+        "viagra_claims": null,
+        "partd_enrollees": 170592,
+        "claims_per_1000": 1.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 1145,
+        "viagra_claims": 31,
+        "partd_enrollees": 430725,
+        "claims_per_1000": 2.66,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2015,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 348,
+        "viagra_claims": 22,
+        "partd_enrollees": 187923,
+        "claims_per_1000": 1.85,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2015,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 5054,
+        "viagra_claims": 695,
+        "partd_enrollees": 1440264,
+        "claims_per_1000": 3.51,
+        "viagra_per_1000": 0.48
+      },
+      {
+        "year": 2015,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2439,
+        "viagra_claims": null,
+        "partd_enrollees": 827442,
+        "claims_per_1000": 2.95,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 868,
+        "viagra_claims": null,
+        "partd_enrollees": 338226,
+        "claims_per_1000": 2.57,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2813,
+        "viagra_claims": 61,
+        "partd_enrollees": 634163,
+        "claims_per_1000": 4.44,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2015,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2912,
+        "viagra_claims": null,
+        "partd_enrollees": 573013,
+        "claims_per_1000": 5.08,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 3522,
+        "viagra_claims": 401,
+        "partd_enrollees": 822437,
+        "claims_per_1000": 4.28,
+        "viagra_per_1000": 0.49
+      },
+      {
+        "year": 2015,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2551,
+        "viagra_claims": null,
+        "partd_enrollees": 547512,
+        "claims_per_1000": 4.66,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 356,
+        "viagra_claims": null,
+        "partd_enrollees": 214758,
+        "claims_per_1000": 1.66,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 6491,
+        "viagra_claims": 923,
+        "partd_enrollees": 1458012,
+        "claims_per_1000": 4.45,
+        "viagra_per_1000": 0.63
+      },
+      {
+        "year": 2015,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 2453,
+        "viagra_claims": 14,
+        "partd_enrollees": 682715,
+        "claims_per_1000": 3.59,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2015,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 2238,
+        "viagra_claims": 21,
+        "partd_enrollees": 832127,
+        "claims_per_1000": 2.69,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2015,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1120,
+        "viagra_claims": null,
+        "partd_enrollees": 393891,
+        "claims_per_1000": 2.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 388,
+        "viagra_claims": null,
+        "partd_enrollees": 126974,
+        "claims_per_1000": 3.06,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 3921,
+        "viagra_claims": 64,
+        "partd_enrollees": 1281783,
+        "claims_per_1000": 3.06,
+        "viagra_per_1000": 0.05
+      },
+      {
+        "year": 2015,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 282,
+        "viagra_claims": null,
+        "partd_enrollees": 82822,
+        "claims_per_1000": 3.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 499,
+        "viagra_claims": null,
+        "partd_enrollees": 219062,
+        "claims_per_1000": 2.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 404,
+        "viagra_claims": 79,
+        "partd_enrollees": 163231,
+        "claims_per_1000": 2.48,
+        "viagra_per_1000": 0.48
+      },
+      {
+        "year": 2015,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 4059,
+        "viagra_claims": 366,
+        "partd_enrollees": 1064535,
+        "claims_per_1000": 3.81,
+        "viagra_per_1000": 0.34
+      },
+      {
+        "year": 2015,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 684,
+        "viagra_claims": null,
+        "partd_enrollees": 257716,
+        "claims_per_1000": 2.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 639,
+        "viagra_claims": 37,
+        "partd_enrollees": 299518,
+        "claims_per_1000": 2.13,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2015,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 12058,
+        "viagra_claims": 4922,
+        "partd_enrollees": 2538776,
+        "claims_per_1000": 4.75,
+        "viagra_per_1000": 1.94
+      },
+      {
+        "year": 2015,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 5467,
+        "viagra_claims": 51,
+        "partd_enrollees": 1642834,
+        "claims_per_1000": 3.33,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2015,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 900,
+        "viagra_claims": null,
+        "partd_enrollees": 444455,
+        "claims_per_1000": 2.02,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1074,
+        "viagra_claims": null,
+        "partd_enrollees": 544494,
+        "claims_per_1000": 1.97,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 6411,
+        "viagra_claims": 160,
+        "partd_enrollees": 1887932,
+        "claims_per_1000": 3.4,
+        "viagra_per_1000": 0.08
+      },
+      {
+        "year": 2015,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 3253,
+        "viagra_claims": 1738,
+        "partd_enrollees": 571996,
+        "claims_per_1000": 5.69,
+        "viagra_per_1000": 3.04
+      },
+      {
+        "year": 2015,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 395,
+        "viagra_claims": null,
+        "partd_enrollees": 151551,
+        "claims_per_1000": 2.61,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2056,
+        "viagra_claims": 74,
+        "partd_enrollees": 662452,
+        "claims_per_1000": 3.1,
+        "viagra_per_1000": 0.11
+      },
+      {
+        "year": 2015,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 278,
+        "viagra_claims": null,
+        "partd_enrollees": 105509,
+        "claims_per_1000": 2.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 2427,
+        "viagra_claims": 90,
+        "partd_enrollees": 908592,
+        "claims_per_1000": 2.67,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2015,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 9066,
+        "viagra_claims": 382,
+        "partd_enrollees": 2491478,
+        "claims_per_1000": 3.64,
+        "viagra_per_1000": 0.15
+      },
+      {
+        "year": 2015,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1010,
+        "viagra_claims": null,
+        "partd_enrollees": 233877,
+        "claims_per_1000": 4.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 3117,
+        "viagra_claims": 31,
+        "partd_enrollees": 834446,
+        "claims_per_1000": 3.74,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2015,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 195,
+        "viagra_claims": null,
+        "partd_enrollees": 94866,
+        "claims_per_1000": 2.06,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 2724,
+        "viagra_claims": 58,
+        "partd_enrollees": 743413,
+        "claims_per_1000": 3.66,
+        "viagra_per_1000": 0.08
+      },
+      {
+        "year": 2015,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 2983,
+        "viagra_claims": 25,
+        "partd_enrollees": 727091,
+        "claims_per_1000": 4.1,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2015,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 747,
+        "viagra_claims": null,
+        "partd_enrollees": 288245,
+        "claims_per_1000": 2.59,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2015,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 170,
+        "viagra_claims": null,
+        "partd_enrollees": 58504,
+        "claims_per_1000": 2.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 85,
+        "viagra_claims": null,
+        "partd_enrollees": 35063,
+        "claims_per_1000": 2.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 3980,
+        "viagra_claims": 742,
+        "partd_enrollees": 705778,
+        "claims_per_1000": 5.64,
+        "viagra_per_1000": 1.05
+      },
+      {
+        "year": 2016,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 1886,
+        "viagra_claims": null,
+        "partd_enrollees": 418633,
+        "claims_per_1000": 4.51,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 2526,
+        "viagra_claims": 192,
+        "partd_enrollees": 854289,
+        "claims_per_1000": 2.96,
+        "viagra_per_1000": 0.22
+      },
+      {
+        "year": 2016,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 17889,
+        "viagra_claims": 3277,
+        "partd_enrollees": 4516215,
+        "claims_per_1000": 3.96,
+        "viagra_per_1000": 0.73
+      },
+      {
+        "year": 2016,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 2599,
+        "viagra_claims": 237,
+        "partd_enrollees": 583132,
+        "claims_per_1000": 4.46,
+        "viagra_per_1000": 0.41
+      },
+      {
+        "year": 2016,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1146,
+        "viagra_claims": 12,
+        "partd_enrollees": 488940,
+        "claims_per_1000": 2.34,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2016,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 532,
+        "viagra_claims": null,
+        "partd_enrollees": 52587,
+        "claims_per_1000": 10.12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 259,
+        "viagra_claims": null,
+        "partd_enrollees": 136964,
+        "claims_per_1000": 1.89,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 181747,
+        "viagra_claims": 171447,
+        "partd_enrollees": 3106507,
+        "claims_per_1000": 58.51,
+        "viagra_per_1000": 55.19
+      },
+      {
+        "year": 2016,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 3831,
+        "viagra_claims": 17,
+        "partd_enrollees": 1129553,
+        "claims_per_1000": 3.39,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2016,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 221,
+        "viagra_claims": null,
+        "partd_enrollees": 177073,
+        "claims_per_1000": 1.25,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 1267,
+        "viagra_claims": 37,
+        "partd_enrollees": 446105,
+        "claims_per_1000": 2.84,
+        "viagra_per_1000": 0.08
+      },
+      {
+        "year": 2016,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 460,
+        "viagra_claims": 90,
+        "partd_enrollees": 198739,
+        "claims_per_1000": 2.31,
+        "viagra_per_1000": 0.45
+      },
+      {
+        "year": 2016,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 5371,
+        "viagra_claims": 621,
+        "partd_enrollees": 1494995,
+        "claims_per_1000": 3.59,
+        "viagra_per_1000": 0.42
+      },
+      {
+        "year": 2016,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2463,
+        "viagra_claims": 67,
+        "partd_enrollees": 874557,
+        "claims_per_1000": 2.82,
+        "viagra_per_1000": 0.08
+      },
+      {
+        "year": 2016,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 1043,
+        "viagra_claims": 15,
+        "partd_enrollees": 349932,
+        "claims_per_1000": 2.98,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2016,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2866,
+        "viagra_claims": 22,
+        "partd_enrollees": 654190,
+        "claims_per_1000": 4.38,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2016,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 3216,
+        "viagra_claims": 21,
+        "partd_enrollees": 594085,
+        "claims_per_1000": 5.41,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2016,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 4575,
+        "viagra_claims": 545,
+        "partd_enrollees": 909171,
+        "claims_per_1000": 5.03,
+        "viagra_per_1000": 0.6
+      },
+      {
+        "year": 2016,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2571,
+        "viagra_claims": 16,
+        "partd_enrollees": 576453,
+        "claims_per_1000": 4.46,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2016,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 392,
+        "viagra_claims": 37,
+        "partd_enrollees": 223436,
+        "claims_per_1000": 1.75,
+        "viagra_per_1000": 0.17
+      },
+      {
+        "year": 2016,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 7467,
+        "viagra_claims": 823,
+        "partd_enrollees": 1509814,
+        "claims_per_1000": 4.95,
+        "viagra_per_1000": 0.55
+      },
+      {
+        "year": 2016,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 2723,
+        "viagra_claims": null,
+        "partd_enrollees": 708219,
+        "claims_per_1000": 3.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 2471,
+        "viagra_claims": 16,
+        "partd_enrollees": 861635,
+        "claims_per_1000": 2.87,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2016,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1232,
+        "viagra_claims": null,
+        "partd_enrollees": 405763,
+        "claims_per_1000": 3.04,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 645,
+        "viagra_claims": null,
+        "partd_enrollees": 134552,
+        "claims_per_1000": 4.79,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 5029,
+        "viagra_claims": 74,
+        "partd_enrollees": 1335561,
+        "claims_per_1000": 3.77,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2016,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 368,
+        "viagra_claims": null,
+        "partd_enrollees": 85112,
+        "claims_per_1000": 4.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 604,
+        "viagra_claims": null,
+        "partd_enrollees": 228187,
+        "claims_per_1000": 2.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 592,
+        "viagra_claims": 150,
+        "partd_enrollees": 175860,
+        "claims_per_1000": 3.37,
+        "viagra_per_1000": 0.85
+      },
+      {
+        "year": 2016,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 4484,
+        "viagra_claims": 477,
+        "partd_enrollees": 1103577,
+        "claims_per_1000": 4.06,
+        "viagra_per_1000": 0.43
+      },
+      {
+        "year": 2016,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 702,
+        "viagra_claims": null,
+        "partd_enrollees": 270904,
+        "claims_per_1000": 2.59,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 787,
+        "viagra_claims": 12,
+        "partd_enrollees": 318049,
+        "claims_per_1000": 2.47,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2016,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 11905,
+        "viagra_claims": 4160,
+        "partd_enrollees": 2616468,
+        "claims_per_1000": 4.55,
+        "viagra_per_1000": 1.59
+      },
+      {
+        "year": 2016,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 6047,
+        "viagra_claims": 34,
+        "partd_enrollees": 1692012,
+        "claims_per_1000": 3.57,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2016,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 1033,
+        "viagra_claims": null,
+        "partd_enrollees": 458041,
+        "claims_per_1000": 2.26,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1409,
+        "viagra_claims": 11,
+        "partd_enrollees": 572607,
+        "claims_per_1000": 2.46,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2016,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 7157,
+        "viagra_claims": 198,
+        "partd_enrollees": 1959425,
+        "claims_per_1000": 3.65,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2016,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 2726,
+        "viagra_claims": 1250,
+        "partd_enrollees": 581862,
+        "claims_per_1000": 4.68,
+        "viagra_per_1000": 2.15
+      },
+      {
+        "year": 2016,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 460,
+        "viagra_claims": 18,
+        "partd_enrollees": 156284,
+        "claims_per_1000": 2.94,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2016,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2175,
+        "viagra_claims": 69,
+        "partd_enrollees": 692335,
+        "claims_per_1000": 3.14,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2016,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 319,
+        "viagra_claims": null,
+        "partd_enrollees": 109433,
+        "claims_per_1000": 2.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 2991,
+        "viagra_claims": 67,
+        "partd_enrollees": 941479,
+        "claims_per_1000": 3.18,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2016,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 9961,
+        "viagra_claims": 163,
+        "partd_enrollees": 2616497,
+        "claims_per_1000": 3.81,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2016,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1355,
+        "viagra_claims": null,
+        "partd_enrollees": 246220,
+        "claims_per_1000": 5.5,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 3766,
+        "viagra_claims": 36,
+        "partd_enrollees": 875235,
+        "claims_per_1000": 4.3,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2016,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 208,
+        "viagra_claims": null,
+        "partd_enrollees": 98808,
+        "claims_per_1000": 2.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 2998,
+        "viagra_claims": 56,
+        "partd_enrollees": 781478,
+        "claims_per_1000": 3.84,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2016,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 3172,
+        "viagra_claims": 29,
+        "partd_enrollees": 761486,
+        "claims_per_1000": 4.17,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2016,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 840,
+        "viagra_claims": null,
+        "partd_enrollees": 294710,
+        "claims_per_1000": 2.85,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2016,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 190,
+        "viagra_claims": null,
+        "partd_enrollees": 61289,
+        "claims_per_1000": 3.1,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 88,
+        "viagra_claims": null,
+        "partd_enrollees": 36880,
+        "claims_per_1000": 2.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 4058,
+        "viagra_claims": 661,
+        "partd_enrollees": 721687,
+        "claims_per_1000": 5.62,
+        "viagra_per_1000": 0.92
+      },
+      {
+        "year": 2017,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 1930,
+        "viagra_claims": null,
+        "partd_enrollees": 429151,
+        "claims_per_1000": 4.5,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 2700,
+        "viagra_claims": 148,
+        "partd_enrollees": 898705,
+        "claims_per_1000": 3,
+        "viagra_per_1000": 0.16
+      },
+      {
+        "year": 2017,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 28796,
+        "viagra_claims": 13135,
+        "partd_enrollees": 4667820,
+        "claims_per_1000": 6.17,
+        "viagra_per_1000": 2.81
+      },
+      {
+        "year": 2017,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 2733,
+        "viagra_claims": 61,
+        "partd_enrollees": 612356,
+        "claims_per_1000": 4.46,
+        "viagra_per_1000": 0.1
+      },
+      {
+        "year": 2017,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1160,
+        "viagra_claims": 22,
+        "partd_enrollees": 505392,
+        "claims_per_1000": 2.3,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 483,
+        "viagra_claims": null,
+        "partd_enrollees": 54023,
+        "claims_per_1000": 8.94,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 285,
+        "viagra_claims": null,
+        "partd_enrollees": 143495,
+        "claims_per_1000": 1.99,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 203090,
+        "viagra_claims": 189206,
+        "partd_enrollees": 3236490,
+        "claims_per_1000": 62.75,
+        "viagra_per_1000": 58.46
+      },
+      {
+        "year": 2017,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 4231,
+        "viagra_claims": 19,
+        "partd_enrollees": 1176157,
+        "claims_per_1000": 3.6,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2017,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 199,
+        "viagra_claims": null,
+        "partd_enrollees": 182455,
+        "claims_per_1000": 1.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 1325,
+        "viagra_claims": 18,
+        "partd_enrollees": 460203,
+        "claims_per_1000": 2.88,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 335,
+        "viagra_claims": null,
+        "partd_enrollees": 209909,
+        "claims_per_1000": 1.6,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 6189,
+        "viagra_claims": 612,
+        "partd_enrollees": 1563294,
+        "claims_per_1000": 3.96,
+        "viagra_per_1000": 0.39
+      },
+      {
+        "year": 2017,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2650,
+        "viagra_claims": 52,
+        "partd_enrollees": 907537,
+        "claims_per_1000": 2.92,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2017,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 1136,
+        "viagra_claims": null,
+        "partd_enrollees": 360784,
+        "claims_per_1000": 3.15,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2951,
+        "viagra_claims": null,
+        "partd_enrollees": 671437,
+        "claims_per_1000": 4.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2935,
+        "viagra_claims": 13,
+        "partd_enrollees": 618432,
+        "claims_per_1000": 4.75,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2017,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 5163,
+        "viagra_claims": 807,
+        "partd_enrollees": 952643,
+        "claims_per_1000": 5.42,
+        "viagra_per_1000": 0.85
+      },
+      {
+        "year": 2017,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2185,
+        "viagra_claims": 23,
+        "partd_enrollees": 599502,
+        "claims_per_1000": 3.64,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 546,
+        "viagra_claims": 90,
+        "partd_enrollees": 230952,
+        "claims_per_1000": 2.36,
+        "viagra_per_1000": 0.39
+      },
+      {
+        "year": 2017,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 6857,
+        "viagra_claims": 598,
+        "partd_enrollees": 1553493,
+        "claims_per_1000": 4.41,
+        "viagra_per_1000": 0.38
+      },
+      {
+        "year": 2017,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 3200,
+        "viagra_claims": 30,
+        "partd_enrollees": 736617,
+        "claims_per_1000": 4.34,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 2566,
+        "viagra_claims": null,
+        "partd_enrollees": 887065,
+        "claims_per_1000": 2.89,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1377,
+        "viagra_claims": null,
+        "partd_enrollees": 416412,
+        "claims_per_1000": 3.31,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 548,
+        "viagra_claims": null,
+        "partd_enrollees": 144415,
+        "claims_per_1000": 3.79,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 5535,
+        "viagra_claims": 32,
+        "partd_enrollees": 1384216,
+        "claims_per_1000": 4,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2017,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 331,
+        "viagra_claims": null,
+        "partd_enrollees": 87720,
+        "claims_per_1000": 3.77,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 936,
+        "viagra_claims": null,
+        "partd_enrollees": 236230,
+        "claims_per_1000": 3.96,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 620,
+        "viagra_claims": 196,
+        "partd_enrollees": 184853,
+        "claims_per_1000": 3.35,
+        "viagra_per_1000": 1.06
+      },
+      {
+        "year": 2017,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 4626,
+        "viagra_claims": 469,
+        "partd_enrollees": 1139394,
+        "claims_per_1000": 4.06,
+        "viagra_per_1000": 0.41
+      },
+      {
+        "year": 2017,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 815,
+        "viagra_claims": null,
+        "partd_enrollees": 283571,
+        "claims_per_1000": 2.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 961,
+        "viagra_claims": 39,
+        "partd_enrollees": 338357,
+        "claims_per_1000": 2.84,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2017,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 8982,
+        "viagra_claims": 906,
+        "partd_enrollees": 2682850,
+        "claims_per_1000": 3.35,
+        "viagra_per_1000": 0.34
+      },
+      {
+        "year": 2017,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 6269,
+        "viagra_claims": 72,
+        "partd_enrollees": 1742700,
+        "claims_per_1000": 3.6,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 1149,
+        "viagra_claims": null,
+        "partd_enrollees": 469757,
+        "claims_per_1000": 2.45,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1636,
+        "viagra_claims": null,
+        "partd_enrollees": 596004,
+        "claims_per_1000": 2.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 7332,
+        "viagra_claims": 305,
+        "partd_enrollees": 2015596,
+        "claims_per_1000": 3.64,
+        "viagra_per_1000": 0.15
+      },
+      {
+        "year": 2017,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 3785,
+        "viagra_claims": 1104,
+        "partd_enrollees": 578644,
+        "claims_per_1000": 6.54,
+        "viagra_per_1000": 1.91
+      },
+      {
+        "year": 2017,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 662,
+        "viagra_claims": 172,
+        "partd_enrollees": 159968,
+        "claims_per_1000": 4.14,
+        "viagra_per_1000": 1.08
+      },
+      {
+        "year": 2017,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2393,
+        "viagra_claims": 25,
+        "partd_enrollees": 721885,
+        "claims_per_1000": 3.31,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2017,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 339,
+        "viagra_claims": null,
+        "partd_enrollees": 113387,
+        "claims_per_1000": 2.99,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 3434,
+        "viagra_claims": 35,
+        "partd_enrollees": 970732,
+        "claims_per_1000": 3.54,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2017,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 11156,
+        "viagra_claims": 89,
+        "partd_enrollees": 2780781,
+        "claims_per_1000": 4.01,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2017,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1424,
+        "viagra_claims": null,
+        "partd_enrollees": 258059,
+        "claims_per_1000": 5.52,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 3969,
+        "viagra_claims": 58,
+        "partd_enrollees": 906726,
+        "claims_per_1000": 4.38,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2017,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 159,
+        "viagra_claims": null,
+        "partd_enrollees": 102376,
+        "claims_per_1000": 1.55,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 3077,
+        "viagra_claims": 51,
+        "partd_enrollees": 817218,
+        "claims_per_1000": 3.77,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2017,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 3215,
+        "viagra_claims": null,
+        "partd_enrollees": 793344,
+        "claims_per_1000": 4.05,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 892,
+        "viagra_claims": null,
+        "partd_enrollees": 297744,
+        "claims_per_1000": 3,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2017,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 235,
+        "viagra_claims": null,
+        "partd_enrollees": 64364,
+        "claims_per_1000": 3.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 121,
+        "viagra_claims": null,
+        "partd_enrollees": 39005,
+        "claims_per_1000": 3.1,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 3910,
+        "viagra_claims": null,
+        "partd_enrollees": 742336,
+        "claims_per_1000": 5.27,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 2089,
+        "viagra_claims": null,
+        "partd_enrollees": 442755,
+        "claims_per_1000": 4.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 2994,
+        "viagra_claims": 16,
+        "partd_enrollees": 938781,
+        "claims_per_1000": 3.19,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2018,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 32074,
+        "viagra_claims": 11751,
+        "partd_enrollees": 4826675,
+        "claims_per_1000": 6.65,
+        "viagra_per_1000": 2.43
+      },
+      {
+        "year": 2018,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 3025,
+        "viagra_claims": null,
+        "partd_enrollees": 641122,
+        "claims_per_1000": 4.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 1283,
+        "viagra_claims": 19,
+        "partd_enrollees": 521759,
+        "claims_per_1000": 2.46,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2018,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 414,
+        "viagra_claims": null,
+        "partd_enrollees": 55863,
+        "claims_per_1000": 7.41,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 378,
+        "viagra_claims": null,
+        "partd_enrollees": 149940,
+        "claims_per_1000": 2.52,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 199536,
+        "viagra_claims": 58274,
+        "partd_enrollees": 3355968,
+        "claims_per_1000": 59.46,
+        "viagra_per_1000": 17.36
+      },
+      {
+        "year": 2018,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 3993,
+        "viagra_claims": null,
+        "partd_enrollees": 1223751,
+        "claims_per_1000": 3.26,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 168,
+        "viagra_claims": null,
+        "partd_enrollees": 188425,
+        "claims_per_1000": 0.89,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 1313,
+        "viagra_claims": null,
+        "partd_enrollees": 474852,
+        "claims_per_1000": 2.77,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 505,
+        "viagra_claims": null,
+        "partd_enrollees": 222089,
+        "claims_per_1000": 2.27,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 6036,
+        "viagra_claims": 24,
+        "partd_enrollees": 1615756,
+        "claims_per_1000": 3.74,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2018,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2734,
+        "viagra_claims": null,
+        "partd_enrollees": 940278,
+        "claims_per_1000": 2.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 1180,
+        "viagra_claims": null,
+        "partd_enrollees": 373697,
+        "claims_per_1000": 3.16,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2925,
+        "viagra_claims": null,
+        "partd_enrollees": 688825,
+        "claims_per_1000": 4.25,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2662,
+        "viagra_claims": null,
+        "partd_enrollees": 639342,
+        "claims_per_1000": 4.16,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 5369,
+        "viagra_claims": 219,
+        "partd_enrollees": 997566,
+        "claims_per_1000": 5.38,
+        "viagra_per_1000": 0.22
+      },
+      {
+        "year": 2018,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2180,
+        "viagra_claims": null,
+        "partd_enrollees": 625668,
+        "claims_per_1000": 3.48,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 601,
+        "viagra_claims": null,
+        "partd_enrollees": 239524,
+        "claims_per_1000": 2.51,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 7443,
+        "viagra_claims": 66,
+        "partd_enrollees": 1595238,
+        "claims_per_1000": 4.67,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2018,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 3399,
+        "viagra_claims": null,
+        "partd_enrollees": 762829,
+        "claims_per_1000": 4.46,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 2660,
+        "viagra_claims": null,
+        "partd_enrollees": 910756,
+        "claims_per_1000": 2.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1423,
+        "viagra_claims": null,
+        "partd_enrollees": 427481,
+        "claims_per_1000": 3.33,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 537,
+        "viagra_claims": null,
+        "partd_enrollees": 150356,
+        "claims_per_1000": 3.57,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 5179,
+        "viagra_claims": 18,
+        "partd_enrollees": 1445304,
+        "claims_per_1000": 3.58,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2018,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 340,
+        "viagra_claims": null,
+        "partd_enrollees": 90718,
+        "claims_per_1000": 3.75,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 1006,
+        "viagra_claims": null,
+        "partd_enrollees": 244781,
+        "claims_per_1000": 4.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 871,
+        "viagra_claims": 12,
+        "partd_enrollees": 194559,
+        "claims_per_1000": 4.48,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2018,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 4535,
+        "viagra_claims": 21,
+        "partd_enrollees": 1173756,
+        "claims_per_1000": 3.86,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2018,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 793,
+        "viagra_claims": null,
+        "partd_enrollees": 294261,
+        "claims_per_1000": 2.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 971,
+        "viagra_claims": 20,
+        "partd_enrollees": 354538,
+        "claims_per_1000": 2.74,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2018,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 9065,
+        "viagra_claims": 291,
+        "partd_enrollees": 2766258,
+        "claims_per_1000": 3.28,
+        "viagra_per_1000": 0.11
+      },
+      {
+        "year": 2018,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 6333,
+        "viagra_claims": 34,
+        "partd_enrollees": 1792678,
+        "claims_per_1000": 3.53,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2018,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 1299,
+        "viagra_claims": null,
+        "partd_enrollees": 481824,
+        "claims_per_1000": 2.7,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1671,
+        "viagra_claims": null,
+        "partd_enrollees": 622174,
+        "claims_per_1000": 2.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 7221,
+        "viagra_claims": 37,
+        "partd_enrollees": 2072798,
+        "claims_per_1000": 3.48,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2018,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 4498,
+        "viagra_claims": 1179,
+        "partd_enrollees": 590106,
+        "claims_per_1000": 7.62,
+        "viagra_per_1000": 2
+      },
+      {
+        "year": 2018,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 806,
+        "viagra_claims": null,
+        "partd_enrollees": 165199,
+        "claims_per_1000": 4.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2152,
+        "viagra_claims": null,
+        "partd_enrollees": 753736,
+        "claims_per_1000": 2.86,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 401,
+        "viagra_claims": null,
+        "partd_enrollees": 118087,
+        "claims_per_1000": 3.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 3625,
+        "viagra_claims": 28,
+        "partd_enrollees": 997129,
+        "claims_per_1000": 3.64,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2018,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 10890,
+        "viagra_claims": 19,
+        "partd_enrollees": 2904211,
+        "claims_per_1000": 3.75,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2018,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1468,
+        "viagra_claims": null,
+        "partd_enrollees": 271023,
+        "claims_per_1000": 5.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 3958,
+        "viagra_claims": 17,
+        "partd_enrollees": 942325,
+        "claims_per_1000": 4.2,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2018,
+        "state": "VI",
+        "state_name": "Virgin Islands",
+        "claims": 19,
+        "viagra_claims": null,
+        "partd_enrollees": 11773,
+        "claims_per_1000": 1.61,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 140,
+        "viagra_claims": null,
+        "partd_enrollees": 105982,
+        "claims_per_1000": 1.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 2672,
+        "viagra_claims": 46,
+        "partd_enrollees": 854407,
+        "claims_per_1000": 3.13,
+        "viagra_per_1000": 0.05
+      },
+      {
+        "year": 2018,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 2847,
+        "viagra_claims": null,
+        "partd_enrollees": 826630,
+        "claims_per_1000": 3.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 821,
+        "viagra_claims": null,
+        "partd_enrollees": 304093,
+        "claims_per_1000": 2.7,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2018,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 257,
+        "viagra_claims": null,
+        "partd_enrollees": 67495,
+        "claims_per_1000": 3.81,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 146,
+        "viagra_claims": null,
+        "partd_enrollees": 64072,
+        "claims_per_1000": 2.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 3881,
+        "viagra_claims": null,
+        "partd_enrollees": 762978,
+        "claims_per_1000": 5.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 2862,
+        "viagra_claims": null,
+        "partd_enrollees": 455723,
+        "claims_per_1000": 6.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 4597,
+        "viagra_claims": null,
+        "partd_enrollees": 989064,
+        "claims_per_1000": 4.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 49890,
+        "viagra_claims": 5587,
+        "partd_enrollees": 4969954,
+        "claims_per_1000": 10.04,
+        "viagra_per_1000": 1.12
+      },
+      {
+        "year": 2019,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 4148,
+        "viagra_claims": null,
+        "partd_enrollees": 670857,
+        "claims_per_1000": 6.18,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 2488,
+        "viagra_claims": null,
+        "partd_enrollees": 538139,
+        "claims_per_1000": 4.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 361,
+        "viagra_claims": null,
+        "partd_enrollees": 57329,
+        "claims_per_1000": 6.3,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 331,
+        "viagra_claims": null,
+        "partd_enrollees": 156286,
+        "claims_per_1000": 2.12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 232254,
+        "viagra_claims": 32416,
+        "partd_enrollees": 3501203,
+        "claims_per_1000": 66.34,
+        "viagra_per_1000": 9.26
+      },
+      {
+        "year": 2019,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 4290,
+        "viagra_claims": null,
+        "partd_enrollees": 1272789,
+        "claims_per_1000": 3.37,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 217,
+        "viagra_claims": null,
+        "partd_enrollees": 193759,
+        "claims_per_1000": 1.12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 1377,
+        "viagra_claims": null,
+        "partd_enrollees": 489475,
+        "claims_per_1000": 2.81,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 563,
+        "viagra_claims": null,
+        "partd_enrollees": 235875,
+        "claims_per_1000": 2.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 5356,
+        "viagra_claims": 13,
+        "partd_enrollees": 1662066,
+        "claims_per_1000": 3.22,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2019,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 2320,
+        "viagra_claims": null,
+        "partd_enrollees": 972290,
+        "claims_per_1000": 2.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 1743,
+        "viagra_claims": null,
+        "partd_enrollees": 386537,
+        "claims_per_1000": 4.51,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 2717,
+        "viagra_claims": null,
+        "partd_enrollees": 707993,
+        "claims_per_1000": 3.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2340,
+        "viagra_claims": null,
+        "partd_enrollees": 664247,
+        "claims_per_1000": 3.52,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 6711,
+        "viagra_claims": null,
+        "partd_enrollees": 1026740,
+        "claims_per_1000": 6.54,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 2168,
+        "viagra_claims": null,
+        "partd_enrollees": 643887,
+        "claims_per_1000": 3.37,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 769,
+        "viagra_claims": null,
+        "partd_enrollees": 248056,
+        "claims_per_1000": 3.1,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 8100,
+        "viagra_claims": null,
+        "partd_enrollees": 1639078,
+        "claims_per_1000": 4.94,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 3229,
+        "viagra_claims": null,
+        "partd_enrollees": 792528,
+        "claims_per_1000": 4.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 4281,
+        "viagra_claims": null,
+        "partd_enrollees": 936373,
+        "claims_per_1000": 4.57,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MP",
+        "state_name": "Northern Mariana Islands",
+        "claims": 12,
+        "viagra_claims": null,
+        "partd_enrollees": 385,
+        "claims_per_1000": 31.17,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1399,
+        "viagra_claims": null,
+        "partd_enrollees": 438133,
+        "claims_per_1000": 3.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 506,
+        "viagra_claims": null,
+        "partd_enrollees": 157398,
+        "claims_per_1000": 3.21,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 5856,
+        "viagra_claims": null,
+        "partd_enrollees": 1499887,
+        "claims_per_1000": 3.9,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 328,
+        "viagra_claims": null,
+        "partd_enrollees": 93737,
+        "claims_per_1000": 3.5,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 987,
+        "viagra_claims": null,
+        "partd_enrollees": 253378,
+        "claims_per_1000": 3.9,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 1634,
+        "viagra_claims": null,
+        "partd_enrollees": 203214,
+        "claims_per_1000": 8.04,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 4777,
+        "viagra_claims": null,
+        "partd_enrollees": 1205544,
+        "claims_per_1000": 3.96,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 1337,
+        "viagra_claims": null,
+        "partd_enrollees": 304976,
+        "claims_per_1000": 4.38,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 4168,
+        "viagra_claims": null,
+        "partd_enrollees": 372023,
+        "claims_per_1000": 11.2,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 9661,
+        "viagra_claims": 14,
+        "partd_enrollees": 2840655,
+        "claims_per_1000": 3.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 7385,
+        "viagra_claims": null,
+        "partd_enrollees": 1854483,
+        "claims_per_1000": 3.98,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 1911,
+        "viagra_claims": null,
+        "partd_enrollees": 499050,
+        "claims_per_1000": 3.83,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 1863,
+        "viagra_claims": null,
+        "partd_enrollees": 647943,
+        "claims_per_1000": 2.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 7341,
+        "viagra_claims": null,
+        "partd_enrollees": 2131322,
+        "claims_per_1000": 3.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 14898,
+        "viagra_claims": 1464,
+        "partd_enrollees": 605022,
+        "claims_per_1000": 24.62,
+        "viagra_per_1000": 2.42
+      },
+      {
+        "year": 2019,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1227,
+        "viagra_claims": null,
+        "partd_enrollees": 170563,
+        "claims_per_1000": 7.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2217,
+        "viagra_claims": null,
+        "partd_enrollees": 788745,
+        "claims_per_1000": 2.81,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 361,
+        "viagra_claims": null,
+        "partd_enrollees": 122380,
+        "claims_per_1000": 2.95,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 3415,
+        "viagra_claims": null,
+        "partd_enrollees": 1029927,
+        "claims_per_1000": 3.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 16588,
+        "viagra_claims": null,
+        "partd_enrollees": 3040025,
+        "claims_per_1000": 5.46,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1539,
+        "viagra_claims": null,
+        "partd_enrollees": 284273,
+        "claims_per_1000": 5.41,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 4388,
+        "viagra_claims": null,
+        "partd_enrollees": 978170,
+        "claims_per_1000": 4.49,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "VI",
+        "state_name": "Virgin Islands",
+        "claims": 14,
+        "viagra_claims": null,
+        "partd_enrollees": 11854,
+        "claims_per_1000": 1.18,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 351,
+        "viagra_claims": null,
+        "partd_enrollees": 109688,
+        "claims_per_1000": 3.2,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 3919,
+        "viagra_claims": null,
+        "partd_enrollees": 895521,
+        "claims_per_1000": 4.38,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 2672,
+        "viagra_claims": null,
+        "partd_enrollees": 857939,
+        "claims_per_1000": 3.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 653,
+        "viagra_claims": null,
+        "partd_enrollees": 310182,
+        "claims_per_1000": 2.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2019,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 263,
+        "viagra_claims": null,
+        "partd_enrollees": 70903,
+        "claims_per_1000": 3.71,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 192,
+        "viagra_claims": null,
+        "partd_enrollees": 66925,
+        "claims_per_1000": 2.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 4356,
+        "viagra_claims": null,
+        "partd_enrollees": 784111,
+        "claims_per_1000": 5.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 3583,
+        "viagra_claims": null,
+        "partd_enrollees": 470080,
+        "claims_per_1000": 7.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 5991,
+        "viagra_claims": null,
+        "partd_enrollees": 1033923,
+        "claims_per_1000": 5.79,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 68701,
+        "viagra_claims": 4849,
+        "partd_enrollees": 5121503,
+        "claims_per_1000": 13.41,
+        "viagra_per_1000": 0.95
+      },
+      {
+        "year": 2020,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 5245,
+        "viagra_claims": null,
+        "partd_enrollees": 700999,
+        "claims_per_1000": 7.48,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 3931,
+        "viagra_claims": null,
+        "partd_enrollees": 553526,
+        "claims_per_1000": 7.1,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 458,
+        "viagra_claims": null,
+        "partd_enrollees": 58498,
+        "claims_per_1000": 7.83,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 373,
+        "viagra_claims": null,
+        "partd_enrollees": 163244,
+        "claims_per_1000": 2.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 245880,
+        "viagra_claims": 453,
+        "partd_enrollees": 3646650,
+        "claims_per_1000": 67.43,
+        "viagra_per_1000": 0.12
+      },
+      {
+        "year": 2020,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 4833,
+        "viagra_claims": 13,
+        "partd_enrollees": 1323652,
+        "claims_per_1000": 3.65,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2020,
+        "state": "GU",
+        "state_name": "Guam",
+        "claims": 24,
+        "viagra_claims": null,
+        "partd_enrollees": 2912,
+        "claims_per_1000": 8.24,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 346,
+        "viagra_claims": null,
+        "partd_enrollees": 200857,
+        "claims_per_1000": 1.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 2391,
+        "viagra_claims": null,
+        "partd_enrollees": 504889,
+        "claims_per_1000": 4.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 632,
+        "viagra_claims": null,
+        "partd_enrollees": 251234,
+        "claims_per_1000": 2.52,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 9858,
+        "viagra_claims": 27,
+        "partd_enrollees": 1713456,
+        "claims_per_1000": 5.75,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2020,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 3107,
+        "viagra_claims": null,
+        "partd_enrollees": 1005212,
+        "claims_per_1000": 3.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 2482,
+        "viagra_claims": null,
+        "partd_enrollees": 401063,
+        "claims_per_1000": 6.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 3249,
+        "viagra_claims": null,
+        "partd_enrollees": 734092,
+        "claims_per_1000": 4.43,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 2761,
+        "viagra_claims": null,
+        "partd_enrollees": 685541,
+        "claims_per_1000": 4.03,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 8986,
+        "viagra_claims": null,
+        "partd_enrollees": 1056562,
+        "claims_per_1000": 8.5,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 3138,
+        "viagra_claims": null,
+        "partd_enrollees": 662775,
+        "claims_per_1000": 4.73,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 1068,
+        "viagra_claims": null,
+        "partd_enrollees": 262444,
+        "claims_per_1000": 4.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 9736,
+        "viagra_claims": 50,
+        "partd_enrollees": 1685990,
+        "claims_per_1000": 5.77,
+        "viagra_per_1000": 0.03
+      },
+      {
+        "year": 2020,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 3912,
+        "viagra_claims": null,
+        "partd_enrollees": 819546,
+        "claims_per_1000": 4.77,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 6549,
+        "viagra_claims": null,
+        "partd_enrollees": 965546,
+        "claims_per_1000": 6.78,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 1742,
+        "viagra_claims": null,
+        "partd_enrollees": 448837,
+        "claims_per_1000": 3.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 726,
+        "viagra_claims": null,
+        "partd_enrollees": 164788,
+        "claims_per_1000": 4.41,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 7530,
+        "viagra_claims": null,
+        "partd_enrollees": 1556663,
+        "claims_per_1000": 4.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 605,
+        "viagra_claims": null,
+        "partd_enrollees": 97047,
+        "claims_per_1000": 6.23,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 1553,
+        "viagra_claims": null,
+        "partd_enrollees": 263180,
+        "claims_per_1000": 5.9,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 2097,
+        "viagra_claims": null,
+        "partd_enrollees": 213140,
+        "claims_per_1000": 9.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 5720,
+        "viagra_claims": null,
+        "partd_enrollees": 1236048,
+        "claims_per_1000": 4.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 1814,
+        "viagra_claims": null,
+        "partd_enrollees": 315406,
+        "claims_per_1000": 5.75,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 5872,
+        "viagra_claims": null,
+        "partd_enrollees": 390335,
+        "claims_per_1000": 15.04,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 10678,
+        "viagra_claims": null,
+        "partd_enrollees": 2905927,
+        "claims_per_1000": 3.67,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 8862,
+        "viagra_claims": null,
+        "partd_enrollees": 1910774,
+        "claims_per_1000": 4.64,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 2509,
+        "viagra_claims": null,
+        "partd_enrollees": 516472,
+        "claims_per_1000": 4.86,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 2042,
+        "viagra_claims": null,
+        "partd_enrollees": 672546,
+        "claims_per_1000": 3.04,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 8925,
+        "viagra_claims": null,
+        "partd_enrollees": 2191461,
+        "claims_per_1000": 4.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 24409,
+        "viagra_claims": 901,
+        "partd_enrollees": 615493,
+        "claims_per_1000": 39.66,
+        "viagra_per_1000": 1.46
+      },
+      {
+        "year": 2020,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1704,
+        "viagra_claims": null,
+        "partd_enrollees": 176223,
+        "claims_per_1000": 9.67,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 2903,
+        "viagra_claims": null,
+        "partd_enrollees": 823644,
+        "claims_per_1000": 3.52,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 541,
+        "viagra_claims": null,
+        "partd_enrollees": 127088,
+        "claims_per_1000": 4.26,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 4281,
+        "viagra_claims": null,
+        "partd_enrollees": 1062853,
+        "claims_per_1000": 4.03,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 22252,
+        "viagra_claims": null,
+        "partd_enrollees": 3174491,
+        "claims_per_1000": 7.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1573,
+        "viagra_claims": null,
+        "partd_enrollees": 299508,
+        "claims_per_1000": 5.25,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 7039,
+        "viagra_claims": null,
+        "partd_enrollees": 1018811,
+        "claims_per_1000": 6.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 613,
+        "viagra_claims": null,
+        "partd_enrollees": 113848,
+        "claims_per_1000": 5.38,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 4356,
+        "viagra_claims": 14,
+        "partd_enrollees": 935351,
+        "claims_per_1000": 4.66,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2020,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 3202,
+        "viagra_claims": null,
+        "partd_enrollees": 893696,
+        "claims_per_1000": 3.58,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 824,
+        "viagra_claims": null,
+        "partd_enrollees": 317070,
+        "claims_per_1000": 2.6,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2020,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 376,
+        "viagra_claims": null,
+        "partd_enrollees": 74358,
+        "claims_per_1000": 5.06,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 240,
+        "viagra_claims": null,
+        "partd_enrollees": 70012,
+        "claims_per_1000": 3.43,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 6381,
+        "viagra_claims": null,
+        "partd_enrollees": 806300,
+        "claims_per_1000": 7.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 4571,
+        "viagra_claims": null,
+        "partd_enrollees": 482450,
+        "claims_per_1000": 9.47,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 9567,
+        "viagra_claims": null,
+        "partd_enrollees": 1068454,
+        "claims_per_1000": 8.95,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 90217,
+        "viagra_claims": 760,
+        "partd_enrollees": 5233277,
+        "claims_per_1000": 17.24,
+        "viagra_per_1000": 0.15
+      },
+      {
+        "year": 2021,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 7042,
+        "viagra_claims": null,
+        "partd_enrollees": 727645,
+        "claims_per_1000": 9.68,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 6457,
+        "viagra_claims": null,
+        "partd_enrollees": 568720,
+        "claims_per_1000": 11.35,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 632,
+        "viagra_claims": null,
+        "partd_enrollees": 59480,
+        "claims_per_1000": 10.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 913,
+        "viagra_claims": null,
+        "partd_enrollees": 170710,
+        "claims_per_1000": 5.35,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 269433,
+        "viagra_claims": 248,
+        "partd_enrollees": 3784847,
+        "claims_per_1000": 71.19,
+        "viagra_per_1000": 0.07
+      },
+      {
+        "year": 2021,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 10419,
+        "viagra_claims": null,
+        "partd_enrollees": 1376093,
+        "claims_per_1000": 7.57,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "GU",
+        "state_name": "Guam",
+        "claims": 73,
+        "viagra_claims": null,
+        "partd_enrollees": 2934,
+        "claims_per_1000": 24.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 556,
+        "viagra_claims": null,
+        "partd_enrollees": 209551,
+        "claims_per_1000": 2.65,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 3636,
+        "viagra_claims": null,
+        "partd_enrollees": 518872,
+        "claims_per_1000": 7.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 954,
+        "viagra_claims": null,
+        "partd_enrollees": 263876,
+        "claims_per_1000": 3.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 17392,
+        "viagra_claims": null,
+        "partd_enrollees": 1764608,
+        "claims_per_1000": 9.86,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 5613,
+        "viagra_claims": null,
+        "partd_enrollees": 1035497,
+        "claims_per_1000": 5.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 3061,
+        "viagra_claims": null,
+        "partd_enrollees": 413967,
+        "claims_per_1000": 7.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 4120,
+        "viagra_claims": null,
+        "partd_enrollees": 753360,
+        "claims_per_1000": 5.47,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 4358,
+        "viagra_claims": null,
+        "partd_enrollees": 706418,
+        "claims_per_1000": 6.17,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 12088,
+        "viagra_claims": null,
+        "partd_enrollees": 1085788,
+        "claims_per_1000": 11.13,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 4654,
+        "viagra_claims": null,
+        "partd_enrollees": 684572,
+        "claims_per_1000": 6.8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 2574,
+        "viagra_claims": null,
+        "partd_enrollees": 276092,
+        "claims_per_1000": 9.32,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 12816,
+        "viagra_claims": null,
+        "partd_enrollees": 1730865,
+        "claims_per_1000": 7.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 4850,
+        "viagra_claims": null,
+        "partd_enrollees": 845358,
+        "claims_per_1000": 5.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 10854,
+        "viagra_claims": null,
+        "partd_enrollees": 988862,
+        "claims_per_1000": 10.98,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 3156,
+        "viagra_claims": null,
+        "partd_enrollees": 458830,
+        "claims_per_1000": 6.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 793,
+        "viagra_claims": null,
+        "partd_enrollees": 171178,
+        "claims_per_1000": 4.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 11797,
+        "viagra_claims": null,
+        "partd_enrollees": 1603702,
+        "claims_per_1000": 7.36,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 577,
+        "viagra_claims": null,
+        "partd_enrollees": 100021,
+        "claims_per_1000": 5.77,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 2041,
+        "viagra_claims": null,
+        "partd_enrollees": 272026,
+        "claims_per_1000": 7.5,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 3091,
+        "viagra_claims": null,
+        "partd_enrollees": 223288,
+        "claims_per_1000": 13.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 13219,
+        "viagra_claims": null,
+        "partd_enrollees": 1268604,
+        "claims_per_1000": 10.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 2342,
+        "viagra_claims": null,
+        "partd_enrollees": 323907,
+        "claims_per_1000": 7.23,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 8605,
+        "viagra_claims": null,
+        "partd_enrollees": 406244,
+        "claims_per_1000": 21.18,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 24142,
+        "viagra_claims": null,
+        "partd_enrollees": 2965370,
+        "claims_per_1000": 8.14,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 12884,
+        "viagra_claims": null,
+        "partd_enrollees": 1951891,
+        "claims_per_1000": 6.6,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 3738,
+        "viagra_claims": null,
+        "partd_enrollees": 530942,
+        "claims_per_1000": 7.04,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 3324,
+        "viagra_claims": null,
+        "partd_enrollees": 692670,
+        "claims_per_1000": 4.8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 12680,
+        "viagra_claims": null,
+        "partd_enrollees": 2236895,
+        "claims_per_1000": 5.67,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 28804,
+        "viagra_claims": 889,
+        "partd_enrollees": 628904,
+        "claims_per_1000": 45.8,
+        "viagra_per_1000": 1.41
+      },
+      {
+        "year": 2021,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1836,
+        "viagra_claims": null,
+        "partd_enrollees": 180885,
+        "claims_per_1000": 10.15,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 6923,
+        "viagra_claims": null,
+        "partd_enrollees": 855496,
+        "claims_per_1000": 8.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 660,
+        "viagra_claims": null,
+        "partd_enrollees": 131551,
+        "claims_per_1000": 5.02,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 6401,
+        "viagra_claims": null,
+        "partd_enrollees": 1089904,
+        "claims_per_1000": 5.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 37143,
+        "viagra_claims": null,
+        "partd_enrollees": 3289838,
+        "claims_per_1000": 11.29,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 1945,
+        "viagra_claims": null,
+        "partd_enrollees": 313294,
+        "claims_per_1000": 6.21,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 9429,
+        "viagra_claims": null,
+        "partd_enrollees": 1055242,
+        "claims_per_1000": 8.94,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 1053,
+        "viagra_claims": null,
+        "partd_enrollees": 118011,
+        "claims_per_1000": 8.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 6201,
+        "viagra_claims": null,
+        "partd_enrollees": 976209,
+        "claims_per_1000": 6.35,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 5567,
+        "viagra_claims": null,
+        "partd_enrollees": 924927,
+        "claims_per_1000": 6.02,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 1098,
+        "viagra_claims": null,
+        "partd_enrollees": 321248,
+        "claims_per_1000": 3.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2021,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 454,
+        "viagra_claims": null,
+        "partd_enrollees": 77286,
+        "claims_per_1000": 5.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 255,
+        "viagra_claims": null,
+        "partd_enrollees": 72018,
+        "claims_per_1000": 3.54,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 7438,
+        "viagra_claims": null,
+        "partd_enrollees": 825802,
+        "claims_per_1000": 9.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 6149,
+        "viagra_claims": null,
+        "partd_enrollees": 494754,
+        "claims_per_1000": 12.43,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 12546,
+        "viagra_claims": null,
+        "partd_enrollees": 1101959,
+        "claims_per_1000": 11.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 109989,
+        "viagra_claims": 488,
+        "partd_enrollees": 5379726,
+        "claims_per_1000": 20.45,
+        "viagra_per_1000": 0.09
+      },
+      {
+        "year": 2022,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 8370,
+        "viagra_claims": null,
+        "partd_enrollees": 754802,
+        "claims_per_1000": 11.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 7744,
+        "viagra_claims": null,
+        "partd_enrollees": 577741,
+        "claims_per_1000": 13.4,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 762,
+        "viagra_claims": null,
+        "partd_enrollees": 61243,
+        "claims_per_1000": 12.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 1437,
+        "viagra_claims": null,
+        "partd_enrollees": 177837,
+        "claims_per_1000": 8.08,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 271268,
+        "viagra_claims": 234,
+        "partd_enrollees": 3910099,
+        "claims_per_1000": 69.38,
+        "viagra_per_1000": 0.06
+      },
+      {
+        "year": 2022,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 14653,
+        "viagra_claims": null,
+        "partd_enrollees": 1423515,
+        "claims_per_1000": 10.29,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "GU",
+        "state_name": "Guam",
+        "claims": 117,
+        "viagra_claims": null,
+        "partd_enrollees": 2897,
+        "claims_per_1000": 40.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 720,
+        "viagra_claims": null,
+        "partd_enrollees": 216520,
+        "claims_per_1000": 3.33,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 4322,
+        "viagra_claims": null,
+        "partd_enrollees": 534350,
+        "claims_per_1000": 8.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 1164,
+        "viagra_claims": null,
+        "partd_enrollees": 275529,
+        "claims_per_1000": 4.22,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 24615,
+        "viagra_claims": null,
+        "partd_enrollees": 1815876,
+        "claims_per_1000": 13.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 7491,
+        "viagra_claims": null,
+        "partd_enrollees": 1063118,
+        "claims_per_1000": 7.05,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 3463,
+        "viagra_claims": null,
+        "partd_enrollees": 428287,
+        "claims_per_1000": 8.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 5713,
+        "viagra_claims": null,
+        "partd_enrollees": 767452,
+        "claims_per_1000": 7.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 5576,
+        "viagra_claims": null,
+        "partd_enrollees": 725842,
+        "claims_per_1000": 7.68,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 13376,
+        "viagra_claims": null,
+        "partd_enrollees": 1114529,
+        "claims_per_1000": 12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 5195,
+        "viagra_claims": null,
+        "partd_enrollees": 708702,
+        "claims_per_1000": 7.33,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 3546,
+        "viagra_claims": null,
+        "partd_enrollees": 285142,
+        "claims_per_1000": 12.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 15749,
+        "viagra_claims": null,
+        "partd_enrollees": 1785409,
+        "claims_per_1000": 8.82,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 4841,
+        "viagra_claims": null,
+        "partd_enrollees": 876137,
+        "claims_per_1000": 5.53,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 13802,
+        "viagra_claims": null,
+        "partd_enrollees": 1015999,
+        "claims_per_1000": 13.58,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 4296,
+        "viagra_claims": null,
+        "partd_enrollees": 470807,
+        "claims_per_1000": 9.12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 811,
+        "viagra_claims": null,
+        "partd_enrollees": 177847,
+        "claims_per_1000": 4.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 14822,
+        "viagra_claims": null,
+        "partd_enrollees": 1655770,
+        "claims_per_1000": 8.95,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 654,
+        "viagra_claims": null,
+        "partd_enrollees": 104066,
+        "claims_per_1000": 6.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 2527,
+        "viagra_claims": null,
+        "partd_enrollees": 281519,
+        "claims_per_1000": 8.98,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 4007,
+        "viagra_claims": null,
+        "partd_enrollees": 233614,
+        "claims_per_1000": 17.15,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 17455,
+        "viagra_claims": null,
+        "partd_enrollees": 1304035,
+        "claims_per_1000": 13.39,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 2722,
+        "viagra_claims": null,
+        "partd_enrollees": 333773,
+        "claims_per_1000": 8.16,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 10345,
+        "viagra_claims": null,
+        "partd_enrollees": 420050,
+        "claims_per_1000": 24.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 38244,
+        "viagra_claims": null,
+        "partd_enrollees": 3038298,
+        "claims_per_1000": 12.59,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 15810,
+        "viagra_claims": 13,
+        "partd_enrollees": 1999087,
+        "claims_per_1000": 7.91,
+        "viagra_per_1000": 0.01
+      },
+      {
+        "year": 2022,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 4393,
+        "viagra_claims": null,
+        "partd_enrollees": 547508,
+        "claims_per_1000": 8.02,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 4437,
+        "viagra_claims": null,
+        "partd_enrollees": 713158,
+        "claims_per_1000": 6.22,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 16426,
+        "viagra_claims": null,
+        "partd_enrollees": 2295946,
+        "claims_per_1000": 7.15,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 30005,
+        "viagra_claims": 666,
+        "partd_enrollees": 643361,
+        "claims_per_1000": 46.64,
+        "viagra_per_1000": 1.04
+      },
+      {
+        "year": 2022,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1864,
+        "viagra_claims": null,
+        "partd_enrollees": 186519,
+        "claims_per_1000": 9.99,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 9530,
+        "viagra_claims": null,
+        "partd_enrollees": 889465,
+        "claims_per_1000": 10.71,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 647,
+        "viagra_claims": null,
+        "partd_enrollees": 136497,
+        "claims_per_1000": 4.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 8415,
+        "viagra_claims": null,
+        "partd_enrollees": 1115814,
+        "claims_per_1000": 7.54,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 51331,
+        "viagra_claims": null,
+        "partd_enrollees": 3419386,
+        "claims_per_1000": 15.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 2246,
+        "viagra_claims": null,
+        "partd_enrollees": 326304,
+        "claims_per_1000": 6.88,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 10647,
+        "viagra_claims": null,
+        "partd_enrollees": 1093892,
+        "claims_per_1000": 9.73,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "VI",
+        "state_name": "Virgin Islands",
+        "claims": 15,
+        "viagra_claims": null,
+        "partd_enrollees": 11656,
+        "claims_per_1000": 1.29,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 1154,
+        "viagra_claims": null,
+        "partd_enrollees": 121825,
+        "claims_per_1000": 9.47,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 7254,
+        "viagra_claims": null,
+        "partd_enrollees": 1013505,
+        "claims_per_1000": 7.16,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 7266,
+        "viagra_claims": null,
+        "partd_enrollees": 957853,
+        "claims_per_1000": 7.59,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 1276,
+        "viagra_claims": null,
+        "partd_enrollees": 326539,
+        "claims_per_1000": 3.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2022,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 449,
+        "viagra_claims": null,
+        "partd_enrollees": 80778,
+        "claims_per_1000": 5.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 323,
+        "viagra_claims": null,
+        "partd_enrollees": 75516,
+        "claims_per_1000": 4.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 11155,
+        "viagra_claims": null,
+        "partd_enrollees": 845654,
+        "claims_per_1000": 13.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 6262,
+        "viagra_claims": null,
+        "partd_enrollees": 515011,
+        "claims_per_1000": 12.16,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 16456,
+        "viagra_claims": null,
+        "partd_enrollees": 1139236,
+        "claims_per_1000": 14.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 112932,
+        "viagra_claims": null,
+        "partd_enrollees": 5550297,
+        "claims_per_1000": 20.35,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 9211,
+        "viagra_claims": null,
+        "partd_enrollees": 783165,
+        "claims_per_1000": 11.76,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 8163,
+        "viagra_claims": null,
+        "partd_enrollees": 597393,
+        "claims_per_1000": 13.66,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 999,
+        "viagra_claims": null,
+        "partd_enrollees": 62769,
+        "claims_per_1000": 15.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 1564,
+        "viagra_claims": null,
+        "partd_enrollees": 185268,
+        "claims_per_1000": 8.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 256915,
+        "viagra_claims": 220,
+        "partd_enrollees": 4028446,
+        "claims_per_1000": 63.78,
+        "viagra_per_1000": 0.05
+      },
+      {
+        "year": 2023,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 21045,
+        "viagra_claims": null,
+        "partd_enrollees": 1473060,
+        "claims_per_1000": 14.29,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "GU",
+        "state_name": "Guam",
+        "claims": 101,
+        "viagra_claims": null,
+        "partd_enrollees": 2883,
+        "claims_per_1000": 35.03,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 1238,
+        "viagra_claims": null,
+        "partd_enrollees": 222462,
+        "claims_per_1000": 5.56,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 5479,
+        "viagra_claims": null,
+        "partd_enrollees": 549313,
+        "claims_per_1000": 9.97,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 1398,
+        "viagra_claims": null,
+        "partd_enrollees": 287761,
+        "claims_per_1000": 4.86,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 30045,
+        "viagra_claims": null,
+        "partd_enrollees": 1867506,
+        "claims_per_1000": 16.09,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 8785,
+        "viagra_claims": null,
+        "partd_enrollees": 1101278,
+        "claims_per_1000": 7.98,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 3879,
+        "viagra_claims": null,
+        "partd_enrollees": 441500,
+        "claims_per_1000": 8.79,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 7245,
+        "viagra_claims": null,
+        "partd_enrollees": 784601,
+        "claims_per_1000": 9.23,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 5324,
+        "viagra_claims": null,
+        "partd_enrollees": 746667,
+        "claims_per_1000": 7.13,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 15438,
+        "viagra_claims": null,
+        "partd_enrollees": 1148677,
+        "claims_per_1000": 13.44,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 5968,
+        "viagra_claims": null,
+        "partd_enrollees": 734745,
+        "claims_per_1000": 8.12,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 3706,
+        "viagra_claims": null,
+        "partd_enrollees": 293697,
+        "claims_per_1000": 12.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 15427,
+        "viagra_claims": 34,
+        "partd_enrollees": 1842155,
+        "claims_per_1000": 8.37,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2023,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 6517,
+        "viagra_claims": null,
+        "partd_enrollees": 906933,
+        "claims_per_1000": 7.19,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 15359,
+        "viagra_claims": null,
+        "partd_enrollees": 1044256,
+        "claims_per_1000": 14.71,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 3708,
+        "viagra_claims": null,
+        "partd_enrollees": 483358,
+        "claims_per_1000": 7.67,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 757,
+        "viagra_claims": null,
+        "partd_enrollees": 184845,
+        "claims_per_1000": 4.1,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 16586,
+        "viagra_claims": null,
+        "partd_enrollees": 1714008,
+        "claims_per_1000": 9.68,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 837,
+        "viagra_claims": null,
+        "partd_enrollees": 107901,
+        "claims_per_1000": 7.76,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 2982,
+        "viagra_claims": null,
+        "partd_enrollees": 290015,
+        "claims_per_1000": 10.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 4431,
+        "viagra_claims": null,
+        "partd_enrollees": 243209,
+        "claims_per_1000": 18.22,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 19771,
+        "viagra_claims": null,
+        "partd_enrollees": 1345643,
+        "claims_per_1000": 14.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 3003,
+        "viagra_claims": null,
+        "partd_enrollees": 343444,
+        "claims_per_1000": 8.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 12180,
+        "viagra_claims": null,
+        "partd_enrollees": 436391,
+        "claims_per_1000": 27.91,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 43008,
+        "viagra_claims": null,
+        "partd_enrollees": 3119673,
+        "claims_per_1000": 13.79,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 18508,
+        "viagra_claims": null,
+        "partd_enrollees": 2054060,
+        "claims_per_1000": 9.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 5535,
+        "viagra_claims": null,
+        "partd_enrollees": 564814,
+        "claims_per_1000": 9.8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 4853,
+        "viagra_claims": null,
+        "partd_enrollees": 732462,
+        "claims_per_1000": 6.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 21043,
+        "viagra_claims": null,
+        "partd_enrollees": 2356493,
+        "claims_per_1000": 8.93,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 31202,
+        "viagra_claims": 681,
+        "partd_enrollees": 656529,
+        "claims_per_1000": 47.53,
+        "viagra_per_1000": 1.04
+      },
+      {
+        "year": 2023,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1656,
+        "viagra_claims": null,
+        "partd_enrollees": 192288,
+        "claims_per_1000": 8.61,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 15331,
+        "viagra_claims": null,
+        "partd_enrollees": 922229,
+        "claims_per_1000": 16.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 883,
+        "viagra_claims": null,
+        "partd_enrollees": 141206,
+        "claims_per_1000": 6.25,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 12284,
+        "viagra_claims": null,
+        "partd_enrollees": 1145507,
+        "claims_per_1000": 10.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 60375,
+        "viagra_claims": null,
+        "partd_enrollees": 3552682,
+        "claims_per_1000": 16.99,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 2746,
+        "viagra_claims": null,
+        "partd_enrollees": 340089,
+        "claims_per_1000": 8.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 12116,
+        "viagra_claims": null,
+        "partd_enrollees": 1133841,
+        "claims_per_1000": 10.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 1132,
+        "viagra_claims": null,
+        "partd_enrollees": 125728,
+        "claims_per_1000": 9,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 7713,
+        "viagra_claims": null,
+        "partd_enrollees": 1056238,
+        "claims_per_1000": 7.3,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 9737,
+        "viagra_claims": null,
+        "partd_enrollees": 988306,
+        "claims_per_1000": 9.85,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 2629,
+        "viagra_claims": null,
+        "partd_enrollees": 334221,
+        "claims_per_1000": 7.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2023,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 615,
+        "viagra_claims": null,
+        "partd_enrollees": 84450,
+        "claims_per_1000": 7.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "AK",
+        "state_name": "Alaska",
+        "claims": 306,
+        "viagra_claims": null,
+        "partd_enrollees": 80130,
+        "claims_per_1000": 3.82,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "AL",
+        "state_name": "Alabama",
+        "claims": 12181,
+        "viagra_claims": null,
+        "partd_enrollees": 887786,
+        "claims_per_1000": 13.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "AR",
+        "state_name": "Arkansas",
+        "claims": 4335,
+        "viagra_claims": null,
+        "partd_enrollees": 534778,
+        "claims_per_1000": 8.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "AZ",
+        "state_name": "Arizona",
+        "claims": 16976,
+        "viagra_claims": null,
+        "partd_enrollees": 1195253,
+        "claims_per_1000": 14.2,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "CA",
+        "state_name": "California",
+        "claims": 104677,
+        "viagra_claims": null,
+        "partd_enrollees": 5760268,
+        "claims_per_1000": 18.17,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "CO",
+        "state_name": "Colorado",
+        "claims": 9582,
+        "viagra_claims": null,
+        "partd_enrollees": 824702,
+        "claims_per_1000": 11.62,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "CT",
+        "state_name": "Connecticut",
+        "claims": 8186,
+        "viagra_claims": null,
+        "partd_enrollees": 621513,
+        "claims_per_1000": 13.17,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "DC",
+        "state_name": "District of Columbia",
+        "claims": 1085,
+        "viagra_claims": null,
+        "partd_enrollees": 71021,
+        "claims_per_1000": 15.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "DE",
+        "state_name": "Delaware",
+        "claims": 1603,
+        "viagra_claims": null,
+        "partd_enrollees": 197606,
+        "claims_per_1000": 8.11,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "FL",
+        "state_name": "Florida",
+        "claims": 217595,
+        "viagra_claims": 166,
+        "partd_enrollees": 4209797,
+        "claims_per_1000": 51.69,
+        "viagra_per_1000": 0.04
+      },
+      {
+        "year": 2024,
+        "state": "GA",
+        "state_name": "Georgia",
+        "claims": 22750,
+        "viagra_claims": null,
+        "partd_enrollees": 1548520,
+        "claims_per_1000": 14.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "GU",
+        "state_name": "Guam",
+        "claims": 51,
+        "viagra_claims": null,
+        "partd_enrollees": 3033,
+        "claims_per_1000": 16.82,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "HI",
+        "state_name": "Hawaii",
+        "claims": 1445,
+        "viagra_claims": null,
+        "partd_enrollees": 229576,
+        "claims_per_1000": 6.29,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "IA",
+        "state_name": "Iowa",
+        "claims": 5654,
+        "viagra_claims": null,
+        "partd_enrollees": 573877,
+        "claims_per_1000": 9.85,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "ID",
+        "state_name": "Idaho",
+        "claims": 1376,
+        "viagra_claims": null,
+        "partd_enrollees": 307081,
+        "claims_per_1000": 4.48,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "IL",
+        "state_name": "Illinois",
+        "claims": 32716,
+        "viagra_claims": null,
+        "partd_enrollees": 1956193,
+        "claims_per_1000": 16.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "IN",
+        "state_name": "Indiana",
+        "claims": 8842,
+        "viagra_claims": null,
+        "partd_enrollees": 1149441,
+        "claims_per_1000": 7.69,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "KS",
+        "state_name": "Kansas",
+        "claims": 3820,
+        "viagra_claims": null,
+        "partd_enrollees": 464817,
+        "claims_per_1000": 8.22,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "KY",
+        "state_name": "Kentucky",
+        "claims": 6340,
+        "viagra_claims": null,
+        "partd_enrollees": 814517,
+        "claims_per_1000": 7.78,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "LA",
+        "state_name": "Louisiana",
+        "claims": 5304,
+        "viagra_claims": null,
+        "partd_enrollees": 779288,
+        "claims_per_1000": 6.81,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MA",
+        "state_name": "Massachusetts",
+        "claims": 17845,
+        "viagra_claims": null,
+        "partd_enrollees": 1199797,
+        "claims_per_1000": 14.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MD",
+        "state_name": "Maryland",
+        "claims": 6883,
+        "viagra_claims": null,
+        "partd_enrollees": 817028,
+        "claims_per_1000": 8.42,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "ME",
+        "state_name": "Maine",
+        "claims": 3197,
+        "viagra_claims": null,
+        "partd_enrollees": 308912,
+        "claims_per_1000": 10.35,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MI",
+        "state_name": "Michigan",
+        "claims": 16474,
+        "viagra_claims": 37,
+        "partd_enrollees": 1906631,
+        "claims_per_1000": 8.64,
+        "viagra_per_1000": 0.02
+      },
+      {
+        "year": 2024,
+        "state": "MN",
+        "state_name": "Minnesota",
+        "claims": 7314,
+        "viagra_claims": null,
+        "partd_enrollees": 953789,
+        "claims_per_1000": 7.67,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MO",
+        "state_name": "Missouri",
+        "claims": 15064,
+        "viagra_claims": null,
+        "partd_enrollees": 1091275,
+        "claims_per_1000": 13.8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MS",
+        "state_name": "Mississippi",
+        "claims": 4305,
+        "viagra_claims": null,
+        "partd_enrollees": 504929,
+        "claims_per_1000": 8.53,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "MT",
+        "state_name": "Montana",
+        "claims": 623,
+        "viagra_claims": null,
+        "partd_enrollees": 197977,
+        "claims_per_1000": 3.15,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NC",
+        "state_name": "North Carolina",
+        "claims": 16815,
+        "viagra_claims": null,
+        "partd_enrollees": 1800503,
+        "claims_per_1000": 9.34,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "ND",
+        "state_name": "North Dakota",
+        "claims": 923,
+        "viagra_claims": null,
+        "partd_enrollees": 115108,
+        "claims_per_1000": 8.02,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NE",
+        "state_name": "Nebraska",
+        "claims": 3061,
+        "viagra_claims": null,
+        "partd_enrollees": 305174,
+        "claims_per_1000": 10.03,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NH",
+        "state_name": "New Hampshire",
+        "claims": 4312,
+        "viagra_claims": null,
+        "partd_enrollees": 258546,
+        "claims_per_1000": 16.68,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NJ",
+        "state_name": "New Jersey",
+        "claims": 19784,
+        "viagra_claims": null,
+        "partd_enrollees": 1407216,
+        "claims_per_1000": 14.06,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NM",
+        "state_name": "New Mexico",
+        "claims": 3184,
+        "viagra_claims": null,
+        "partd_enrollees": 359099,
+        "claims_per_1000": 8.87,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NV",
+        "state_name": "Nevada",
+        "claims": 11858,
+        "viagra_claims": null,
+        "partd_enrollees": 461077,
+        "claims_per_1000": 25.72,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "NY",
+        "state_name": "New York",
+        "claims": 41283,
+        "viagra_claims": null,
+        "partd_enrollees": 3235216,
+        "claims_per_1000": 12.76,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "OH",
+        "state_name": "Ohio",
+        "claims": 18220,
+        "viagra_claims": null,
+        "partd_enrollees": 2132005,
+        "claims_per_1000": 8.55,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "OK",
+        "state_name": "Oklahoma",
+        "claims": 3980,
+        "viagra_claims": null,
+        "partd_enrollees": 600504,
+        "claims_per_1000": 6.63,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "OR",
+        "state_name": "Oregon",
+        "claims": 5392,
+        "viagra_claims": null,
+        "partd_enrollees": 763093,
+        "claims_per_1000": 7.07,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "PA",
+        "state_name": "Pennsylvania",
+        "claims": 21908,
+        "viagra_claims": null,
+        "partd_enrollees": 2456223,
+        "claims_per_1000": 8.92,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "PR",
+        "state_name": "Puerto Rico",
+        "claims": 29262,
+        "viagra_claims": 187,
+        "partd_enrollees": 667802,
+        "claims_per_1000": 43.82,
+        "viagra_per_1000": 0.28
+      },
+      {
+        "year": 2024,
+        "state": "RI",
+        "state_name": "Rhode Island",
+        "claims": 1605,
+        "viagra_claims": null,
+        "partd_enrollees": 201330,
+        "claims_per_1000": 7.97,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "SC",
+        "state_name": "South Carolina",
+        "claims": 17380,
+        "viagra_claims": null,
+        "partd_enrollees": 974198,
+        "claims_per_1000": 17.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "SD",
+        "state_name": "South Dakota",
+        "claims": 913,
+        "viagra_claims": null,
+        "partd_enrollees": 150811,
+        "claims_per_1000": 6.05,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "TN",
+        "state_name": "Tennessee",
+        "claims": 16504,
+        "viagra_claims": null,
+        "partd_enrollees": 1192389,
+        "claims_per_1000": 13.84,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "TX",
+        "state_name": "Texas",
+        "claims": 48820,
+        "viagra_claims": null,
+        "partd_enrollees": 3752574,
+        "claims_per_1000": 13.01,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "UT",
+        "state_name": "Utah",
+        "claims": 2915,
+        "viagra_claims": null,
+        "partd_enrollees": 366921,
+        "claims_per_1000": 7.94,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "VA",
+        "state_name": "Virginia",
+        "claims": 12630,
+        "viagra_claims": null,
+        "partd_enrollees": 1238726,
+        "claims_per_1000": 10.2,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "VT",
+        "state_name": "Vermont",
+        "claims": 1053,
+        "viagra_claims": null,
+        "partd_enrollees": 131588,
+        "claims_per_1000": 8,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "WA",
+        "state_name": "Washington",
+        "claims": 7500,
+        "viagra_claims": null,
+        "partd_enrollees": 1112884,
+        "claims_per_1000": 6.74,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "WI",
+        "state_name": "Wisconsin",
+        "claims": 10254,
+        "viagra_claims": null,
+        "partd_enrollees": 1037050,
+        "claims_per_1000": 9.89,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "WV",
+        "state_name": "West Virginia",
+        "claims": 1846,
+        "viagra_claims": null,
+        "partd_enrollees": 349559,
+        "claims_per_1000": 5.28,
+        "viagra_per_1000": 0
+      },
+      {
+        "year": 2024,
+        "state": "WY",
+        "state_name": "Wyoming",
+        "claims": 670,
+        "viagra_claims": null,
+        "partd_enrollees": 91625,
+        "claims_per_1000": 7.31,
+        "viagra_per_1000": 0
+      }
+    ],
+    "miami_share": [
+      {
+        "year": 2013,
+        "miami_hialeah_claims": 75176,
+        "fl_reported_claims": 142331,
+        "miami_hialeah_share": 0.5282,
+        "fl_prescribers": 1982
+      },
+      {
+        "year": 2014,
+        "miami_hialeah_claims": 59838,
+        "fl_reported_claims": 112491,
+        "miami_hialeah_share": 0.5319,
+        "fl_prescribers": 1724
+      },
+      {
+        "year": 2015,
+        "miami_hialeah_claims": 69931,
+        "fl_reported_claims": 141702,
+        "miami_hialeah_share": 0.4935,
+        "fl_prescribers": 2010
+      },
+      {
+        "year": 2016,
+        "miami_hialeah_claims": 86911,
+        "fl_reported_claims": 161557,
+        "miami_hialeah_share": 0.538,
+        "fl_prescribers": 2176
+      },
+      {
+        "year": 2017,
+        "miami_hialeah_claims": 97033,
+        "fl_reported_claims": 179840,
+        "miami_hialeah_share": 0.5396,
+        "fl_prescribers": 2407
+      },
+      {
+        "year": 2018,
+        "miami_hialeah_claims": 93001,
+        "fl_reported_claims": 170798,
+        "miami_hialeah_share": 0.5445,
+        "fl_prescribers": 2335
+      },
+      {
+        "year": 2019,
+        "miami_hialeah_claims": 20909,
+        "fl_reported_claims": 30896,
+        "miami_hialeah_share": 0.6768,
+        "fl_prescribers": 229
+      },
+      {
+        "year": 2020,
+        "miami_hialeah_claims": 61,
+        "fl_reported_claims": 101,
+        "miami_hialeah_share": 0.604,
+        "fl_prescribers": 8
+      },
+      {
+        "year": 2021,
+        "miami_hialeah_claims": null,
+        "fl_reported_claims": 11,
+        "miami_hialeah_share": null,
+        "fl_prescribers": 1
+      },
+      {
+        "year": 2022,
+        "miami_hialeah_claims": 11,
+        "fl_reported_claims": 47,
+        "miami_hialeah_share": 0.234,
+        "fl_prescribers": 4
+      },
+      {
+        "year": 2023,
+        "miami_hialeah_claims": null,
+        "fl_reported_claims": 24,
+        "miami_hialeah_share": null,
+        "fl_prescribers": 2
+      },
+      {
+        "year": 2024,
+        "miami_hialeah_claims": 11,
+        "fl_reported_claims": 22,
+        "miami_hialeah_share": 0.5,
+        "fl_prescribers": 2
+      }
+    ],
+    "prescriber_concentration": [
+      {
+        "year": 2013,
+        "top10_share": 0.0597,
+        "prescribers": 1982
+      },
+      {
+        "year": 2014,
+        "top10_share": 0.0714,
+        "prescribers": 1724
+      },
+      {
+        "year": 2015,
+        "top10_share": 0.059,
+        "prescribers": 2010
+      },
+      {
+        "year": 2016,
+        "top10_share": 0.0619,
+        "prescribers": 2176
+      },
+      {
+        "year": 2017,
+        "top10_share": 0.0505,
+        "prescribers": 2407
+      },
+      {
+        "year": 2018,
+        "top10_share": 0.046,
+        "prescribers": 2335
+      },
+      {
+        "year": 2019,
+        "top10_share": 0.2067,
+        "prescribers": 229
+      },
+      {
+        "year": 2020,
+        "top10_share": 1,
+        "prescribers": 8
+      },
+      {
+        "year": 2021,
+        "top10_share": 1,
+        "prescribers": 1
+      },
+      {
+        "year": 2022,
+        "top10_share": 1,
+        "prescribers": 4
+      },
+      {
+        "year": 2023,
+        "top10_share": 1,
+        "prescribers": 2
+      },
+      {
+        "year": 2024,
+        "top10_share": 1,
+        "prescribers": 2
+      }
+    ],
+    "plan_coverage": [
+      {
+        "plan_year": 2019,
+        "area": "Miami-Dade",
+        "plans": 73,
+        "covering_plans": 54,
+        "covering_share": 0.7397
+      },
+      {
+        "plan_year": 2019,
+        "area": "Rest of Florida",
+        "plans": 330,
+        "covering_plans": 197,
+        "covering_share": 0.597
+      },
+      {
+        "plan_year": 2019,
+        "area": "Rest of US",
+        "plans": 3773,
+        "covering_plans": 245,
+        "covering_share": 0.0649
+      },
+      {
+        "plan_year": 2020,
+        "area": "Miami-Dade",
+        "plans": 72,
+        "covering_plans": 49,
+        "covering_share": 0.6806
+      },
+      {
+        "plan_year": 2020,
+        "area": "Rest of Florida",
+        "plans": 395,
+        "covering_plans": 233,
+        "covering_share": 0.5899
+      },
+      {
+        "plan_year": 2020,
+        "area": "Rest of US",
+        "plans": 4238,
+        "covering_plans": 377,
+        "covering_share": 0.089
+      },
+      {
+        "plan_year": 2021,
+        "area": "Miami-Dade",
+        "plans": 79,
+        "covering_plans": 58,
+        "covering_share": 0.7342
+      },
+      {
+        "plan_year": 2021,
+        "area": "Rest of Florida",
+        "plans": 437,
+        "covering_plans": 345,
+        "covering_share": 0.7895
+      },
+      {
+        "plan_year": 2021,
+        "area": "Rest of US",
+        "plans": 4711,
+        "covering_plans": 1205,
+        "covering_share": 0.2558
+      },
+      {
+        "plan_year": 2022,
+        "area": "Miami-Dade",
+        "plans": 97,
+        "covering_plans": 72,
+        "covering_share": 0.7423
+      },
+      {
+        "plan_year": 2022,
+        "area": "Rest of Florida",
+        "plans": 479,
+        "covering_plans": 380,
+        "covering_share": 0.7933
+      },
+      {
+        "plan_year": 2022,
+        "area": "Rest of US",
+        "plans": 4850,
+        "covering_plans": 1516,
+        "covering_share": 0.3126
+      },
+      {
+        "plan_year": 2023,
+        "area": "Miami-Dade",
+        "plans": 96,
+        "covering_plans": 62,
+        "covering_share": 0.6458
+      },
+      {
+        "plan_year": 2023,
+        "area": "Rest of Florida",
+        "plans": 511,
+        "covering_plans": 409,
+        "covering_share": 0.8004
+      },
+      {
+        "plan_year": 2023,
+        "area": "Rest of US",
+        "plans": 5156,
+        "covering_plans": 1716,
+        "covering_share": 0.3328
+      },
+      {
+        "plan_year": 2024,
+        "area": "Miami-Dade",
+        "plans": 95,
+        "covering_plans": 63,
+        "covering_share": 0.6632
+      },
+      {
+        "plan_year": 2024,
+        "area": "Rest of Florida",
+        "plans": 512,
+        "covering_plans": 393,
+        "covering_share": 0.7676
+      },
+      {
+        "plan_year": 2024,
+        "area": "Rest of US",
+        "plans": 5088,
+        "covering_plans": 1824,
+        "covering_share": 0.3585
+      },
+      {
+        "plan_year": 2025,
+        "area": "Miami-Dade",
+        "plans": 99,
+        "covering_plans": 61,
+        "covering_share": 0.6162
+      },
+      {
+        "plan_year": 2025,
+        "area": "Rest of Florida",
+        "plans": 485,
+        "covering_plans": 330,
+        "covering_share": 0.6804
+      },
+      {
+        "plan_year": 2025,
+        "area": "Rest of US",
+        "plans": 4716,
+        "covering_plans": 1711,
+        "covering_share": 0.3628
+      },
+      {
+        "plan_year": 2026,
+        "area": "Miami-Dade",
+        "plans": 102,
+        "covering_plans": 62,
+        "covering_share": 0.6078
+      },
+      {
+        "plan_year": 2026,
+        "area": "Rest of Florida",
+        "plans": 517,
+        "covering_plans": 334,
+        "covering_share": 0.646
+      },
+      {
+        "plan_year": 2026,
+        "area": "Rest of US",
+        "plans": 4528,
+        "covering_plans": 1629,
+        "covering_share": 0.3598
+      }
+    ],
+    "ma_penetration": [
+      {
+        "year": 2013,
+        "miami_dade_ma_share": 0.5643,
+        "us_ma_share": 0.2825
+      },
+      {
+        "year": 2014,
+        "miami_dade_ma_share": 0.591,
+        "us_ma_share": 0.3003
+      },
+      {
+        "year": 2015,
+        "miami_dade_ma_share": 0.6158,
+        "us_ma_share": 0.3148
+      },
+      {
+        "year": 2016,
+        "miami_dade_ma_share": 0.6351,
+        "us_ma_share": 0.3224
+      },
+      {
+        "year": 2017,
+        "miami_dade_ma_share": 0.6546,
+        "us_ma_share": 0.3385
+      },
+      {
+        "year": 2018,
+        "miami_dade_ma_share": 0.674,
+        "us_ma_share": 0.3555
+      },
+      {
+        "year": 2019,
+        "miami_dade_ma_share": 0.6906,
+        "us_ma_share": 0.3729
+      },
+      {
+        "year": 2020,
+        "miami_dade_ma_share": 0.7075,
+        "us_ma_share": 0.3989
+      },
+      {
+        "year": 2021,
+        "miami_dade_ma_share": 0.7236,
+        "us_ma_share": 0.431
+      },
+      {
+        "year": 2022,
+        "miami_dade_ma_share": 0.7344,
+        "us_ma_share": 0.4582
+      },
+      {
+        "year": 2023,
+        "miami_dade_ma_share": 0.7435,
+        "us_ma_share": 0.4833
+      },
+      {
+        "year": 2024,
+        "miami_dade_ma_share": 0.7515,
+        "us_ma_share": 0.5012
+      },
+      {
+        "year": 2025,
+        "miami_dade_ma_share": 0.7514,
+        "us_ma_share": 0.5087
+      }
+    ],
+    "florida_vs_rest": [
+      {
+        "year": 2013,
+        "fl_viagra_per_1000": 59.34,
+        "rest_viagra_per_1000": 5.183,
+        "viagra_ratio": 11,
+        "fl_claims_per_1000": 61.74,
+        "rest_claims_per_1000": 7.73
+      },
+      {
+        "year": 2014,
+        "fl_viagra_per_1000": 43.52,
+        "rest_viagra_per_1000": 1.096,
+        "viagra_ratio": 40,
+        "fl_claims_per_1000": 46.4,
+        "rest_claims_per_1000": 4.03
+      },
+      {
+        "year": 2015,
+        "fl_viagra_per_1000": 50.85,
+        "rest_viagra_per_1000": 0.301,
+        "viagra_ratio": 169,
+        "fl_claims_per_1000": 54.02,
+        "rest_claims_per_1000": 3.5
+      },
+      {
+        "year": 2016,
+        "fl_viagra_per_1000": 55.19,
+        "rest_viagra_per_1000": 0.357,
+        "viagra_ratio": 155,
+        "fl_claims_per_1000": 58.51,
+        "rest_claims_per_1000": 3.81
+      },
+      {
+        "year": 2017,
+        "fl_viagra_per_1000": 58.46,
+        "rest_viagra_per_1000": 0.502,
+        "viagra_ratio": 116,
+        "fl_claims_per_1000": 62.75,
+        "rest_claims_per_1000": 4.07
+      },
+      {
+        "year": 2018,
+        "fl_viagra_per_1000": 17.36,
+        "rest_viagra_per_1000": 0.338,
+        "viagra_ratio": 51,
+        "fl_claims_per_1000": 59.46,
+        "rest_claims_per_1000": 4.04
+      },
+      {
+        "year": 2019,
+        "fl_viagra_per_1000": 9.26,
+        "rest_viagra_per_1000": 0.167,
+        "viagra_ratio": 55,
+        "fl_claims_per_1000": 66.34,
+        "rest_claims_per_1000": 5.12
+      },
+      {
+        "year": 2020,
+        "fl_viagra_per_1000": 0.12,
+        "rest_viagra_per_1000": 0.134,
+        "viagra_ratio": 1,
+        "fl_claims_per_1000": 67.43,
+        "rest_claims_per_1000": 6.64
+      },
+      {
+        "year": 2021,
+        "fl_viagra_per_1000": 0.07,
+        "rest_viagra_per_1000": 0.037,
+        "viagra_ratio": 2,
+        "fl_claims_per_1000": 71.19,
+        "rest_claims_per_1000": 9.64
+      },
+      {
+        "year": 2022,
+        "fl_viagra_per_1000": 0.06,
+        "rest_viagra_per_1000": 0.025,
+        "viagra_ratio": 2,
+        "fl_claims_per_1000": 69.38,
+        "rest_claims_per_1000": 11.81
+      },
+      {
+        "year": 2023,
+        "fl_viagra_per_1000": 0.05,
+        "rest_viagra_per_1000": 0.015,
+        "viagra_ratio": 4,
+        "fl_claims_per_1000": 63.78,
+        "rest_claims_per_1000": 13.15
+      },
+      {
+        "year": 2024,
+        "fl_viagra_per_1000": 0.04,
+        "rest_viagra_per_1000": 0.004,
+        "viagra_ratio": 9,
+        "fl_claims_per_1000": 51.69,
+        "rest_claims_per_1000": 12.38
+      }
+    ]
+  }
+}

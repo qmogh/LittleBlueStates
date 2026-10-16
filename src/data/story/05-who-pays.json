@@ -1,0 +1,1201 @@
+{
+  "query": "sql/05-who-pays.sql",
+  "outputs": {
+    "basic_formulary": [
+      {
+        "plan_year": 2019,
+        "formularies": 414,
+        "list_20mg": 401,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2020,
+        "formularies": 456,
+        "list_20mg": 447,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2021,
+        "formularies": 463,
+        "list_20mg": 457,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2022,
+        "formularies": 460,
+        "list_20mg": 457,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2023,
+        "formularies": 452,
+        "list_20mg": 450,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2024,
+        "formularies": 425,
+        "list_20mg": 421,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2025,
+        "formularies": 385,
+        "list_20mg": 383,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      },
+      {
+        "plan_year": 2026,
+        "formularies": 330,
+        "list_20mg": 329,
+        "share_20mg_with_prior_auth": 1,
+        "list_viagra_strengths": 0
+      }
+    ],
+    "supplemental_share": [
+      {
+        "plan_year": 2019,
+        "plans": 4145,
+        "covering_plans": 476,
+        "covering_share": 0.1148,
+        "typical_tablets_per_30_days": 4
+      },
+      {
+        "plan_year": 2020,
+        "plans": 4680,
+        "covering_plans": 647,
+        "covering_share": 0.1382,
+        "typical_tablets_per_30_days": 6
+      },
+      {
+        "plan_year": 2021,
+        "plans": 5192,
+        "covering_plans": 1588,
+        "covering_share": 0.3059,
+        "typical_tablets_per_30_days": 4
+      },
+      {
+        "plan_year": 2022,
+        "plans": 5376,
+        "covering_plans": 1942,
+        "covering_share": 0.3612,
+        "typical_tablets_per_30_days": 6
+      },
+      {
+        "plan_year": 2023,
+        "plans": 5710,
+        "covering_plans": 2164,
+        "covering_share": 0.379,
+        "typical_tablets_per_30_days": 6
+      },
+      {
+        "plan_year": 2024,
+        "plans": 5644,
+        "covering_plans": 2257,
+        "covering_share": 0.3999,
+        "typical_tablets_per_30_days": 6
+      },
+      {
+        "plan_year": 2025,
+        "plans": 5246,
+        "covering_plans": 2083,
+        "covering_share": 0.3971,
+        "typical_tablets_per_30_days": 6
+      },
+      {
+        "plan_year": 2026,
+        "plans": 5085,
+        "covering_plans": 1997,
+        "covering_share": 0.3927,
+        "typical_tablets_per_30_days": 6
+      }
+    ],
+    "specialty_by_label": [
+      {
+        "year": 2013,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 28646,
+        "share": 0.6742
+      },
+      {
+        "year": 2013,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 2203,
+        "share": 0.0519
+      },
+      {
+        "year": 2013,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 11608,
+        "share": 0.2732
+      },
+      {
+        "year": 2013,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 29,
+        "share": 0.0007
+      },
+      {
+        "year": 2013,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 4854,
+        "share": 0.7099
+      },
+      {
+        "year": 2013,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 310,
+        "share": 0.0453
+      },
+      {
+        "year": 2013,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 1674,
+        "share": 0.2448
+      },
+      {
+        "year": 2013,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 5750,
+        "share": 0.0273
+      },
+      {
+        "year": 2013,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 9305,
+        "share": 0.0441
+      },
+      {
+        "year": 2013,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 166290,
+        "share": 0.7882
+      },
+      {
+        "year": 2013,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 29620,
+        "share": 0.1404
+      },
+      {
+        "year": 2014,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 37781,
+        "share": 0.6427
+      },
+      {
+        "year": 2014,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 3215,
+        "share": 0.0547
+      },
+      {
+        "year": 2014,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 17605,
+        "share": 0.2995
+      },
+      {
+        "year": 2014,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 183,
+        "share": 0.0031
+      },
+      {
+        "year": 2014,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 2664,
+        "share": 0.7277
+      },
+      {
+        "year": 2014,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 144,
+        "share": 0.0393
+      },
+      {
+        "year": 2014,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 853,
+        "share": 0.233
+      },
+      {
+        "year": 2014,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 3032,
+        "share": 0.0217
+      },
+      {
+        "year": 2014,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 7812,
+        "share": 0.056
+      },
+      {
+        "year": 2014,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 117231,
+        "share": 0.8396
+      },
+      {
+        "year": 2014,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 11547,
+        "share": 0.0827
+      },
+      {
+        "year": 2015,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 47699,
+        "share": 0.6596
+      },
+      {
+        "year": 2015,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 3947,
+        "share": 0.0546
+      },
+      {
+        "year": 2015,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 20514,
+        "share": 0.2837
+      },
+      {
+        "year": 2015,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 155,
+        "share": 0.0021
+      },
+      {
+        "year": 2015,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 2015,
+        "share": 0.7251
+      },
+      {
+        "year": 2015,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 124,
+        "share": 0.0446
+      },
+      {
+        "year": 2015,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 640,
+        "share": 0.2303
+      },
+      {
+        "year": 2015,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 2217,
+        "share": 0.0149
+      },
+      {
+        "year": 2015,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 8557,
+        "share": 0.0576
+      },
+      {
+        "year": 2015,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 124305,
+        "share": 0.8369
+      },
+      {
+        "year": 2015,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 13452,
+        "share": 0.0906
+      },
+      {
+        "year": 2016,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 53373,
+        "share": 0.6542
+      },
+      {
+        "year": 2016,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 4548,
+        "share": 0.0557
+      },
+      {
+        "year": 2016,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 23505,
+        "share": 0.2881
+      },
+      {
+        "year": 2016,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 158,
+        "share": 0.0019
+      },
+      {
+        "year": 2016,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 1567,
+        "share": 0.7563
+      },
+      {
+        "year": 2016,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 22,
+        "share": 0.0106
+      },
+      {
+        "year": 2016,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 483,
+        "share": 0.2331
+      },
+      {
+        "year": 2016,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 2477,
+        "share": 0.0146
+      },
+      {
+        "year": 2016,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 6952,
+        "share": 0.0411
+      },
+      {
+        "year": 2016,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 146041,
+        "share": 0.8631
+      },
+      {
+        "year": 2016,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 13730,
+        "share": 0.0811
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 56217,
+        "share": 0.6492
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 5468,
+        "share": 0.0631
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 24103,
+        "share": 0.2783
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 811,
+        "share": 0.0094
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Primary care",
+        "claims": 713,
+        "share": 0.8957
+      },
+      {
+        "year": 2017,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Urology",
+        "claims": 83,
+        "share": 0.1043
+      },
+      {
+        "year": 2017,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 1067,
+        "share": 0.7754
+      },
+      {
+        "year": 2017,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 86,
+        "share": 0.0625
+      },
+      {
+        "year": 2017,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 223,
+        "share": 0.1621
+      },
+      {
+        "year": 2017,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 2881,
+        "share": 0.0148
+      },
+      {
+        "year": 2017,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 6396,
+        "share": 0.033
+      },
+      {
+        "year": 2017,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 168744,
+        "share": 0.8696
+      },
+      {
+        "year": 2017,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 16017,
+        "share": 0.0825
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Lung & heart",
+        "claims": 56282,
+        "share": 0.6512
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Other",
+        "claims": 5136,
+        "share": 0.0594
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Primary care",
+        "claims": 24312,
+        "share": 0.2813
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Revatio label)",
+        "specialty_group": "Urology",
+        "claims": 704,
+        "share": 0.0081
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Lung & heart",
+        "claims": 1627,
+        "share": 0.0128
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Other",
+        "claims": 2361,
+        "share": 0.0185
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Primary care",
+        "claims": 111770,
+        "share": 0.8772
+      },
+      {
+        "year": 2018,
+        "label": "Generic (Viagra label)",
+        "specialty_group": "Urology",
+        "claims": 11662,
+        "share": 0.0915
+      },
+      {
+        "year": 2018,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 840,
+        "share": 0.8235
+      },
+      {
+        "year": 2018,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 35,
+        "share": 0.0343
+      },
+      {
+        "year": 2018,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 145,
+        "share": 0.1422
+      },
+      {
+        "year": 2018,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 628,
+        "share": 0.0103
+      },
+      {
+        "year": 2018,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 2376,
+        "share": 0.0388
+      },
+      {
+        "year": 2018,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 53824,
+        "share": 0.879
+      },
+      {
+        "year": 2018,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 4405,
+        "share": 0.0719
+      },
+      {
+        "year": 2019,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 60143,
+        "share": 0.1993
+      },
+      {
+        "year": 2019,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 10032,
+        "share": 0.0332
+      },
+      {
+        "year": 2019,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 208794,
+        "share": 0.6919
+      },
+      {
+        "year": 2019,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 22811,
+        "share": 0.0756
+      },
+      {
+        "year": 2019,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 558,
+        "share": 0.8885
+      },
+      {
+        "year": 2019,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 12,
+        "share": 0.0191
+      },
+      {
+        "year": 2019,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 58,
+        "share": 0.0924
+      },
+      {
+        "year": 2019,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 81,
+        "share": 0.0023
+      },
+      {
+        "year": 2019,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 1292,
+        "share": 0.0359
+      },
+      {
+        "year": 2019,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 33367,
+        "share": 0.9269
+      },
+      {
+        "year": 2019,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 1257,
+        "share": 0.0349
+      },
+      {
+        "year": 2020,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 59621,
+        "share": 0.1579
+      },
+      {
+        "year": 2020,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 11775,
+        "share": 0.0312
+      },
+      {
+        "year": 2020,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 276150,
+        "share": 0.7315
+      },
+      {
+        "year": 2020,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 29977,
+        "share": 0.0794
+      },
+      {
+        "year": 2020,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 493,
+        "share": 0.755
+      },
+      {
+        "year": 2020,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 27,
+        "share": 0.0413
+      },
+      {
+        "year": 2020,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 133,
+        "share": 0.2037
+      },
+      {
+        "year": 2020,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 59,
+        "share": 0.0135
+      },
+      {
+        "year": 2020,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 180,
+        "share": 0.0411
+      },
+      {
+        "year": 2020,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 3956,
+        "share": 0.9028
+      },
+      {
+        "year": 2020,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 187,
+        "share": 0.0427
+      },
+      {
+        "year": 2021,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 56545,
+        "share": 0.1242
+      },
+      {
+        "year": 2021,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 13107,
+        "share": 0.0288
+      },
+      {
+        "year": 2021,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 341536,
+        "share": 0.7499
+      },
+      {
+        "year": 2021,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 44227,
+        "share": 0.0971
+      },
+      {
+        "year": 2021,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 382,
+        "share": 0.7535
+      },
+      {
+        "year": 2021,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 34,
+        "share": 0.0671
+      },
+      {
+        "year": 2021,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 91,
+        "share": 0.1795
+      },
+      {
+        "year": 2021,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 12,
+        "share": 0.0153
+      },
+      {
+        "year": 2021,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 36,
+        "share": 0.0459
+      },
+      {
+        "year": 2021,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 617,
+        "share": 0.787
+      },
+      {
+        "year": 2021,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 119,
+        "share": 0.1518
+      },
+      {
+        "year": 2022,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 54897,
+        "share": 0.105
+      },
+      {
+        "year": 2022,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 14392,
+        "share": 0.0275
+      },
+      {
+        "year": 2022,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 399374,
+        "share": 0.7635
+      },
+      {
+        "year": 2022,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 54412,
+        "share": 0.104
+      },
+      {
+        "year": 2022,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 371,
+        "share": 0.7877
+      },
+      {
+        "year": 2022,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 26,
+        "share": 0.0552
+      },
+      {
+        "year": 2022,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 74,
+        "share": 0.1571
+      },
+      {
+        "year": 2022,
+        "label": "Viagra",
+        "specialty_group": "Lung & heart",
+        "claims": 11,
+        "share": 0.0212
+      },
+      {
+        "year": 2022,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 23,
+        "share": 0.0444
+      },
+      {
+        "year": 2022,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 411,
+        "share": 0.7934
+      },
+      {
+        "year": 2022,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 73,
+        "share": 0.1409
+      },
+      {
+        "year": 2023,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 54343,
+        "share": 0.0975
+      },
+      {
+        "year": 2023,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 14500,
+        "share": 0.026
+      },
+      {
+        "year": 2023,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 428754,
+        "share": 0.7693
+      },
+      {
+        "year": 2023,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 59723,
+        "share": 0.1072
+      },
+      {
+        "year": 2023,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 226,
+        "share": 0.6158
+      },
+      {
+        "year": 2023,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 28,
+        "share": 0.0763
+      },
+      {
+        "year": 2023,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 113,
+        "share": 0.3079
+      },
+      {
+        "year": 2023,
+        "label": "Viagra",
+        "specialty_group": "Other",
+        "claims": 28,
+        "share": 0.1004
+      },
+      {
+        "year": 2023,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 178,
+        "share": 0.638
+      },
+      {
+        "year": 2023,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 73,
+        "share": 0.2616
+      },
+      {
+        "year": 2024,
+        "label": "Generic (merged label)",
+        "specialty_group": "Lung & heart",
+        "claims": 57014,
+        "share": 0.1111
+      },
+      {
+        "year": 2024,
+        "label": "Generic (merged label)",
+        "specialty_group": "Other",
+        "claims": 13422,
+        "share": 0.0262
+      },
+      {
+        "year": 2024,
+        "label": "Generic (merged label)",
+        "specialty_group": "Primary care",
+        "claims": 387340,
+        "share": 0.7547
+      },
+      {
+        "year": 2024,
+        "label": "Generic (merged label)",
+        "specialty_group": "Urology",
+        "claims": 55459,
+        "share": 0.1081
+      },
+      {
+        "year": 2024,
+        "label": "Revatio",
+        "specialty_group": "Lung & heart",
+        "claims": 216,
+        "share": 0.5983
+      },
+      {
+        "year": 2024,
+        "label": "Revatio",
+        "specialty_group": "Other",
+        "claims": 24,
+        "share": 0.0665
+      },
+      {
+        "year": 2024,
+        "label": "Revatio",
+        "specialty_group": "Primary care",
+        "claims": 121,
+        "share": 0.3352
+      },
+      {
+        "year": 2024,
+        "label": "Viagra",
+        "specialty_group": "Primary care",
+        "claims": 79,
+        "share": 0.8778
+      },
+      {
+        "year": 2024,
+        "label": "Viagra",
+        "specialty_group": "Urology",
+        "claims": 11,
+        "share": 0.1222
+      }
+    ],
+    "mixture_estimate": [
+      {
+        "lung_heart_revatio_label_2018": 0.6512,
+        "lung_heart_viagra_label_2018": 0.0128,
+        "lung_heart_merged_2024": 0.1111,
+        "viagra_pattern_share_by_specialty": 0.846,
+        "age65_revatio_label_2018": 0.726,
+        "age65_viagra_label_2018": 0.8776,
+        "age65_merged_2024": 0.8756,
+        "viagra_pattern_share_by_age": 0.986
+      }
+    ],
+    "medicaid_by_strength": [
+      {
+        "year": 2010,
+        "rx_20mg": 29549,
+        "rx_viagra_strengths": 3645,
+        "rx_suspension": null,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2011,
+        "rx_20mg": 32990,
+        "rx_viagra_strengths": 3482,
+        "rx_suspension": null,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2012,
+        "rx_20mg": 34494,
+        "rx_viagra_strengths": 5444,
+        "rx_suspension": null,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2013,
+        "rx_20mg": 31885,
+        "rx_viagra_strengths": 3171,
+        "rx_suspension": null,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2014,
+        "rx_20mg": 37302,
+        "rx_viagra_strengths": 10060,
+        "rx_suspension": null,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2015,
+        "rx_20mg": 52332,
+        "rx_viagra_strengths": 2843,
+        "rx_suspension": 2229,
+        "rx_unmatched_ndc": 14
+      },
+      {
+        "year": 2016,
+        "rx_20mg": 60113,
+        "rx_viagra_strengths": 1922,
+        "rx_suspension": 6806,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2017,
+        "rx_20mg": 66574,
+        "rx_viagra_strengths": 255,
+        "rx_suspension": 10010,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2018,
+        "rx_20mg": 62875,
+        "rx_viagra_strengths": 1524,
+        "rx_suspension": 12521,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2019,
+        "rx_20mg": 63890,
+        "rx_viagra_strengths": 2026,
+        "rx_suspension": 12458,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2020,
+        "rx_20mg": 63889,
+        "rx_viagra_strengths": 3333,
+        "rx_suspension": 15931,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2021,
+        "rx_20mg": 65052,
+        "rx_viagra_strengths": 4186,
+        "rx_suspension": 18128,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2022,
+        "rx_20mg": 57819,
+        "rx_viagra_strengths": 1132,
+        "rx_suspension": 18417,
+        "rx_unmatched_ndc": 51
+      },
+      {
+        "year": 2023,
+        "rx_20mg": 70752,
+        "rx_viagra_strengths": 1022,
+        "rx_suspension": 19187,
+        "rx_unmatched_ndc": 67
+      },
+      {
+        "year": 2024,
+        "rx_20mg": 61713,
+        "rx_viagra_strengths": 1386,
+        "rx_suspension": 19593,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2025,
+        "rx_20mg": 51268,
+        "rx_viagra_strengths": 1214,
+        "rx_suspension": 19107,
+        "rx_unmatched_ndc": null
+      },
+      {
+        "year": 2026,
+        "rx_20mg": 11749,
+        "rx_viagra_strengths": 297,
+        "rx_suspension": 4515,
+        "rx_unmatched_ndc": null
+      }
+    ]
+  }
+}

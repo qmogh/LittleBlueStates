@@ -1,0 +1,7 @@
+event_date,event,drug,source_url
+2005-06-03,Revatio (sildenafil 20 mg) approved for pulmonary arterial hypertension,revatio,https://api.fda.gov/drug/drugsfda.json?search=application_number:NDA021845
+2007-01-01,Part D excludes drugs used for erectile dysfunction (Pub. L. 109-91 §103),law,https://www.govinfo.gov/content/pkg/PLAW-109publ91/html/PLAW-109publ91.htm
+2012-11-06,First generic Revatio 20 mg approvals (Torrent and others),revatio,https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/091479Orig1s000ltr.pdf
+2017-12-11,Generic Viagra launches (Teva; Greenstone authorized generic),viagra,https://www.sec.gov/Archives/edgar/data/0000818686/000130901417001031/exhibit1.htm
+2018-06-11,Teva's 180-day exclusivity ends; four more generic Viagra approvals,viagra,https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name:%22SILDENAFIL%20CITRATE%22&limit=100
+2020-04-22,Last Viagra patent and pediatric exclusivity expire,viagra,https://web.archive.org/web/20170504133950/https://www.accessdata.fda.gov/scripts/cder/ob/patent_info.cfm?Product_No=001&Appl_No=020895&Appl_type=N

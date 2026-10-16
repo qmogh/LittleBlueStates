@@ -1,0 +1,309 @@
+{
+  "query": "sql/07-checks.sql",
+  "outputs": {
+    "reconcile_spending": [
+      {
+        "year": 2020,
+        "brand": "Generic",
+        "our_claims": 529111,
+        "cms_claims": 528753,
+        "claims_diff": 0.0007,
+        "our_cost": 38775103,
+        "cms_spending": 38495878,
+        "cost_diff": 0.0073,
+        "pass": true
+      },
+      {
+        "year": 2020,
+        "brand": "Revatio",
+        "our_claims": 1184,
+        "cms_claims": 1184,
+        "claims_diff": 0,
+        "our_cost": 9426297,
+        "cms_spending": 9426297,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2020,
+        "brand": "Viagra",
+        "our_claims": 6335,
+        "cms_claims": 6335,
+        "claims_diff": 0,
+        "our_cost": 2054229,
+        "cms_spending": 2054229,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2021,
+        "brand": "Generic",
+        "our_claims": 700565,
+        "cms_claims": 700323,
+        "claims_diff": 0.0003,
+        "our_cost": 35254248,
+        "cms_spending": 35011853,
+        "cost_diff": 0.0069,
+        "pass": true
+      },
+      {
+        "year": 2021,
+        "brand": "Revatio",
+        "our_claims": 1045,
+        "cms_claims": 1045,
+        "claims_diff": 0,
+        "our_cost": 8648798,
+        "cms_spending": 8648798,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2021,
+        "brand": "Viagra",
+        "our_claims": 1922,
+        "cms_claims": 1922,
+        "claims_diff": 0,
+        "our_cost": 729142,
+        "cms_spending": 729142,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2022,
+        "brand": "Generic",
+        "our_claims": 817178,
+        "cms_claims": 817115,
+        "claims_diff": 0.0001,
+        "our_cost": 47257863,
+        "cms_spending": 47090587,
+        "cost_diff": 0.0036,
+        "pass": true
+      },
+      {
+        "year": 2022,
+        "brand": "Revatio",
+        "our_claims": 914,
+        "cms_claims": 921,
+        "claims_diff": -0.0076,
+        "our_cost": 8142847,
+        "cms_spending": 8211892,
+        "cost_diff": -0.0084,
+        "pass": true
+      },
+      {
+        "year": 2022,
+        "brand": "Viagra",
+        "our_claims": 1412,
+        "cms_claims": 1412,
+        "claims_diff": 0,
+        "our_cost": 531483,
+        "cms_spending": 531483,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2023,
+        "brand": "Generic",
+        "our_claims": 884992,
+        "cms_claims": 885163,
+        "claims_diff": -0.0002,
+        "our_cost": 44716035,
+        "cms_spending": 44685696,
+        "cost_diff": 0.0007,
+        "pass": true
+      },
+      {
+        "year": 2023,
+        "brand": "Revatio",
+        "our_claims": 772,
+        "cms_claims": 774,
+        "claims_diff": -0.0026,
+        "our_cost": 7703459,
+        "cms_spending": 7734036,
+        "cost_diff": -0.004,
+        "pass": true
+      },
+      {
+        "year": 2023,
+        "brand": "Viagra",
+        "our_claims": 952,
+        "cms_claims": 952,
+        "claims_diff": 0,
+        "our_cost": 333640,
+        "cms_spending": 333640,
+        "cost_diff": 0,
+        "pass": true
+      },
+      {
+        "year": 2024,
+        "brand": "Generic",
+        "our_claims": 837693,
+        "cms_claims": 837854,
+        "claims_diff": -0.0002,
+        "our_cost": 38876752,
+        "cms_spending": 38871230,
+        "cost_diff": 0.0001,
+        "pass": true
+      },
+      {
+        "year": 2024,
+        "brand": "Revatio",
+        "our_claims": 680,
+        "cms_claims": 684,
+        "claims_diff": -0.0058,
+        "our_cost": 7157244,
+        "cms_spending": 7220470,
+        "cost_diff": -0.0088,
+        "pass": true
+      },
+      {
+        "year": 2024,
+        "brand": "Viagra",
+        "our_claims": 397,
+        "cms_claims": 398,
+        "claims_diff": -0.0025,
+        "our_cost": 163917,
+        "cms_spending": 164848,
+        "cost_diff": -0.0057,
+        "pass": true
+      }
+    ],
+    "states_vs_national": [
+      {
+        "year": 2013,
+        "state_sum": 417770,
+        "national": 417802,
+        "coverage": 0.9999,
+        "pass": true
+      },
+      {
+        "year": 2014,
+        "state_sum": 270756,
+        "national": 270863,
+        "coverage": 0.9996,
+        "pass": true
+      },
+      {
+        "year": 2015,
+        "state_sum": 287999,
+        "national": 288095,
+        "coverage": 0.9997,
+        "pass": true
+      },
+      {
+        "year": 2016,
+        "state_sum": 326741,
+        "national": 326832,
+        "coverage": 0.9997,
+        "pass": true
+      },
+      {
+        "year": 2017,
+        "state_sum": 363648,
+        "national": 363780,
+        "coverage": 0.9996,
+        "pass": true
+      },
+      {
+        "year": 2018,
+        "state_sum": 364801,
+        "national": 364980,
+        "coverage": 0.9995,
+        "pass": true
+      },
+      {
+        "year": 2019,
+        "state_sum": 448809,
+        "national": 448908,
+        "coverage": 0.9998,
+        "pass": true
+      },
+      {
+        "year": 2020,
+        "state_sum": 536548,
+        "national": 536630,
+        "coverage": 0.9998,
+        "pass": true
+      },
+      {
+        "year": 2021,
+        "state_sum": 703449,
+        "national": 703532,
+        "coverage": 0.9999,
+        "pass": true
+      },
+      {
+        "year": 2022,
+        "state_sum": 819455,
+        "national": 819504,
+        "coverage": 0.9999,
+        "pass": true
+      },
+      {
+        "year": 2023,
+        "state_sum": 886642,
+        "national": 886716,
+        "coverage": 0.9999,
+        "pass": true
+      },
+      {
+        "year": 2024,
+        "state_sum": 838698,
+        "national": 838770,
+        "coverage": 0.9999,
+        "pass": true
+      }
+    ],
+    "nadac_vs_cost_per_claim": [
+      {
+        "cost_per_claim_change_2017_2021": -0.7921,
+        "nadac_100mg_change_2017_2021": -0.9951,
+        "pass": true
+      }
+    ],
+    "pfizer_direction": [
+      {
+        "year": 2014,
+        "pfizer_us_change": 0.0071,
+        "partd_claims_change": -0.5107,
+        "pass": false
+      },
+      {
+        "year": 2015,
+        "pfizer_us_change": 0.1061,
+        "partd_claims_change": 0.009,
+        "pass": true
+      },
+      {
+        "year": 2016,
+        "pfizer_us_change": -0.0896,
+        "partd_claims_change": 0.145,
+        "pass": false
+      },
+      {
+        "year": 2017,
+        "pfizer_us_change": -0.3127,
+        "partd_claims_change": 0.1298,
+        "pass": false
+      },
+      {
+        "year": 2018,
+        "pfizer_us_change": -0.725,
+        "partd_claims_change": -0.6549,
+        "pass": true
+      },
+      {
+        "year": 2019,
+        "pfizer_us_change": -0.6544,
+        "partd_claims_change": -0.4522,
+        "pass": true
+      },
+      {
+        "year": 2020,
+        "pfizer_us_change": -0.3244,
+        "partd_claims_change": -0.8397,
+        "pass": true
+      }
+    ]
+  }
+}

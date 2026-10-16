@@ -1,0 +1,280 @@
+{
+  "query": "sql/04-brand-price.sql",
+  "outputs": {
+    "brand_vs_generic": [
+      {
+        "year": 2013,
+        "viagra_100mg": 26.19,
+        "generic_100mg": null,
+        "brand_multiple": null
+      },
+      {
+        "year": 2014,
+        "viagra_100mg": 29.3,
+        "generic_100mg": null,
+        "brand_multiple": null
+      },
+      {
+        "year": 2015,
+        "viagra_100mg": 35.61,
+        "generic_100mg": null,
+        "brand_multiple": null
+      },
+      {
+        "year": 2016,
+        "viagra_100mg": 44.5,
+        "generic_100mg": null,
+        "brand_multiple": null
+      },
+      {
+        "year": 2017,
+        "viagra_100mg": 56.3,
+        "generic_100mg": null,
+        "brand_multiple": null
+      },
+      {
+        "year": 2018,
+        "viagra_100mg": 64.54,
+        "generic_100mg": 13.3974,
+        "brand_multiple": 5
+      },
+      {
+        "year": 2019,
+        "viagra_100mg": 67.47,
+        "generic_100mg": 0.4986,
+        "brand_multiple": 135
+      },
+      {
+        "year": 2020,
+        "viagra_100mg": 71.17,
+        "generic_100mg": 0.3847,
+        "brand_multiple": 185
+      },
+      {
+        "year": 2021,
+        "viagra_100mg": 75.27,
+        "generic_100mg": 0.292,
+        "brand_multiple": 258
+      },
+      {
+        "year": 2022,
+        "viagra_100mg": 74.59,
+        "generic_100mg": 0.2614,
+        "brand_multiple": 285
+      },
+      {
+        "year": 2023,
+        "viagra_100mg": 79.7,
+        "generic_100mg": 0.2362,
+        "brand_multiple": 337
+      },
+      {
+        "year": 2024,
+        "viagra_100mg": 83.64,
+        "generic_100mg": 0.1592,
+        "brand_multiple": 525
+      },
+      {
+        "year": 2025,
+        "viagra_100mg": 83.65,
+        "generic_100mg": 0.1503,
+        "brand_multiple": 557
+      },
+      {
+        "year": 2026,
+        "viagra_100mg": 83.66,
+        "generic_100mg": 0.1315,
+        "brand_multiple": 636
+      }
+    ],
+    "strength_flat_pricing": [
+      {
+        "mg": 25,
+        "per_tablet_2014": 30.48
+      },
+      {
+        "mg": 50,
+        "per_tablet_2014": 30.27
+      },
+      {
+        "mg": 100,
+        "per_tablet_2014": 30.42
+      }
+    ],
+    "pfizer_vs_partd": [
+      {
+        "year": 2012,
+        "viagra_us_musd": 1135,
+        "viagra_worldwide_musd": 2051,
+        "months": 12,
+        "partd_viagra_claims": null,
+        "partd_viagra_cost": null,
+        "pfizer_us_index_2016": 98.9,
+        "partd_claims_index_2016": null,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800314000007/pfe-12312013xex99.htm"
+      },
+      {
+        "year": 2013,
+        "viagra_us_musd": 1132,
+        "viagra_worldwide_musd": 1881,
+        "months": 12,
+        "partd_viagra_claims": 327372,
+        "partd_viagra_cost": 54776205,
+        "pfizer_us_index_2016": 98.6,
+        "partd_claims_index_2016": 176.9,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800314000007/pfe-12312013xex99.htm"
+      },
+      {
+        "year": 2014,
+        "viagra_us_musd": 1140,
+        "viagra_worldwide_musd": 1685,
+        "months": 12,
+        "partd_viagra_claims": 160199,
+        "partd_viagra_cost": 22678233,
+        "pfizer_us_index_2016": 99.3,
+        "partd_claims_index_2016": 86.6,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800316000056/pfe-12312015xex99.htm"
+      },
+      {
+        "year": 2015,
+        "viagra_us_musd": 1261,
+        "viagra_worldwide_musd": 1708,
+        "months": 12,
+        "partd_viagra_claims": 161640,
+        "partd_viagra_cost": 25584087,
+        "pfizer_us_index_2016": 109.8,
+        "partd_claims_index_2016": 87.3,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800316000056/pfe-12312015xex99.htm"
+      },
+      {
+        "year": 2016,
+        "viagra_us_musd": 1148,
+        "viagra_worldwide_musd": 1564,
+        "months": 12,
+        "partd_viagra_claims": 185081,
+        "partd_viagra_cost": 36850638,
+        "pfizer_us_index_2016": 100,
+        "partd_claims_index_2016": 100,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800318000004/pfe-12312017xex99.htm"
+      },
+      {
+        "year": 2017,
+        "viagra_us_musd": 789,
+        "viagra_worldwide_musd": 1204,
+        "months": 12,
+        "partd_viagra_claims": 209107,
+        "partd_viagra_cost": 53280239,
+        "pfizer_us_index_2016": 68.7,
+        "partd_claims_index_2016": 113,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800318000004/pfe-12312017xex99.htm"
+      },
+      {
+        "year": 2018,
+        "viagra_us_musd": 217,
+        "viagra_worldwide_musd": 636,
+        "months": 12,
+        "partd_viagra_claims": 72153,
+        "partd_viagra_cost": 21213237,
+        "pfizer_us_index_2016": 18.9,
+        "partd_claims_index_2016": 39,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800320000003/pfe-12312019xex99.htm"
+      },
+      {
+        "year": 2019,
+        "viagra_us_musd": 75,
+        "viagra_worldwide_musd": 497,
+        "months": 12,
+        "partd_viagra_claims": 39523,
+        "partd_viagra_cost": 11754323,
+        "pfizer_us_index_2016": 6.5,
+        "partd_claims_index_2016": 21.4,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800320000003/pfe-12312019xex99.htm"
+      },
+      {
+        "year": 2020,
+        "viagra_us_musd": 38,
+        "viagra_worldwide_musd": 342,
+        "months": 9,
+        "partd_viagra_claims": 6335,
+        "partd_viagra_cost": 2054229,
+        "pfizer_us_index_2016": 3.3,
+        "partd_claims_index_2016": 3.4,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800320000065/pfe-09272020xex99.htm"
+      }
+    ],
+    "revatio": [
+      {
+        "year": 2013,
+        "claims": 13916,
+        "benes": 3049,
+        "cost_per_claim": 2464.88
+      },
+      {
+        "year": 2014,
+        "claims": 6966,
+        "benes": 1261,
+        "cost_per_claim": 3299.23
+      },
+      {
+        "year": 2015,
+        "claims": 5022,
+        "benes": 822,
+        "cost_per_claim": 4046.39
+      },
+      {
+        "year": 2016,
+        "claims": 3702,
+        "benes": 581,
+        "cost_per_claim": 4933.95
+      },
+      {
+        "year": 2017,
+        "claims": 2582,
+        "benes": 412,
+        "cost_per_claim": 6363.85
+      },
+      {
+        "year": 2018,
+        "claims": 1984,
+        "benes": 315,
+        "cost_per_claim": 7182.23
+      },
+      {
+        "year": 2019,
+        "claims": 1432,
+        "benes": 244,
+        "cost_per_claim": 7393.32
+      },
+      {
+        "year": 2020,
+        "claims": 1184,
+        "benes": 178,
+        "cost_per_claim": 7961.4
+      },
+      {
+        "year": 2021,
+        "claims": 1045,
+        "benes": 152,
+        "cost_per_claim": 8276.36
+      },
+      {
+        "year": 2022,
+        "claims": 914,
+        "benes": 129,
+        "cost_per_claim": 8909.02
+      },
+      {
+        "year": 2023,
+        "claims": 772,
+        "benes": 113,
+        "cost_per_claim": 9978.57
+      },
+      {
+        "year": 2024,
+        "claims": 680,
+        "benes": 99,
+        "cost_per_claim": 10525.36
+      }
+    ]
+  }
+}

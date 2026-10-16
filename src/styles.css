@@ -1,0 +1,1030 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap");
+
+:root {
+  background: #f6f2e8;
+  color: #1c1d24;
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button {
+  font: inherit;
+}
+main {
+  margin: auto;
+  max-width: 1340px;
+  padding: 0 42px 45px;
+}
+.masthead {
+  align-items: center;
+  border-bottom: 1px solid #cfcabf;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 16px;
+}
+.masthead span,
+.kicker,
+.receipt-label {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+.masthead span {
+  color: #596153;
+}
+.wordmark {
+  color: #181a20;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  text-decoration: none;
+}
+.kicker {
+  color: #4e5e4e;
+  margin: 0 0 13px;
+}
+.switchboard {
+  padding: 28px 0 0;
+}
+.switch-header {
+  border-top: 1px solid #cfcabf;
+  margin-bottom: 30px;
+  padding-top: 64px;
+}
+.switch-header h2 {
+  font:
+    600 clamp(28px, 3vw, 43px) / 1 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+.switch-header > p {
+  color: #5d5d57;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+  max-width: 260px;
+}
+.year-control {
+  align-items: center;
+  background: #e5e1d6;
+  display: flex;
+  gap: 12px;
+  padding: 13px 14px;
+}
+.year-control button {
+  background: transparent;
+  border: 0;
+  color: #1f2630;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 4px;
+}
+.year-control button:disabled {
+  color: #aaa69e;
+  cursor: default;
+}
+.year-control input {
+  accent-color: #182f9c;
+  cursor: pointer;
+  flex: 1;
+}
+.year-control strong {
+  font:
+    500 16px "DM Mono",
+    monospace;
+  min-width: 37px;
+}
+.view-picker {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 17px 0 0;
+}
+.view-picker button {
+  background: transparent;
+  border: 1px solid #bcb7ad;
+  color: #41433e;
+  cursor: pointer;
+  font-size: 12px;
+  margin: -1px 0 0 -1px;
+  padding: 9px 12px;
+}
+.view-picker button.active,
+.view-picker button:hover {
+  background: #1f2f97;
+  border-color: #1f2f97;
+  color: #fff;
+}
+.explorer {
+  border: 1px solid #aaa69e;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  margin-top: 17px;
+}
+.map-wrap {
+  min-width: 0;
+  padding: 25px;
+}
+.map-title {
+  border-bottom: 1px solid #d6d1c5;
+  color: #25272a;
+  display: flex;
+  font:
+    500 11px "DM Mono",
+    monospace;
+  justify-content: space-between;
+  letter-spacing: 0.04em;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.map-title small {
+  color: #77766e;
+  font:
+    400 10px "DM Mono",
+    monospace;
+}
+.map-frame {
+  touch-action: none;
+  overflow: hidden;
+  position: relative;
+}
+.map-controls {
+  display: flex;
+  gap: 3px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+.map-controls button {
+  background: #fdfcf7;
+  border: 1px solid #aaa69e;
+  color: #1c1d24;
+  cursor: pointer;
+  font:
+    500 15px/1 "DM Mono",
+    monospace;
+  height: 27px;
+  padding: 0;
+  width: 27px;
+}
+.map-controls button:hover,
+.map-controls button:focus-visible {
+  background: #1f2f97;
+  border-color: #1f2f97;
+  color: #fff;
+  outline: none;
+}
+.manual-map-layer {
+  transform-box: view-box;
+  transform-origin: 0 0;
+}
+.map-layer {
+  transform-box: view-box;
+  transform-origin: 0 0;
+  transition: transform 560ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.state {
+  cursor: pointer;
+  stroke: #f6f2e8;
+  stroke-width: 1px;
+  transition:
+    fill 520ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.14s,
+    stroke-width 0.14s;
+}
+.state:hover,
+.state:focus {
+  filter: brightness(0.77);
+  outline: none;
+  stroke: #5e5d56;
+  stroke-width: 1.5px;
+}
+.state.selected {
+  filter: brightness(0.84);
+  outline: none;
+  stroke: #fdfcf7;
+  stroke-width: 1.5px;
+}
+.tooltip {
+  background: #171922;
+  color: #fff;
+  font:
+    12px "DM Mono",
+    monospace;
+  left: 44%;
+  padding: 8px 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 21%;
+}
+.tooltip strong {
+  display: block;
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.receipt {
+  background: #fdfcf7;
+  border-left: 1px solid #aaa69e;
+  padding: 27px;
+  animation: receipt-in 300ms ease-out;
+}
+@keyframes receipt-in {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.receipt-label {
+  color: #74736b;
+  margin: 0 0 18px;
+}
+.state-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 8px;
+}
+.state-heading span {
+  background: #1e319a;
+  color: #fff;
+  font:
+    500 10px "DM Mono",
+    monospace;
+  padding: 4px 5px;
+}
+.state-heading h2 {
+  font:
+    600 31px/0.95 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+.receipt-lede {
+  color: #50514d;
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 17px 0 13px;
+}
+.receipt-lede strong {
+  color: #1c2478;
+}
+.trend {
+  border-bottom: 1px solid #d9d5cb;
+  border-top: 1px solid #d9d5cb;
+  margin: 15px 0 18px;
+  padding: 10px 0 7px;
+}
+.chart-label {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  margin: 0 0 4px;
+}
+.chart-label i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  margin-right: 3px;
+  width: 6px;
+}
+.state-dot {
+  background: #1e319a;
+}
+.nation-dot {
+  background: #be9855;
+}
+.trend svg {
+  overflow: visible;
+}
+.trend text {
+  fill: #85827a;
+  font:
+    8px "DM Mono",
+    monospace;
+}
+.chart-guide {
+  stroke: #dad6cd;
+  stroke-dasharray: 2 2;
+}
+.state-line {
+  fill: none;
+  stroke: #1e319a;
+  stroke-width: 2.5;
+}
+.national-line {
+  fill: none;
+  stroke: #be9855;
+  stroke-dasharray: 3 3;
+  stroke-width: 2;
+}
+.stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 10px;
+}
+.stat-grid div {
+  border-left: 2px solid #d8d3c7;
+  padding-left: 8px;
+}
+.stat-grid span,
+.brand-mix > span {
+  color: #6d6c65;
+  display: block;
+  font:
+    400 9px "DM Mono",
+    monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.stat-grid strong {
+  display: block;
+  font:
+    600 20px/0.98 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.04em;
+  margin-top: 3px;
+}
+.brand-mix {
+  border-top: 1px solid #d9d5cb;
+  margin-top: 21px;
+  padding-top: 15px;
+}
+.brand-mix > div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 79px 36px;
+  gap: 6px;
+  margin-top: 8px;
+}
+.brand-mix label {
+  font-size: 10px;
+}
+.brand-mix i {
+  background: #e5e1d6;
+  display: block;
+  height: 5px;
+}
+.brand-mix b {
+  background: #b99453;
+  display: block;
+  height: 5px;
+}
+.brand-mix strong {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  text-align: right;
+}
+.provider-footprint {
+  border-top: 1px solid #d9d5cb;
+  margin-top: 21px;
+  padding-top: 15px;
+}
+.provider-footprint-heading {
+  align-items: baseline;
+  color: #6d6c65;
+  display: flex;
+  font:
+    400 9px "DM Mono",
+    monospace;
+  justify-content: space-between;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.provider-footprint-heading small {
+  font: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.city-list {
+  margin-top: 10px;
+}
+.city-list > button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 8px minmax(0, 1fr) 74px 36px;
+  margin-top: 7px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.city-list > button:hover .city-name,
+.city-list > button.active .city-name {
+  color: #9c2c24;
+}
+.city-name {
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.city-list i {
+  background: #eadfd4;
+  display: block;
+  height: 4px;
+}
+.city-list i b {
+  background: #b7453b;
+  display: block;
+  height: 4px;
+}
+.city-list strong {
+  font:
+    500 10px "DM Mono",
+    monospace;
+  text-align: right;
+}
+.city-dot {
+  background: #b7453b;
+  border-radius: 50%;
+  display: block;
+  height: 6px;
+  width: 6px;
+}
+.city-detail {
+  color: #5f5e58;
+  font-size: 10px;
+  line-height: 1.35;
+  margin: 11px 0 0;
+}
+.practice-dot {
+  cursor: pointer;
+  fill: #b7453b;
+  stroke: #fffaf0;
+  stroke-width: 1.2px;
+  transition:
+    r 160ms ease,
+    fill 160ms ease;
+}
+.practice-dot:hover,
+.practice-dot:focus,
+.practice-dot.active {
+  fill: #8d211b;
+  outline: none;
+  stroke: #171922;
+  stroke-width: 1.6px;
+}
+.specialty-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 13px;
+}
+.specialty-list span {
+  background: #eeeae1;
+  color: #55554f;
+  font-size: 9px;
+  padding: 4px 5px;
+}
+.specialty-list b {
+  color: #202026;
+  font-weight: 600;
+}
+.rank-note {
+  color: #716f69;
+  font-size: 10px;
+  line-height: 1.3;
+  margin: 20px 0 0;
+}
+@media (max-width: 820px) {
+  main {
+    padding: 0 18px 30px;
+  }
+  .explorer {
+    grid-template-columns: 1fr;
+  }
+  .switch-header {
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .receipt {
+    border-left: 0;
+    border-top: 1px solid #aaa69e;
+  }
+}
+@media (max-width: 520px) {
+  .map-wrap {
+    padding: 13px;
+  }
+  .view-picker button {
+    font-size: 11px;
+  }
+  .year-control {
+    gap: 7px;
+  }
+}
+
+
+/* ---- Story ---- */
+.progress {
+  background: #3459a3;
+  height: 2px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transform-origin: 0 0;
+  width: 100%;
+  z-index: 10;
+}
+.source-line {
+  color: #7a7b76;
+  display: block;
+  font:
+    400 10.5px/1.45 "DM Mono",
+    monospace;
+}
+.cold-open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 88vh;
+  padding: 64px 0;
+}
+.cold-text {
+  max-width: 920px;
+}
+/* The headline's period, and every pill pulled out of it. */
+.pill {
+  cursor: grab;
+  display: inline-block;
+  height: 0.42em;
+  margin-left: 0.05em;
+  touch-action: none;
+  user-select: none;
+  vertical-align: baseline;
+  width: 0.58em;
+}
+.pill svg {
+  display: block;
+  filter: drop-shadow(0 3px 3px rgb(20 35 70 / 28%));
+  height: 100%;
+  overflow: visible;
+  transition:
+    transform 160ms ease,
+    filter 160ms ease;
+  width: 100%;
+}
+.pill:hover svg {
+  transform: rotate(-8deg);
+}
+.pill.loose {
+  margin: 0;
+  position: absolute;
+  z-index: 50;
+}
+.pill.dragging {
+  cursor: grabbing;
+  z-index: 60;
+}
+.pill.dragging svg {
+  filter: drop-shadow(0 14px 12px rgb(20 35 70 / 30%));
+  transform: scale(1.12);
+}
+/* The tablet's thickness, seen just below the top face. */
+.pill-side {
+  fill: #1f3d7c;
+  stroke: #1f3d7c;
+  stroke-linejoin: round;
+  stroke-width: 7;
+}
+.pill-edge {
+  fill: url(#pill-edge);
+  stroke: url(#pill-edge);
+  stroke-linejoin: round;
+  stroke-width: 7;
+}
+.pill-face {
+  fill: url(#pill-face);
+  stroke: #4a75cf;
+  stroke-linejoin: round;
+  stroke-width: 3;
+}
+.pill-gloss {
+  fill: #fff;
+  filter: url(#pill-blur);
+  opacity: 0.5;
+}
+/* A small wiggle until someone picks it up. */
+.pill-slot.untouched svg {
+  animation: nudge 4s ease-in-out 1.5s infinite;
+}
+@keyframes nudge {
+  0%,
+  88%,
+  100% {
+    transform: none;
+  }
+  92% {
+    transform: rotate(-14deg) translateY(-3px);
+  }
+  96% {
+    transform: rotate(10deg);
+  }
+}
+.cold-open h1 {
+  font:
+    700 clamp(46px, 7.2vw, 98px) / 0.94 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.055em;
+  margin: 0 0 40px;
+}
+.cold-lede {
+  color: #2e302f;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 48px;
+  max-width: 600px;
+}
+.cold-caption + .cold-lede {
+  margin: 40px 0 0;
+}
+.cold-number {
+  color: #3459a3;
+  font:
+    600 clamp(68px, 11vw, 148px) / 0.9 "DM Sans",
+    sans-serif;
+  letter-spacing: -0.045em;
+  margin: 0;
+}
+.cold-caption {
+  color: #2e302f;
+  font-size: 20px;
+  margin: 12px 0 0;
+  max-width: 600px;
+}
+.act {
+  border-top: 1px solid #cfcabf;
+  padding-top: 72px;
+}
+.act-head {
+  max-width: 780px;
+}
+.act-head h2,
+.work h2,
+.switch-header h2 {
+  font:
+    700 clamp(32px, 4.2vw, 54px) / 1.02 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.045em;
+  margin: 0 0 16px;
+}
+.act-head p,
+.switch-header > p {
+  color: #2e302f;
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0 0 24px;
+  max-width: 620px;
+}
+
+/* Sticky graphic with step cards scrolling over it. */
+.scrolly {
+  position: relative;
+}
+.scrolly-graphic {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+}
+.scrolly-steps {
+  margin-top: -100vh;
+  pointer-events: none;
+  position: relative;
+}
+.step {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+.step-card {
+  background: rgb(246 242 232 / 95%);
+  border: 1px solid #cfcabf;
+  opacity: 0.35;
+  padding: 22px 24px;
+  pointer-events: auto;
+  transition: opacity 300ms ease;
+  width: min(380px, 100%);
+}
+.step.active .step-card {
+  opacity: 1;
+}
+.step-card p {
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 0 0 14px;
+}
+.story-map {
+  margin: 0;
+  width: min(100% - 400px, 860px);
+}
+.story-map svg {
+  display: block;
+  width: 100%;
+}
+.story-map path {
+  stroke: #f6f2e8;
+  transition: fill 700ms ease;
+}
+.story-map-layer {
+  transition: transform 900ms cubic-bezier(0.3, 0.1, 0.2, 1);
+}
+.miami circle {
+  fill: #1c1d24;
+  stroke: #f6f2e8;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+.miami text {
+  fill: #1c1d24;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+.map-callout {
+  min-height: 112px;
+}
+.map-callout b {
+  display: block;
+  font:
+    600 clamp(44px, 5.6vw, 76px) / 0.95 "DM Sans",
+    sans-serif;
+  letter-spacing: -0.04em;
+}
+.map-callout span {
+  color: #474948;
+  display: block;
+  font-size: 15px;
+  margin-top: 6px;
+  max-width: 420px;
+}
+.map-legend {
+  align-items: center;
+  color: #6b6d68;
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  margin-top: 6px;
+}
+.map-legend i {
+  border-radius: 4px;
+  display: inline-block;
+  flex: none;
+  height: 8px;
+  width: 120px;
+}
+
+/* The price guess. */
+.guess {
+  margin: 0;
+  max-width: 920px;
+  padding-bottom: 72px;
+}
+.guess svg {
+  cursor: crosshair;
+  display: block;
+  overflow: visible;
+  touch-action: none;
+  user-select: none;
+  width: 100%;
+}
+.guess.revealed svg {
+  cursor: default;
+}
+.guess .grid line {
+  stroke: #ddd8cc;
+}
+.guess text {
+  fill: #6b6d68;
+  font:
+    400 11px "DM Mono",
+    monospace;
+}
+.draw-zone rect {
+  fill: #3459a3;
+  opacity: 0.06;
+}
+.draw-zone text {
+  fill: #3459a3;
+  font: 600 14px "DM Sans", sans-serif;
+}
+.cutoff {
+  stroke: #1c1d24;
+  stroke-width: 1;
+}
+.known,
+.reveal,
+.your-guess {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+.your-guess {
+  opacity: 0.5;
+  stroke: #1c1d24;
+  stroke-width: 2;
+}
+.reveal {
+  animation: draw-in 1.4s ease forwards;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+}
+.reveal.generic {
+  animation-delay: 1.2s;
+}
+.guess .label {
+  animation: fade-in 400ms ease 1.4s backwards;
+  fill: #1c1d24;
+  font: 600 13px "DM Sans", sans-serif;
+}
+.guess .label.muted {
+  fill: #6b6d68;
+}
+.guess .cutoff-label {
+  animation: none;
+  fill: #1c1d24;
+  font-weight: 500;
+}
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.guess-title {
+  font:
+    700 clamp(28px, 3.4vw, 44px) / 1.05 "Fraunces",
+    Georgia,
+    serif;
+  letter-spacing: -0.04em;
+  margin: 0 0 8px;
+}
+.guess-controls {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin: 16px 0 12px;
+  min-height: 44px;
+}
+.guess-controls button {
+  background: transparent;
+  border: 1px solid #1c1d24;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+.guess-controls .primary {
+  background: #1c1d24;
+  color: #f6f2e8;
+}
+.guess-controls .primary:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+.guess-controls p {
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 700px;
+}
+
+.coda {
+  border-top: 1px solid #cfcabf;
+  display: grid;
+  gap: 24px 48px;
+  grid-template-columns: 1fr 1fr;
+  padding: 96px 0 88px;
+}
+.coda b {
+  display: block;
+  font:
+    600 clamp(56px, 8vw, 112px) / 0.95 "DM Sans",
+    sans-serif;
+  letter-spacing: -0.045em;
+}
+.coda span {
+  color: #474948;
+  display: block;
+  font-size: 17px;
+  margin-top: 8px;
+}
+.coda .source-line {
+  grid-column: 1 / -1;
+}
+
+/* Show your work. */
+.work {
+  border-top: 1px solid #cfcabf;
+  max-width: 880px;
+  padding: 72px 0 56px;
+}
+.work-note {
+  color: #6b6d68;
+  font-size: 13px;
+  margin: 32px 0 0;
+}
+.plain-list {
+  display: grid;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.plain-list li {
+  border-left: 2px solid #cfcabf;
+  color: #474948;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-left: 12px;
+}
+
+@media (max-width: 820px) {
+  .scrolly-graphic {
+    align-items: flex-start;
+    height: 64vh;
+    justify-content: center;
+    padding-top: 12px;
+  }
+  .scrolly-steps {
+    margin-top: -64vh;
+  }
+  .step {
+    align-items: flex-end;
+    min-height: 90vh;
+  }
+  .step-card {
+    width: 100%;
+  }
+  .story-map {
+    width: 100%;
+  }
+  .map-callout {
+    min-height: 0;
+  }
+  .map-callout b {
+    font-size: 40px;
+  }
+  .coda {
+    grid-template-columns: 1fr;
+  }
+  /* The guess chart scales to ~half size on phones; scale its text back up. */
+  .guess text {
+    font-size: 20px;
+  }
+  .guess .label,
+  .draw-zone text {
+    font-size: 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+  .guess .label {
+    animation: none;
+  }
+  .story-map path,
+  .story-map-layer,
+  .step-card,
+  .pill svg {
+    transition: none;
+  }
+  .pill-slot.untouched svg {
+    animation: none;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "query": "sql/06-cash.sql",
+  "outputs": {
+    "costplus": [
+      {
+        "fetched_on": "2026-10-16",
+        "strength": "20mg",
+        "price_per_unit": 0.05789,
+        "cash_dispensing_fee": 5,
+        "total_30_tablets_shipped": 11.99,
+        "total_90_tablets_shipped": 15.46
+      },
+      {
+        "fetched_on": "2026-10-16",
+        "strength": "25mg",
+        "price_per_unit": 0.02789,
+        "cash_dispensing_fee": 5,
+        "total_30_tablets_shipped": 11.09,
+        "total_90_tablets_shipped": 12.76
+      },
+      {
+        "fetched_on": "2026-10-16",
+        "strength": "50mg",
+        "price_per_unit": 0.04537,
+        "cash_dispensing_fee": 5,
+        "total_30_tablets_shipped": 11.61,
+        "total_90_tablets_shipped": 14.33
+      },
+      {
+        "fetched_on": "2026-10-16",
+        "strength": "100mg",
+        "price_per_unit": 0.05635,
+        "cash_dispensing_fee": 5,
+        "total_30_tablets_shipped": 11.94,
+        "total_90_tablets_shipped": 15.32
+      }
+    ],
+    "partd_vs_nadac": [
+      {
+        "year": 2020,
+        "partd_per_unit": 1.723,
+        "partd_per_claim": 72.81,
+        "nadac_20mg": 0.148,
+        "nadac_100mg": 0.387,
+        "partd_multiple_of_nadac_20mg": 11.6
+      },
+      {
+        "year": 2021,
+        "partd_per_unit": 1.53,
+        "partd_per_claim": 49.99,
+        "nadac_20mg": 0.102,
+        "nadac_100mg": 0.291,
+        "partd_multiple_of_nadac_20mg": 15.1
+      },
+      {
+        "year": 2022,
+        "partd_per_unit": 1.979,
+        "partd_per_claim": 57.63,
+        "nadac_20mg": 0.091,
+        "nadac_100mg": 0.259,
+        "partd_multiple_of_nadac_20mg": 21.8
+      },
+      {
+        "year": 2023,
+        "partd_per_unit": 1.793,
+        "partd_per_claim": 50.48,
+        "nadac_20mg": 0.07,
+        "nadac_100mg": 0.24,
+        "partd_multiple_of_nadac_20mg": 25.7
+      },
+      {
+        "year": 2024,
+        "partd_per_unit": 1.496,
+        "partd_per_claim": 46.39,
+        "nadac_20mg": 0.077,
+        "nadac_100mg": 0.149,
+        "partd_multiple_of_nadac_20mg": 19.4
+      }
+    ]
+  }
+}
