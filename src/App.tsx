@@ -1,13 +1,11 @@
 import { useRef, useState } from "react";
-import { geoAlbersUsa, geoPath } from "d3-geo";
-import { feature } from "topojson-client";
-import topology from "us-atlas/states-10m.json";
 import snapshot from "./data/sildenafil-2024.json";
 import providerCityCoordinates from "./data/provider-city-coordinates-2024.json";
 import providerFootprint from "./data/provider-footprint-2024.json";
 import providerFootprintHistory from "./data/provider-footprint-history.json";
 import miamiStory from "./data/story/02-miami.json";
-import { Chapters, Checks, StoryHero } from "./Story";
+import { path, projection, topologyStates } from "./geo";
+import { Acts, ColdOpen, ReadingProgress, AlsoInTheData } from "./Story";
 
 type BrandKey = "generic" | "viagra" | "revatio";
 type ViewKey =
@@ -69,12 +67,6 @@ const cityPointByKey = new Map(
     city,
   ]),
 );
-const topologyStates = feature(
-  topology as never,
-  topology.objects.states as never,
-) as unknown as GeoJSON.FeatureCollection;
-const projection = geoAlbersUsa().scale(870).translate([480, 305]);
-const path = geoPath(projection);
 const number = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 const percent = new Intl.NumberFormat("en-US", {
   style: "percent",
@@ -98,9 +90,9 @@ for (const row of miamiStory.outputs.state_rates as Array<{
 }
 
 const viewLabels: Record<ViewKey, string> = {
-  genericShare: "Generic takeover",
-  claims: "All sildenafil claims",
-  per1000: "Claims per 1,000 enrollees",
+  per1000: "Per 1,000 people",
+  genericShare: "Generic share",
+  claims: "Total prescriptions",
   costPerClaim: "Cost per claim",
   seniorShare: "65+ claim share",
 };
@@ -344,7 +336,7 @@ function ProviderCityDots({
 
 export default function App() {
   const [year, setYear] = useState(2024);
-  const [view, setView] = useState<ViewKey>("genericShare");
+  const [view, setView] = useState<ViewKey>("per1000");
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [manualMapView, setManualMapView] = useState<MapView>(defaultMapView);
@@ -368,7 +360,6 @@ export default function App() {
     : [];
   const max = Math.max(...current.states.map((state) => valueFor(state, view, year)));
   const nationalGeneric = nationalShare(current.states, "generic");
-  const nationalViagra = nationalShare(current.states, "viagra");
   const hovered = hoveredFips ? byFips.get(hoveredFips) : undefined;
   const crossover = selectedSeries.findIndex(
     (state) => share(state, "generic") >= 0.5,
@@ -469,21 +460,20 @@ export default function App() {
 
   return (
     <main>
+      <ReadingProgress />
       <header className="masthead">
         <a href="#top" className="wordmark">
           Little Blue States
         </a>
-        <span>PUBLIC DATA, PRIVATE JOKES</span>
       </header>
-      <StoryHero />
-      <Chapters />
+      <ColdOpen />
+      <Acts />
       <section className="switchboard" aria-label="State map explorer">
         <div className="switch-header">
-          <p className="kicker">07 · Your state</p>
-          <h2>Explore the map.</h2>
+          <h2>Find your state</h2>
           <p>
-            Pick a year and a view. Claims are counted where the prescriber
-            practices, not where the patient lives.
+            Sildenafil (Viagra and its generic) prescriptions in Medicare, by
+            where the prescriber practices. Pick a year; click a state.
           </p>
         </div>
         <div className="year-control">
@@ -819,55 +809,7 @@ export default function App() {
           )}
         </div>
       </section>
-      <section className="national">
-        <div>
-          <p className="kicker">The {year} readout</p>
-          <h2>
-            {number.format(
-              current.states.reduce((sum, state) => sum + state.claims, 0),
-            )}
-          </h2>
-          <p>reported sildenafil claims in this state-and-territory view.</p>
-        </div>
-        <div>
-          <p className="kicker">Trademark sightings</p>
-          <h2>{percent.format(nationalViagra)}</h2>
-          <p>
-            were brand-name Viagra, compared with{" "}
-            {percent.format(nationalGeneric)} generic sildenafil.
-          </p>
-        </div>
-        <div>
-          <p className="kicker">Read the fine print</p>
-          <p>
-            This is not a map of sex, diagnoses, or every U.S. prescription. It
-            is Medicare Part D claims under the generic name Sildenafil
-            Citrate—and claims include refills.
-          </p>
-        </div>
-      </section>
-      <Checks />
-      <footer>
-        <p>
-          Source: Centers for Medicare &amp; Medicaid Services,{" "}
-          <a
-            href="https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Medicare Part D Prescribers — by Geography and Drug
-          </a>
-          . Counts below 11 may be suppressed in source fields; 65+ metrics use
-          reported, non-suppressed values.
-        </p>
-        <p>
-          Every query behind this page is in <code>sql/</code>; rebuild with{" "}
-          <code>npm run data:raw &amp;&amp; npm run data:story</code>. Sildenafil
-          is not synonymous with Viagra and is also prescribed for pulmonary
-          hypertension; the data cannot tell us why any one person received
-          it.
-        </p>
-      </footer>
+      <AlsoInTheData />
     </main>
   );
 }

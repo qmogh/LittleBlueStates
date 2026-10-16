@@ -94,3 +94,26 @@ SELECT year,
       / sum(benes) FILTER (WHERE level = 'County' AND state = 'FL' AND county = 'MIAMI-DADE COUNTY'), 4) AS miami_dade_ma_share,
   round(sum(ma_benes) FILTER (WHERE level = 'National') / sum(benes) FILTER (WHERE level = 'National'), 4) AS us_ma_share
 FROM enrollment GROUP BY year ORDER BY year;
+
+-- Florida vs everyone else, per 1,000 Part D enrollees (Act 1's "N× the rest of the country").
+-- @output florida_vs_rest
+WITH t AS (
+  SELECT g.year, s.state = 'FL' AS is_fl,
+    sum(g.claims) FILTER (WHERE g.brand = 'Viagra') AS viagra,
+    sum(g.claims) AS claims
+  FROM partd_geo g JOIN state_codes s ON s.fips = g.fips
+  WHERE g.level = 'State' GROUP BY ALL
+), e AS (
+  SELECT year, state = 'FL' AS is_fl, sum(partd_benes) AS enrollees
+  FROM enrollment WHERE level = 'State' GROUP BY ALL
+), r AS (
+  SELECT year, is_fl, 1000 * coalesce(viagra, 0) / enrollees AS viagra_per_1000, 1000 * claims / enrollees AS claims_per_1000
+  FROM t JOIN e USING (year, is_fl)
+)
+SELECT year,
+  round(max(viagra_per_1000) FILTER (WHERE is_fl), 2) AS fl_viagra_per_1000,
+  round(max(viagra_per_1000) FILTER (WHERE NOT is_fl), 3) AS rest_viagra_per_1000,
+  round(max(viagra_per_1000) FILTER (WHERE is_fl) / max(viagra_per_1000) FILTER (WHERE NOT is_fl), 0) AS viagra_ratio,
+  round(max(claims_per_1000) FILTER (WHERE is_fl), 2) AS fl_claims_per_1000,
+  round(max(claims_per_1000) FILTER (WHERE NOT is_fl), 2) AS rest_claims_per_1000
+FROM r GROUP BY year ORDER BY year;

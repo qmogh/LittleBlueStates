@@ -6849,6 +6849,104 @@
         "miami_dade_ma_share": 0.7514,
         "us_ma_share": 0.5087
       }
+    ],
+    "florida_vs_rest": [
+      {
+        "year": 2013,
+        "fl_viagra_per_1000": 59.34,
+        "rest_viagra_per_1000": 5.183,
+        "viagra_ratio": 11,
+        "fl_claims_per_1000": 61.74,
+        "rest_claims_per_1000": 7.73
+      },
+      {
+        "year": 2014,
+        "fl_viagra_per_1000": 43.52,
+        "rest_viagra_per_1000": 1.096,
+        "viagra_ratio": 40,
+        "fl_claims_per_1000": 46.4,
+        "rest_claims_per_1000": 4.03
+      },
+      {
+        "year": 2015,
+        "fl_viagra_per_1000": 50.85,
+        "rest_viagra_per_1000": 0.301,
+        "viagra_ratio": 169,
+        "fl_claims_per_1000": 54.02,
+        "rest_claims_per_1000": 3.5
+      },
+      {
+        "year": 2016,
+        "fl_viagra_per_1000": 55.19,
+        "rest_viagra_per_1000": 0.357,
+        "viagra_ratio": 155,
+        "fl_claims_per_1000": 58.51,
+        "rest_claims_per_1000": 3.81
+      },
+      {
+        "year": 2017,
+        "fl_viagra_per_1000": 58.46,
+        "rest_viagra_per_1000": 0.502,
+        "viagra_ratio": 116,
+        "fl_claims_per_1000": 62.75,
+        "rest_claims_per_1000": 4.07
+      },
+      {
+        "year": 2018,
+        "fl_viagra_per_1000": 17.36,
+        "rest_viagra_per_1000": 0.338,
+        "viagra_ratio": 51,
+        "fl_claims_per_1000": 59.46,
+        "rest_claims_per_1000": 4.04
+      },
+      {
+        "year": 2019,
+        "fl_viagra_per_1000": 9.26,
+        "rest_viagra_per_1000": 0.167,
+        "viagra_ratio": 55,
+        "fl_claims_per_1000": 66.34,
+        "rest_claims_per_1000": 5.12
+      },
+      {
+        "year": 2020,
+        "fl_viagra_per_1000": 0.12,
+        "rest_viagra_per_1000": 0.134,
+        "viagra_ratio": 1,
+        "fl_claims_per_1000": 67.43,
+        "rest_claims_per_1000": 6.64
+      },
+      {
+        "year": 2021,
+        "fl_viagra_per_1000": 0.07,
+        "rest_viagra_per_1000": 0.037,
+        "viagra_ratio": 2,
+        "fl_claims_per_1000": 71.19,
+        "rest_claims_per_1000": 9.64
+      },
+      {
+        "year": 2022,
+        "fl_viagra_per_1000": 0.06,
+        "rest_viagra_per_1000": 0.025,
+        "viagra_ratio": 2,
+        "fl_claims_per_1000": 69.38,
+        "rest_claims_per_1000": 11.81
+      },
+      {
+        "year": 2023,
+        "fl_viagra_per_1000": 0.05,
+        "rest_viagra_per_1000": 0.015,
+        "viagra_ratio": 4,
+        "fl_claims_per_1000": 63.78,
+        "rest_claims_per_1000": 13.15
+      },
+      {
+        "year": 2024,
+        "fl_viagra_per_1000": 0.04,
+        "rest_viagra_per_1000": 0.004,
+        "viagra_ratio": 9,
+        "fl_claims_per_1000": 51.69,
+        "rest_claims_per_1000": 12.38
+      }
     ]
   }
 }
